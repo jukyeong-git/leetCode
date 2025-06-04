@@ -222,9 +222,48 @@ public class Main {
 //        System.out.println(solution.isBalanced(root));
 
         //1046. Last Stone Weight - https://leetcode.com/problems/last-stone-weight/description/
-        int[] stones = {2,7,4,1,8,1};
-        LastStoneWeight solution = new LastStoneWeight();
-        System.out.println(solution.lastStoneWeight(stones));
+//        int[] stones = {2,7,4,1,8,1};
+//        LastStoneWeight solution = new LastStoneWeight();
+//        System.out.println(solution.lastStoneWeight(stones));
+
+        //1971. Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/description/
+//        int n = 3, source = 0, destination = 2;
+//        int[][] edges = {{0,1},{1,2},{2,0}};
+//        ValidPath solution = new ValidPath();
+//        System.out.println(solution.validPath(n, edges, source, destination));
+
+        //509. Fibonacci Number - https://leetcode.com/problems/fibonacci-number/description/
+//        int n = 2;
+//        Fib solution = new Fib();
+//        System.out.println(solution.fib(n));
+
+        //70. Climbing Stairs - https://leetcode.com/problems/climbing-stairs/description/
+//        int n = 3;
+//        ClimbStairs solution = new ClimbStairs();
+//        System.out.println(solution.climbStairs(n));
+
+        //746. Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/description/
+//        int[] cost = {10,15,20};
+//        MinCostClimbingStairs solution = new MinCostClimbingStairs();
+//        System.out.println(solution.minCostClimbingStairs(cost));
+
+        //238. Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/description/
+//        int[] nums = {-1,1,0,-3,3};
+//        ProductExceptSelf solution = new ProductExceptSelf();
+//        System.out.println(Arrays.toString(solution.productExceptSelf(nums)));
+
+        //36. Valid Sudoku - https://leetcode.com/problems/valid-sudoku/description/
+        char[][] board = {{'5','3','.','.','7','.','.','.','.'},
+                {'6','.','.','1','9','5','.','.','.'},
+                {'.','9','8','.','.','.','.','6','.'},
+                {'8','.','.','.','6','.','.','.','3'},
+                {'4','.','.','8','.','3','.','.','1'},
+                {'7','.','.','.','2','.','.','.','6'},
+                {'.','6','.','.','.','.','2','8','.'},
+                {'.','.','.','4','1','9','.','.','5'},
+                {'.','.','.','.','8','.','.','7','9'}};
+        IsValidSudoku solution = new IsValidSudoku();
+        System.out.println(solution.isValidSudoku(board));
     }
 }
 

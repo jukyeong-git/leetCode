@@ -1,10 +1,14 @@
 package Solution;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class LastStoneWeight {
     public int lastStoneWeight(int[] stones) {
+
+        //Solution #1
+        /*
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
         for(int s : stones) {
@@ -21,5 +25,17 @@ public class LastStoneWeight {
         }
 
         return pq.isEmpty() ? 0 : pq.peek();
+        */
+
+        //Solution #2
+        Arrays.sort(stones);
+
+        for(int i = stones.length-1; i > 0; i--) {
+            int diff = stones[i] - stones [i-1];
+            stones[i-1] = diff;
+            Arrays.sort(stones, 0, i);
+        }
+
+        return stones[0];
     }
 }
