@@ -64,8 +64,8 @@ public class Main {
 //        System.out.println(solution.maxNumberOfBalloons(text));
 
         //1. Two Sum - https://leetcode.com/problems/two-sum/description/
-//        int[] nums = {3,3};
-//        int target = 6;
+//        int[] nums = {2,5,5,11};
+//        int target = 10;
 //        TwoSum solution = new TwoSum();
 //        System.out.println(Arrays.toString(solution.twoSum(nums, target)));
 
@@ -113,18 +113,18 @@ public class Main {
 //        }
 
         //206. Reverse Linked List - https://leetcode.com/problems/reverse-linked-list/description/
-//        ListNode head = new ListNode(1);
-//        head.next = new ListNode(2);
-//        head.next.next = new ListNode(3);
-//        head.next.next.next = new ListNode(4);
-//        head.next.next.next.next = new ListNode(5);
-//        ReverseList solution = new ReverseList();
-//        ListNode result = null;
-//        result = solution.reverseList(head);
-//        while(result != null) {
-//            System.out.println(result.val);
-//            result = result.next;
-//        }
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(4);
+        head.next.next.next.next = new ListNode(5);
+        ReverseList solution = new ReverseList();
+        ListNode result = null;
+        result = solution.reverseList(head);
+        while(result != null) {
+            System.out.println(result.val);
+            result = result.next;
+        }
 
         //21. Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/description/
 //        ListNode list1 = new ListNode(1);
@@ -253,17 +253,22 @@ public class Main {
 //        System.out.println(Arrays.toString(solution.productExceptSelf(nums)));
 
         //36. Valid Sudoku - https://leetcode.com/problems/valid-sudoku/description/
-        char[][] board = {{'5','3','.','.','7','.','.','.','.'},
-                {'6','.','.','1','9','5','.','.','.'},
-                {'.','9','8','.','.','.','.','6','.'},
-                {'8','.','.','.','6','.','.','.','3'},
-                {'4','.','.','8','.','3','.','.','1'},
-                {'7','.','.','.','2','.','.','.','6'},
-                {'.','6','.','.','.','.','2','8','.'},
-                {'.','.','.','4','1','9','.','.','5'},
-                {'.','.','.','.','8','.','.','7','9'}};
-        IsValidSudoku solution = new IsValidSudoku();
-        System.out.println(solution.isValidSudoku(board));
+//        char[][] board = {{'5','3','.','.','7','.','.','.','.'},
+//                {'6','.','.','1','9','5','.','.','.'},
+//                {'.','9','8','.','.','.','.','6','.'},
+//                {'8','.','.','.','6','.','.','.','3'},
+//                {'4','.','.','8','.','3','.','.','1'},
+//                {'7','.','.','.','2','.','.','.','6'},
+//                {'.','6','.','.','.','.','2','8','.'},
+//                {'.','.','.','4','1','9','.','.','5'},
+//                {'.','.','.','.','8','.','.','7','9'}};
+//        IsValidSudoku solution = new IsValidSudoku();
+//        System.out.println(solution.isValidSudoku(board));
+
+        //383. Ransom Note - https://leetcode.com/problems/ransom-note/description/
+//        String ransomNote = "a", magazine = "b";
+//        CanConstruct solution = new CanConstruct();
+//        System.out.println(solution.canConstruct(ransomNote, magazine));
     }
 }
 

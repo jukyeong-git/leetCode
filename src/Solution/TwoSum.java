@@ -14,7 +14,7 @@ public class TwoSum {
         }
 
         for(int i=0; i<nums.length; i++) {
-            if(numsMap.get(target-nums[i]) != i){
+            if(numsMap.get(target-nums[i]) != null && numsMap.get(target-nums[i]) != i){
                 return new int[]{i, numsMap.get(target-nums[i])};
             }
         }
