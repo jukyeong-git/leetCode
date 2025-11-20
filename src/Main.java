@@ -113,18 +113,18 @@ public class Main {
 //        }
 
         //206. Reverse Linked List - https://leetcode.com/problems/reverse-linked-list/description/
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
-        ReverseList solution = new ReverseList();
-        ListNode result = null;
-        result = solution.reverseList(head);
-        while(result != null) {
-            System.out.println(result.val);
-            result = result.next;
-        }
+//        ListNode head = new ListNode(1);
+//        head.next = new ListNode(2);
+//        head.next.next = new ListNode(3);
+//        head.next.next.next = new ListNode(4);
+//        head.next.next.next.next = new ListNode(5);
+//        ReverseList solution = new ReverseList();
+//        ListNode result = null;
+//        result = solution.reverseList(head);
+//        while(result != null) {
+//            System.out.println(result.val);
+//            result = result.next;
+//        }
 
         //21. Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/description/
 //        ListNode list1 = new ListNode(1);
@@ -269,6 +269,12 @@ public class Main {
 //        String ransomNote = "a", magazine = "b";
 //        CanConstruct solution = new CanConstruct();
 //        System.out.println(solution.canConstruct(ransomNote, magazine));
+
+        //88. Merge Sorted Array - https://leetcode.com/problems/merge-sorted-array/description/
+        int[] nums1 = {1,2,3,0,0,0}, nums2 = {2,5,6};
+        int m = 3, n =3;
+        MergeSortedArray.merge(nums1, m, nums2, n);
+
     }
 }
 
