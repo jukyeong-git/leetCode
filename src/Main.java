@@ -271,9 +271,28 @@ public class Main {
 //        System.out.println(solution.canConstruct(ransomNote, magazine));
 
         //88. Merge Sorted Array - https://leetcode.com/problems/merge-sorted-array/description/
-        int[] nums1 = {1,2,3,0,0,0}, nums2 = {2,5,6};
-        int m = 3, n =3;
-        MergeSortedArray.merge(nums1, m, nums2, n);
+//        int[] nums1 = {1,2,3,0,0,0}, nums2 = {2,5,6};
+//        int m = 3, n =3;
+//        MergeSortedArray.merge(nums1, m, nums2, n);
+
+        //27. Remove Element - https://leetcode.com/problems/remove-element/description
+//        int[] nums = {3,2,2,3};
+//        int val = 3;
+//        System.out.println(RemoveElement.removeElement(nums,val));
+
+        //26. Remove Duplicates from Sorted Array - https://leetcode.com/problems/remove-duplicates-from-sorted-array/description
+//        int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+//        System.out.println(RemoveDuplicatesfromSortedArray.removeDuplicates(nums));
+
+        //80. Remove Duplicates from Sorted Array II - https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description
+//        int[] nums = {1,1,1,2,2,3};
+//        System.out.println(RemoveDuplicatesfromSortedArrayII.removeDuplicates(nums));
+
+        //167. Two Sum II - Input Array Is Sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+        int[] numbers = {2,7,11,15};
+        int target = 9;
+        int[] result = TwoSumII_InputArrayIsSorted.twoSum(numbers, target);
+        System.out.println(result[0] + ", " + result[1]);
 
     }
 }
