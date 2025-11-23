@@ -289,11 +289,14 @@ public class Main {
 //        System.out.println(RemoveDuplicatesfromSortedArrayII.removeDuplicates(nums));
 
         //167. Two Sum II - Input Array Is Sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
-        int[] numbers = {2,7,11,15};
-        int target = 9;
-        int[] result = TwoSumII_InputArrayIsSorted.twoSum(numbers, target);
-        System.out.println(result[0] + ", " + result[1]);
+//        int[] numbers = {2,7,11,15};
+//        int target = 9;
+//        int[] result = TwoSumII_InputArrayIsSorted.twoSum(numbers, target);
+//        System.out.println(result[0] + ", " + result[1]);
 
+        //3. Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+        String s = "abcabcbb";
+        System.out.println(LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring(s));
     }
 }
 
