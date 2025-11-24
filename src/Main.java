@@ -295,8 +295,27 @@ public class Main {
 //        System.out.println(result[0] + ", " + result[1]);
 
         //3. Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
-        String s = "abcabcbb";
-        System.out.println(LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring(s));
+//        String s = "abcabcbb";
+//        System.out.println(LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring(s));
+
+        //54. Spiral Matrix - https://leetcode.com/problems/spiral-matrix/description/
+        int[][] matrix = {
+//                {1 ,2 ,3 ,4 },
+//                {5 ,6 ,7 ,8 },
+//                {9 ,10,11,12},
+//                {13,14,15,16},
+//                {17,18,19,20},
+//                {21,22,23,24}
+
+//                {1,2,3},
+//                {4,5,6},
+//                {7,8,9}
+
+                {1 ,2 ,3 ,4},
+                {5 ,6 ,7 ,8},
+                {9 ,10,11,12}
+        };
+        System.out.println(SpiralMatrix.spiralOrder(matrix));
     }
 }
 
