@@ -299,7 +299,7 @@ public class Main {
 //        System.out.println(LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring(s));
 
         //54. Spiral Matrix - https://leetcode.com/problems/spiral-matrix/description/
-        int[][] matrix = {
+//        int[][] matrix = {
 //                {1 ,2 ,3 ,4 },
 //                {5 ,6 ,7 ,8 },
 //                {9 ,10,11,12},
@@ -311,11 +311,20 @@ public class Main {
 //                {4,5,6},
 //                {7,8,9}
 
-                {1 ,2 ,3 ,4},
-                {5 ,6 ,7 ,8},
-                {9 ,10,11,12}
-        };
-        System.out.println(SpiralMatrix.spiralOrder(matrix));
+//                {1 ,2 ,3 ,4},
+//                {5 ,6 ,7 ,8},
+//                {9 ,10,11,12}
+//        };
+//        System.out.println(SpiralMatrix.spiralOrder(matrix));
+
+        //205. Isomorphic Strings - https://leetcode.com/problems/isomorphic-strings/description/
+//        String s = "paper", t = "title";
+//        String s = "papap", t = "titii";
+//        System.out.println(IsomorphicStrings.isIsomorphic(s, t));
+
+        //290. Word Pattern - https://leetcode.com/problems/word-pattern/description/
+        String pattern = "abba", s = "dog cat cat dog";
+        System.out.println(WordPattern.wordPattern(pattern, s));
     }
 }
 
