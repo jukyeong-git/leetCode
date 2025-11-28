@@ -323,8 +323,15 @@ public class Main {
 //        System.out.println(IsomorphicStrings.isIsomorphic(s, t));
 
         //290. Word Pattern - https://leetcode.com/problems/word-pattern/description/
-        String pattern = "abba", s = "dog cat cat dog";
-        System.out.println(WordPattern.wordPattern(pattern, s));
+//        String pattern = "abba", s = "dog cat cat dog";
+//        System.out.println(WordPattern.wordPattern(pattern, s));
+
+        //56. Merge Intervals - https://leetcode.com/problems/merge-intervals/description/
+//        int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
+//        int[][] intervals = {{4,7},{1,4}};
+//        System.out.println(Arrays.deepToString(MergeIntervals.merge(intervals)));
+
+        //
     }
 }
 
