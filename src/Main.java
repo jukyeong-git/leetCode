@@ -331,7 +331,36 @@ public class Main {
 //        int[][] intervals = {{4,7},{1,4}};
 //        System.out.println(Arrays.deepToString(MergeIntervals.merge(intervals)));
 
-        //
+        //57. Insert Interval - https://leetcode.com/problems/insert-interval/description/
+//        int[][] intervals = {{1,3}, {6,9}};
+//        int[] newInterval = {2,5};
+//        int[][] intervals = {{1,5}};
+//        int[] newInterval = {0,3};
+
+//        System.out.println(Arrays.deepToString(InsertInterval.insert(intervals, newInterval)));
+
+        //71. Simplify Path - https://leetcode.com/problems/simplify-path/description/
+//        String path = "/home/";
+//        String path = "/home//foo/";
+//        String path = "/home/user/Documents/../Pictures";
+//        String path = "/../";
+//        String path = "/.../a/../b/c/../d/./";
+//        String path = "/a/./b/../../c/";
+//        System.out.println(SimplifyPath.simplifyPath(path));
+
+        //209. Minimum Size Subarray Sum - https://leetcode.com/problems/minimum-size-subarray-sum/description/
+//        int target = 7;
+//        int[] nums = {2,3,1,2,4,3};
+//        System.out.println(MinimumSizeSubarraySum.minSubArrayLen(target, nums));
+
+        //155. Min Stack - https://leetcode.com/problems/min-stack/description/
+        MinStack minStack = new MinStack();
+        minStack.push(-1);
+        System.out.println(minStack.top());
+        System.out.println(minStack.getMin()); // return -3
+        minStack.push(1);
+        System.out.println(minStack.top());    // return 0
+        System.out.println(minStack.getMin()); // return -2
     }
 }
 
