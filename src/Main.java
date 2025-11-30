@@ -365,19 +365,36 @@ public class Main {
 //        ListNode l2 = new ListNode(5,new ListNode((6)));
 //        l2.next.next = new ListNode(4);
 
-        ListNode l1 = new ListNode(9,new ListNode((9)));
-        l1.next.next = new ListNode(9);
-        l1.next.next.next = new ListNode(9);
-        l1.next.next.next.next = new ListNode(9);
-        l1.next.next.next.next.next = new ListNode(9);
-        l1.next.next.next.next.next.next = new ListNode(9);
-        ListNode l2 = new ListNode(9,new ListNode((9)));
-        l2.next.next = new ListNode(9);
-        l2.next.next.next = new ListNode(9);
+//        ListNode l1 = new ListNode(9,new ListNode((9)));
+//        l1.next.next = new ListNode(9);
+//        l1.next.next.next = new ListNode(9);
+//        l1.next.next.next.next = new ListNode(9);
+//        l1.next.next.next.next.next = new ListNode(9);
+//        l1.next.next.next.next.next.next = new ListNode(9);
+//        ListNode l2 = new ListNode(9,new ListNode((9)));
+//        l2.next.next = new ListNode(9);
+//        l2.next.next.next = new ListNode(9);
+//
+//        ListNode result = AddTwoNumbers.addTwoNumbers(l1, l2);
+//        while(result != null) {
+//            System.out.print(result.val);
+//            result = result.next;
+//        }
 
-        ListNode result = AddTwoNumbers.addTwoNumbers(l1, l2);
+        //138. Copy List with Random Pointer - https://leetcode.com/problems/copy-list-with-random-pointer/description/
+        Node head = new Node(7);                // 0
+        head.next = new Node(13);               // 1
+        head.next.next = new Node(11);          // 2
+        head.next.next.next = new Node(10);     // 3
+        head.next.next.next.next = new Node(1); // 4
+        head.next.random = head;
+        head.next.next.random = head.next.next.next.next;
+        head.next.next.next.random = head;
+        head.next.next.next.next.random = head;
+        Node result = CopyListwithRandomPointer.copyRandomList(head);
         while(result != null) {
-            System.out.print(result.val);
+            System.out.print(result.val +", ");
+            System.out.println(result.random != null ? result.random.val : "null");
             result = result.next;
         }
     }
