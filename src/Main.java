@@ -1,7 +1,5 @@
 import Solution.*;
 import Util.*;
-import java.util.Arrays;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -148,8 +146,7 @@ public class Main {
 //        head.next.next.next = new ListNode(-4);
 //        ListNode cycle = head.next;
 //        head.next.next.next.next = cycle;
-//        HasCycle solution = new HasCycle();
-//        System.out.println(solution.hasCycle(head));
+//        System.out.println(LinkedListCycle.hasCycle(cycle));
 
         //876. Middle of the Linked List - https://leetcode.com/problems/middle-of-the-linked-list/description/
 //        ListNode head = new ListNode(1);
@@ -354,13 +351,36 @@ public class Main {
 //        System.out.println(MinimumSizeSubarraySum.minSubArrayLen(target, nums));
 
         //155. Min Stack - https://leetcode.com/problems/min-stack/description/
-        MinStack minStack = new MinStack();
-        minStack.push(-1);
-        System.out.println(minStack.top());
-        System.out.println(minStack.getMin()); // return -3
-        minStack.push(1);
-        System.out.println(minStack.top());    // return 0
-        System.out.println(minStack.getMin()); // return -2
+//        MinStack minStack = new MinStack();
+//        minStack.push(-1);
+//        System.out.println(minStack.top());
+//        System.out.println(minStack.getMin()); // return -3
+//        minStack.push(1);
+//        System.out.println(minStack.top());    // return 0
+//        System.out.println(minStack.getMin()); // return -2
+
+        //2. Add Two Numbers - https://leetcode.com/problems/add-two-numbers/description/
+//        ListNode l1 = new ListNode(2,new ListNode((4)));
+//        l1.next.next = new ListNode(3);
+//        ListNode l2 = new ListNode(5,new ListNode((6)));
+//        l2.next.next = new ListNode(4);
+
+        ListNode l1 = new ListNode(9,new ListNode((9)));
+        l1.next.next = new ListNode(9);
+        l1.next.next.next = new ListNode(9);
+        l1.next.next.next.next = new ListNode(9);
+        l1.next.next.next.next.next = new ListNode(9);
+        l1.next.next.next.next.next.next = new ListNode(9);
+        ListNode l2 = new ListNode(9,new ListNode((9)));
+        l2.next.next = new ListNode(9);
+        l2.next.next.next = new ListNode(9);
+
+        ListNode result = AddTwoNumbers.addTwoNumbers(l1, l2);
+        while(result != null) {
+            System.out.print(result.val);
+            result = result.next;
+        }
     }
 }
+
 
