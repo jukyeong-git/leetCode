@@ -381,22 +381,13 @@ public class Main {
 //            result = result.next;
 //        }
 
-        //138. Copy List with Random Pointer - https://leetcode.com/problems/copy-list-with-random-pointer/description/
-        Node head = new Node(7);                // 0
-        head.next = new Node(13);               // 1
-        head.next.next = new Node(11);          // 2
-        head.next.next.next = new Node(10);     // 3
-        head.next.next.next.next = new Node(1); // 4
-        head.next.random = head;
-        head.next.next.random = head.next.next.next.next;
-        head.next.next.next.random = head;
-        head.next.next.next.next.random = head;
-        Node result = CopyListwithRandomPointer.copyRandomList(head);
-        while(result != null) {
-            System.out.print(result.val +", ");
-            System.out.println(result.random != null ? result.random.val : "null");
-            result = result.next;
-        }
+        //55. Jump Game - https://leetcode.com/problems/jump-game/description/
+//        int[] nums = {2,3,1,1,4};
+//        System.out.println(JumpGame.canJump(nums));
+
+        //2745. Construct the Longest New String - https://leetcode.com/problems/construct-the-longest-new-string/description/
+        int x = 2, y = 5, z = 1;
+        System.out.println(ConstructTheLongestNewString.longestString(x, y, z));
     }
 }
 
