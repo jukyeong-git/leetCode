@@ -386,8 +386,24 @@ public class Main {
 //        System.out.println(JumpGame.canJump(nums));
 
         //2745. Construct the Longest New String - https://leetcode.com/problems/construct-the-longest-new-string/description/
-        int x = 2, y = 5, z = 1;
-        System.out.println(ConstructTheLongestNewString.longestString(x, y, z));
+//        int x = 2, y = 5, z = 1;
+//        System.out.println(ConstructTheLongestNewString.longestString(x, y, z));
+
+        //219. Contains Duplicate II - https://leetcode.com/problems/contains-duplicate-ii/description/
+//        int[] nums = {1,2,3,1};
+//        int k = 3;
+//        int[] nums = {1,2,3,1,2,3};
+//        int k = 2;
+//        System.out.println(ContainsDuplicateII.containsNearbyDuplicate(nums,k));
+
+        //442. Find All Duplicates in an Array - https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+//        int[] nums = {4,3,2,7,8,2,3,1};
+//        System.out.println(FindAllDuplicatesInAnArray.findDuplicates(nums));
+
+        //15. 3Sum - https://leetcode.com/problems/3sum/description/
+        int[] nums = {-1,0,1,2,-1,-4};
+        System.out.println(ThreeSum.threeSum(nums));
+
     }
 }
 
