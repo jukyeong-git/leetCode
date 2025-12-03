@@ -1,5 +1,4 @@
 import Solution.*;
-import Util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -401,8 +400,8 @@ public class Main {
 //        System.out.println(FindAllDuplicatesInAnArray.findDuplicates(nums));
 
         //15. 3Sum - https://leetcode.com/problems/3sum/description/
-        int[] nums = {-1,0,1,2,-1,-4};
-        System.out.println(ThreeSum.threeSum(nums));
+//        int[] nums = {-1,0,1,2,-1,-4};
+//        System.out.println(ThreeSum.threeSum(nums));
 
     }
 }
