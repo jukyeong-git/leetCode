@@ -403,6 +403,38 @@ public class Main {
 //        int[] nums = {-1,0,1,2,-1,-4};
 //        System.out.println(ThreeSum.threeSum(nums));
 
+        //138. Copy List with Random Pointer - https://leetcode.com/problems/copy-list-with-random-pointer/description/
+//        Node head = new Node(7);                // 0
+//        head.next = new Node(13);               // 1
+//        head.next.next = new Node(11);          // 2
+//        head.next.next.next = new Node(10);     // 3
+//        head.next.next.next.next = new Node(1); // 4
+//        head.next.random = head;
+//        head.next.next.random = head.next.next.next.next;
+//        head.next.next.next.random = head;
+//        head.next.next.next.next.random = head;
+//        Node result = CopyListwithRandomPointer.copyRandomList(head);
+//        while(result != null) {
+//            System.out.print(result.val +", ");
+//            System.out.println(result.random != null ? result.random.val : "null");
+//            result = result.next;
+//        }
+
+        //189. Rotate Array - https://leetcode.com/problems/rotate-array/description/
+//        int[] nums = {1,2,3,4,5,6,7};
+//        int k = 3;
+//        RotateArray.rotate(nums, k);
+
+        //122. Best Time to Buy and Sell Stock II - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
+//        int[] prices = {7,1,5,3,6,4};
+//        System.out.println(BestTimeToBuyAndSellStockII.maxProfit(prices));
+
+        //45. Jump Game II - https://leetcode.com/problems/jump-game-ii/description/
+//        int[] nums = {2,3,1,1,4};
+//        int[] nums = {1,1,1,1};
+//        int[] nums = {10,9,8,7,6,5,4,3,2,1,1,0};
+//        int[] nums = {3,4,3,1,0,7,0,3,0,2,0,3};
+//        System.out.println(JumpGameII.jump(nums));
     }
 }
 
