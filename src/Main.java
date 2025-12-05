@@ -435,6 +435,11 @@ public class Main {
 //        int[] nums = {10,9,8,7,6,5,4,3,2,1,1,0};
 //        int[] nums = {3,4,3,1,0,7,0,3,0,2,0,3};
 //        System.out.println(JumpGameII.jump(nums));
+
+        //2208. Minimum Operations to Halve Array Sum - https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
+        int[] nums = {5,19,8,1};
+        System.out.println(MinimumOperationsToHalveArraySum.halveArray(nums));
+
     }
 }
 
