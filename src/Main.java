@@ -456,6 +456,9 @@ public class Main {
 //        int[] gas = {1,2,3,4,5}, cost = {3,4,5,1,2};
 //        System.out.println(Gas_Station.canCompleteCircuit(gas, cost));
 
+        //12. Integer to Roman - https://leetcode.com/problems/integer-to-roman/description/
+        int num = 1994;
+        System.out.println(Integer_to_Roman.intToRoman(num));
     }
 }
 
