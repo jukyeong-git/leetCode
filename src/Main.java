@@ -14,8 +14,7 @@ public class Main {
 
         //13. Roman to Integer - https://leetcode.com/problems/roman-to-integer/
 //        String s = "MCMXCIV";
-//        RomanToInt solution = new RomanToInt();
-//        System.out.println(solution.romanToInt(s));
+//        System.out.println(Roman_to_Integer.romanToInt(s));
 
         //392. Is Subsequence - https://leetcode.com/problems/is-subsequence/description/
 //        String s = "acb", t = "ahbgdc";
@@ -243,11 +242,6 @@ public class Main {
 //        MinCostClimbingStairs solution = new MinCostClimbingStairs();
 //        System.out.println(solution.minCostClimbingStairs(cost));
 
-        //238. Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/description/
-//        int[] nums = {-1,1,0,-3,3};
-//        ProductExceptSelf solution = new ProductExceptSelf();
-//        System.out.println(Arrays.toString(solution.productExceptSelf(nums)));
-
         //36. Valid Sudoku - https://leetcode.com/problems/valid-sudoku/description/
 //        char[][] board = {{'5','3','.','.','7','.','.','.','.'},
 //                {'6','.','.','1','9','5','.','.','.'},
@@ -437,8 +431,30 @@ public class Main {
 //        System.out.println(JumpGameII.jump(nums));
 
         //2208. Minimum Operations to Halve Array Sum - https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
-        int[] nums = {5,19,8,1};
-        System.out.println(MinimumOperationsToHalveArraySum.halveArray(nums));
+//        int[] nums = {5,19,8,1};
+//        System.out.println(MinimumOperationsToHalveArraySum.halveArray(nums));
+
+        //274. H-Index - https://leetcode.com/problems/h-index/description/
+//        int[] citations = {3,0,6,1,5};
+//        System.out.println(H_Index.hIndex(citations));
+
+        //380. Insert Delete GetRandom O(1) - https://leetcode.com/problems/insert-delete-getrandom-o1/description/
+//        Insert_Delete_GetRandom_O solution = new Insert_Delete_GetRandom_O();
+//        System.out.println(solution.insert(1));
+//        System.out.println(solution.remove(2));
+//        System.out.println(solution.insert(2));
+//        System.out.println(solution.getRandom());
+//        System.out.println(solution.remove(1));
+//        System.out.println(solution.insert(2));
+//        System.out.println(solution.getRandom());
+
+        //238. Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/description/
+//        int[] nums = {-1, 1, 0, -3, 3};
+//        System.out.println(Arrays.toString(Product_of_Array_Except_Self.productExceptSelf(nums)));
+
+        //134. Gas Station - https://leetcode.com/problems/gas-station/description/
+//        int[] gas = {1,2,3,4,5}, cost = {3,4,5,1,2};
+//        System.out.println(Gas_Station.canCompleteCircuit(gas, cost));
 
     }
 }

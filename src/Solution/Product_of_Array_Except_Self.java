@@ -1,8 +1,8 @@
 package Solution;
 
-public class ProductExceptSelf {
+public class Product_of_Array_Except_Self {
     //238. Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/description/
-    public int[] productExceptSelf(int[] nums) {
+    public static int[] productExceptSelf(int[] nums) {
         int len = nums.length;
         int[] left = new int[len];
         int[] right = new int[len];

@@ -2,9 +2,9 @@ package Solution;
 
 import java.util.*;
 
-public class RomanToInt {
+public class Roman_to_Integer {
     //13. Roman to Integer - https://leetcode.com/problems/roman-to-integer/
-    public int romanToInt(String s) {
+    public static int romanToInt(String s) {
 
         int result = 0;
         Map<String, Integer> map = new HashMap<>();
