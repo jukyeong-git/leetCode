@@ -27,10 +27,9 @@ public class Main {
 //        System.out.println(solution.maxProfit(prices));
 
         //14. Longest Common Prefix - https://leetcode.com/problems/longest-common-prefix/description/
-//        String[] strs = {"flower","flow","flight"};
-//        String[] strs = {"ab","a"};
-//        LongestCommonPrefix solution = new LongestCommonPrefix();
-//        System.out.println(solution.longestCommonPrefix(strs));
+//        String[] strs = {"flower","flower","flower", "flower"};
+        String[] strs = {"abb","abc"};
+        System.out.println(Longest_Common_Prefix.longestCommonPrefix(strs));
 
         //228. Summary Ranges - https://leetcode.com/problems/summary-ranges/description/
 //        int[] nums = {0,1,2,4,5,7};
@@ -457,8 +456,12 @@ public class Main {
 //        System.out.println(Gas_Station.canCompleteCircuit(gas, cost));
 
         //12. Integer to Roman - https://leetcode.com/problems/integer-to-roman/description/
-        int num = 1994;
-        System.out.println(Integer_to_Roman.intToRoman(num));
+//        int num = 1994;
+//        System.out.println(Integer_to_Roman.intToRoman(num));
+
+        //58. Length of Last Word - https://leetcode.com/problems/length-of-last-word/description/
+//        String s = "Hello World";
+//        System.out.println(Length_of_Last_Word.lengthOfLastWord(s));
     }
 }
 
