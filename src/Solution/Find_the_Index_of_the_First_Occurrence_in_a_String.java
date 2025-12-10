@@ -1,0 +1,8 @@
+package Solution;
+
+public class Find_the_Index_of_the_First_Occurrence_in_a_String {
+    //28. Find the Index of the First Occurrence in a String - https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
+    public static int strStr(String haystack, String needle) {
+        return haystack.indexOf(needle);
+    }
+}

@@ -28,8 +28,8 @@ public class Main {
 
         //14. Longest Common Prefix - https://leetcode.com/problems/longest-common-prefix/description/
 //        String[] strs = {"flower","flower","flower", "flower"};
-        String[] strs = {"abb","abc"};
-        System.out.println(Longest_Common_Prefix.longestCommonPrefix(strs));
+//        String[] strs = {"abb","abc"};
+//        System.out.println(Longest_Common_Prefix.longestCommonPrefix(strs));
 
         //228. Summary Ranges - https://leetcode.com/problems/summary-ranges/description/
 //        int[] nums = {0,1,2,4,5,7};
@@ -462,6 +462,14 @@ public class Main {
         //58. Length of Last Word - https://leetcode.com/problems/length-of-last-word/description/
 //        String s = "Hello World";
 //        System.out.println(Length_of_Last_Word.lengthOfLastWord(s));
+
+        //151. Reverse Words in a String - https://leetcode.com/problems/reverse-words-in-a-string/description/
+//        String s = "the sky is blue";
+//        System.out.println(Reverse_Words_in_a_String.reverseWords(s));
+
+        //28. Find the Index of the First Occurrence in a String - https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
+        String haystack = "sadbutsad", needle = "sad";
+        System.out.println(Find_the_Index_of_the_First_Occurrence_in_a_String.strStr(haystack, needle));
     }
 }
 
