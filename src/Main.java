@@ -1,5 +1,7 @@
 import Solution.*;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //2239. Find Closest Number to Zero - https://leetcode.com/problems/find-closest-number-to-zero/
@@ -278,10 +280,9 @@ public class Main {
 //        System.out.println(RemoveDuplicatesfromSortedArrayII.removeDuplicates(nums));
 
         //167. Two Sum II - Input Array Is Sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
-//        int[] numbers = {2,7,11,15};
-//        int target = 9;
-//        int[] result = TwoSumII_InputArrayIsSorted.twoSum(numbers, target);
-//        System.out.println(result[0] + ", " + result[1]);
+        int[] numbers = {2,7,11,15};
+        int target = 9;
+        System.out.println(Arrays.toString(Two_Sum_II_Input_Array_Is_Sorted.twoSum(numbers, target)));
 
         //3. Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 //        String s = "abcabcbb";
@@ -468,8 +469,14 @@ public class Main {
 //        System.out.println(Reverse_Words_in_a_String.reverseWords(s));
 
         //28. Find the Index of the First Occurrence in a String - https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
-        String haystack = "sadbutsad", needle = "sad";
-        System.out.println(Find_the_Index_of_the_First_Occurrence_in_a_String.strStr(haystack, needle));
+//        String haystack = "sadbutsad", needle = "sad";
+//        System.out.println(Find_the_Index_of_the_First_Occurrence_in_a_String.strStr(haystack, needle));
+
+        //6. Zigzag Conversion - https://leetcode.com/problems/zigzag-conversion/
+//        String s = "PAYPALISHIRING";
+//        int numRows = 3;
+//        System.out.println(Zigzag_Conversion.convert(s, numRows));
+
     }
 }
 
