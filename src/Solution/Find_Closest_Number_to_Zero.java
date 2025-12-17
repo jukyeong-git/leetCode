@@ -1,8 +1,8 @@
 package Solution;
 
-public class FindClosestNumber {
+public class Find_Closest_Number_to_Zero {
     //2239. Find Closest Number to Zero - https://leetcode.com/problems/find-closest-number-to-zero/
-    public int findClosestNumber(int[] nums) {
+    public static int findClosestNumber(int[] nums) {
 
         int result = Integer.MAX_VALUE;
 

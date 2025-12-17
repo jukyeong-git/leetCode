@@ -3,9 +3,9 @@ package Solution;
 import java.util.HashMap;
 import java.util.Map;
 
-public class IsAnagram {
+public class Valid_Anagram {
     //242. Valid Anagram - https://leetcode.com/problems/valid-anagram/description/
-    public boolean isAnagram(String s, String t) {
+    public static boolean isAnagram(String s, String t) {
 
         if(s.length() != t.length()) return false;
 

@@ -2,9 +2,9 @@ package Solution;
 
 import java.util.Stack;
 
-public class CalPoints {
+public class Baseball_Game {
     //682. Baseball Game - https://leetcode.com/problems/baseball-game/description/
-    public int calPoints(String[] operations) {
+    public static int calPoints(String[] operations) {
 
         int[] stk = new int[operations.length];
         int index = 0;

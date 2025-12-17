@@ -1,8 +1,8 @@
 package Solution;
 
-public class IsPerfectSquare {
+public class Valid_Perfect_Square {
     //367. Valid Perfect Square - https://leetcode.com/problems/valid-perfect-square/description/
-    public boolean isPerfectSquare(int num) {
+    public static boolean isPerfectSquare(int num) {
 
         int start = 1;
         int end = num;

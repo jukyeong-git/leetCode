@@ -2,9 +2,9 @@ package Solution;
 
 import Util.ListNode;
 
-public class DeleteDuplicates {
+public class Remove_Duplicates_from_Sorted_List {
     //83. Remove Duplicates from Sorted List - https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
-    public ListNode deleteDuplicates(ListNode head) {
+    public static ListNode deleteDuplicates(ListNode head) {
 
         ListNode node = head;
 

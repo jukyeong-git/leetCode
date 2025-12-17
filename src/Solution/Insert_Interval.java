@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class InsertInterval {
+public class Insert_Interval {
     //57. Insert Interval - https://leetcode.com/problems/insert-interval/description/
     public static int[][] insert(int[][] intervals, int[] newInterval) {
 

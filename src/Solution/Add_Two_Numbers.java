@@ -2,7 +2,7 @@ package Solution;
 
 import Util.ListNode;
 
-public class AddTwoNumbers {
+public class Add_Two_Numbers {
     //2. Add Two Numbers - https://leetcode.com/problems/add-two-numbers/description/
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int sum = 0, up = 0;

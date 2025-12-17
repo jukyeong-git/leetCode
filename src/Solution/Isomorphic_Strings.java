@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class IsomorphicStrings {
+public class Isomorphic_Strings {
     //205. Isomorphic Strings - https://leetcode.com/problems/isomorphic-strings/description/
     public static boolean isIsomorphic(String s, String t) {
         if(s.length() != t.length()) return false;
@@ -16,7 +16,7 @@ public class IsomorphicStrings {
             if(!map.containsKey(s.charAt(i)) && !map.containsValue(t.charAt(i))) {
                 map.put(s.charAt(i), t.charAt(i));
             } else {
-                if(map.get(s.charAt(i)) != t.charAt(i))
+                if(map.get(s.charAt(i)) == null || map.get(s.charAt(i)) != t.charAt(i))
                     return false;
             }
         }

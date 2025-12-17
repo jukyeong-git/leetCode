@@ -1,8 +1,8 @@
 package Solution;
 
-public class ClimbStairs {
+public class Climbing_Stairs {
     //70. Climbing Stairs - https://leetcode.com/problems/climbing-stairs/description/
-    public int climbStairs(int n) {
+    public static int climbStairs(int n) {
         int[] clib = new int[n + 1];
 
         clib[0] = 1;

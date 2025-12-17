@@ -2,9 +2,9 @@ package Solution;
 
 import Util.TreeNode;
 
-public class InvertTree {
+public class Invert_Binary_Tree {
     //226. Invert Binary Tree - https://leetcode.com/problems/invert-binary-tree/description/
-    public TreeNode invertTree(TreeNode root) {
+    public static TreeNode invertTree(TreeNode root) {
         if(root == null) return null;
 
         TreeNode swap = null;

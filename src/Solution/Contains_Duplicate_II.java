@@ -3,7 +3,7 @@ package Solution;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ContainsDuplicateII {
+public class Contains_Duplicate_II {
     //219. Contains Duplicate II - https://leetcode.com/problems/contains-duplicate-ii/description/
     public static boolean containsNearbyDuplicate(int[] nums, int k) {
         Set<Integer> set = new HashSet<>();

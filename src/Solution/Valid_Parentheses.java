@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-public class IsValid {
+public class Valid_Parentheses {
     //20. Valid Parentheses - https://leetcode.com/problems/valid-parentheses/description/
-    public boolean isValid(String s) {
+    public static boolean isValid(String s) {
 
         Map<Character, Character> map = new HashMap<>();
         map.put(')','(');

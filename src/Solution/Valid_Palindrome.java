@@ -1,0 +1,24 @@
+package Solution;
+
+import java.util.Arrays;
+
+public class Valid_Palindrome {
+    //125. Valid Palindrome - https://leetcode.com/problems/valid-palindrome/description/
+    public static boolean isPalindrome(String s) {
+
+        s = s.toLowerCase().replaceAll("[^0-9a-z]","");
+
+        int left = 0;
+        int right = s.length() - 1;
+
+        while(left < right) {
+
+            if(s.charAt(left) != s.charAt(right)) return false;
+
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+}

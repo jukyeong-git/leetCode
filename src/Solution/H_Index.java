@@ -5,9 +5,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class H_Index {
+    //274. H-Index - https://leetcode.com/problems/h-index/description/
     public static int hIndex(int[] citations) {
 
-        int n = citations.length, idx = 0;
+        int n = citations.length;
 
         Arrays.sort(citations);
 
@@ -18,6 +19,6 @@ public class H_Index {
             }
         }
 
-        return -1;
+        return 0;
     }
 }

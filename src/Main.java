@@ -1,4 +1,7 @@
 import Solution.*;
+import Util.ListNode;
+import Util.Node;
+import Util.TreeNode;
 
 import java.util.Arrays;
 
@@ -6,8 +9,7 @@ public class Main {
     public static void main(String[] args) {
         //2239. Find Closest Number to Zero - https://leetcode.com/problems/find-closest-number-to-zero/
 //        int[] nums = {-4,-2,1,4,8};
-//        FindClosestNumber solution = new FindClosestNumber();
-//        System.out.println(solution.findClosestNumber(nums));
+//        System.out.println(Find_Closest_Number_to_Zero.findClosestNumber(nums));
 
         //1768. Merge Strings Alternately - https://leetcode.com/problems/merge-strings-alternately/description/
 //        String word1 = "abc", word2 = "pqr";
@@ -19,9 +21,8 @@ public class Main {
 //        System.out.println(Roman_to_Integer.romanToInt(s));
 
         //392. Is Subsequence - https://leetcode.com/problems/is-subsequence/description/
-//        String s = "acb", t = "ahbgdc";
-//        IsSubsequence solution = new IsSubsequence();
-//        System.out.println(solution.isSubsequence(s,t));
+//        String s = "abc", t = "ahbgdc";
+//        System.out.println(Is_Subsequence.isSubsequence(s,t));
 
         //121. Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 //        int[] prices = {7,1,5,3,6,4};
@@ -47,13 +48,11 @@ public class Main {
 
         //217. Contains Duplicate - https://leetcode.com/problems/contains-duplicate/description/
 //        int[] nums = {1,2,3,1};
-//        ContainsDuplicate solution = new ContainsDuplicate();
-//        System.out.println(solution.containsDuplicate(nums));
+//        System.out.println(Contains_Duplicate.containsDuplicate(nums));
 
         //242. Valid Anagram - https://leetcode.com/problems/valid-anagram/description/
 //        String s = "anagram", t = "nagaram";
-//        IsAnagram solution = new IsAnagram();
-//        System.out.println(solution.isAnagram(s, t));
+//        System.out.println(Valid_Anagram.isAnagram(s, t));
 
         //1189. Maximum Number of Balloons - https://leetcode.com/problems/maximum-number-of-balloons/description/
 //        String text = "nlaebolko";
@@ -84,26 +83,22 @@ public class Main {
         //125. Valid Palindrome - https://leetcode.com/problems/valid-palindrome/description/
 //        String s = "A man, a plan, a canal: Panama";
 //        String s = "0P";
-//        IsPalindrome solution = new IsPalindrome();
-//        System.out.println(solution.isPalindrome(s));
+//        System.out.println(Valid_Palindrome.isPalindrome(s));
 
         //682. Baseball Game - https://leetcode.com/problems/baseball-game/description/
 //        String[] ops = {"5","2","C","D","+"};
 //        String[] ops = {"5","-2","4","C","D","9","+","+"};
-//        CalPoints solution = new CalPoints();
-//        System.out.println(solution.calPoints(ops));
+//        System.out.println(Baseball_Game.calPoints(ops));
 
         //20. Valid Parentheses - https://leetcode.com/problems/valid-parentheses/description/
 //        String s = "]";
-//        IsValid solution = new IsValid();
-//        System.out.println(solution.isValid(s));
+//        System.out.println(Valid_Parentheses.isValid(s));
 
         //83. Remove Duplicates from Sorted List - https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
 //        ListNode head = new ListNode(1);
 //        head.next = new ListNode(1);
 //        head.next.next = new ListNode(2);
-//        DeleteDuplicates solution = new DeleteDuplicates();
-//        head = solution.deleteDuplicates(head);
+//        head = Remove_Duplicates_from_Sorted_List.deleteDuplicates(head);
 //        while(head != null) {
 //            System.out.println(head.val);
 //            head = head.next;
@@ -174,15 +169,13 @@ public class Main {
 //        System.out.println(solution.searchInsert(nums, target));
 
         //367. Valid Perfect Square - https://leetcode.com/problems/valid-perfect-square/description/
-//        int num = 2147483647;
-//        IsPerfectSquare solution = new IsPerfectSquare();
-//        System.out.println(solution.isPerfectSquare(num));
+//        int num = 16;
+//        System.out.println(Valid_Perfect_Square.isPerfectSquare(num));
 
         //643. Maximum Average Subarray I - https://leetcode.com/problems/maximum-average-subarray-i/description/
 //        int[] nums = {1,12,-5,-6,50,3};
 //        int k = 4;
-//        FindMaxAverage solution = new FindMaxAverage();
-//        System.out.println(solution.findMaxAverage(nums, k));
+//        System.out.println(Maximum_Average_Subarray_I.findMaxAverage(nums, k));
 
         //226. Invert Binary Tree - https://leetcode.com/problems/invert-binary-tree/description/
 //        TreeNode root = new TreeNode(4);
@@ -192,8 +185,7 @@ public class Main {
 //        root.left.right = new TreeNode(3);
 //        root.right.left = new TreeNode(6);
 //        root.right.right = new TreeNode(9);
-//        InvertTree solution = new InvertTree();
-//        root = solution.invertTree(root);
+//        root = Invert_Binary_Tree.invertTree(root);
 
         //104. Maximum Depth of Binary Tree - https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
 //        TreeNode root = new TreeNode(3);
@@ -214,8 +206,7 @@ public class Main {
 //        root.left.right = null;
 //        root.right.left = new TreeNode(15);
 //        root.right.right = new TreeNode(7);
-//        IsBalanced solution = new IsBalanced();
-//        System.out.println(solution.isBalanced(root));
+//        System.out.println(Balanced_Binary_Tree.isBalanced(root));
 
         //1046. Last Stone Weight - https://leetcode.com/problems/last-stone-weight/description/
 //        int[] stones = {2,7,4,1,8,1};
@@ -230,13 +221,11 @@ public class Main {
 
         //509. Fibonacci Number - https://leetcode.com/problems/fibonacci-number/description/
 //        int n = 2;
-//        Fib solution = new Fib();
-//        System.out.println(solution.fib(n));
+//        System.out.println(Fibonacci_Number.fib(n));
 
         //70. Climbing Stairs - https://leetcode.com/problems/climbing-stairs/description/
-//        int n = 3;
-//        ClimbStairs solution = new ClimbStairs();
-//        System.out.println(solution.climbStairs(n));
+//        int n = 4;
+//        System.out.println(Climbing_Stairs.climbStairs(n));
 
         //746. Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/description/
 //        int[] cost = {10,15,20};
@@ -258,8 +247,7 @@ public class Main {
 
         //383. Ransom Note - https://leetcode.com/problems/ransom-note/description/
 //        String ransomNote = "a", magazine = "b";
-//        CanConstruct solution = new CanConstruct();
-//        System.out.println(solution.canConstruct(ransomNote, magazine));
+//        System.out.println(Ransom_Note.canConstruct(ransomNote, magazine));
 
         //88. Merge Sorted Array - https://leetcode.com/problems/merge-sorted-array/description/
 //        int[] nums1 = {1,2,3,0,0,0}, nums2 = {2,5,6};
@@ -308,9 +296,9 @@ public class Main {
 //        System.out.println(SpiralMatrix.spiralOrder(matrix));
 
         //205. Isomorphic Strings - https://leetcode.com/problems/isomorphic-strings/description/
-//        String s = "paper", t = "title";
+//        String s = "badc", t = "baba";
 //        String s = "papap", t = "titii";
-//        System.out.println(IsomorphicStrings.isIsomorphic(s, t));
+//        System.out.println(Isomorphic_Strings.isIsomorphic(s, t));
 
         //290. Word Pattern - https://leetcode.com/problems/word-pattern/description/
 //        String pattern = "abba", s = "dog cat cat dog";
@@ -326,8 +314,7 @@ public class Main {
 //        int[] newInterval = {2,5};
 //        int[][] intervals = {{1,5}};
 //        int[] newInterval = {0,3};
-
-//        System.out.println(Arrays.deepToString(InsertInterval.insert(intervals, newInterval)));
+//        System.out.println(Arrays.deepToString(Insert_Interval.insert(intervals, newInterval)));
 
         //71. Simplify Path - https://leetcode.com/problems/simplify-path/description/
 //        String path = "/home/";
@@ -367,8 +354,8 @@ public class Main {
 //        ListNode l2 = new ListNode(9,new ListNode((9)));
 //        l2.next.next = new ListNode(9);
 //        l2.next.next.next = new ListNode(9);
-//
-//        ListNode result = AddTwoNumbers.addTwoNumbers(l1, l2);
+
+//        ListNode result = Add_Two_Numbers.addTwoNumbers(l1, l2);
 //        while(result != null) {
 //            System.out.print(result.val);
 //            result = result.next;
@@ -380,18 +367,18 @@ public class Main {
 
         //2745. Construct the Longest New String - https://leetcode.com/problems/construct-the-longest-new-string/description/
 //        int x = 2, y = 5, z = 1;
-//        System.out.println(ConstructTheLongestNewString.longestString(x, y, z));
+//        System.out.println(Construct_the_Longest_New_String.longestString(x, y, z));
 
         //219. Contains Duplicate II - https://leetcode.com/problems/contains-duplicate-ii/description/
 //        int[] nums = {1,2,3,1};
 //        int k = 3;
 //        int[] nums = {1,2,3,1,2,3};
 //        int k = 2;
-//        System.out.println(ContainsDuplicateII.containsNearbyDuplicate(nums,k));
+//        System.out.println(Contains_Duplicate_II.containsNearbyDuplicate(nums,k));
 
         //442. Find All Duplicates in an Array - https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
 //        int[] nums = {4,3,2,7,8,2,3,1};
-//        System.out.println(FindAllDuplicatesInAnArray.findDuplicates(nums));
+//        System.out.println(Find_All_Duplicates_in_an_Arra.findDuplicates(nums));
 
         //15. 3Sum - https://leetcode.com/problems/3sum/description/
 //        int[] nums = {-1,0,1,2,-1,-4};
@@ -407,7 +394,7 @@ public class Main {
 //        head.next.next.random = head.next.next.next.next;
 //        head.next.next.next.random = head;
 //        head.next.next.next.next.random = head;
-//        Node result = CopyListwithRandomPointer.copyRandomList(head);
+//        Node result = Copy_List_with_Random_Pointer.copyRandomList(head);
 //        while(result != null) {
 //            System.out.print(result.val +", ");
 //            System.out.println(result.random != null ? result.random.val : "null");
@@ -421,7 +408,7 @@ public class Main {
 
         //122. Best Time to Buy and Sell Stock II - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 //        int[] prices = {7,1,5,3,6,4};
-//        System.out.println(BestTimeToBuyAndSellStockII.maxProfit(prices));
+//        System.out.println(Best_Time_to_Buy_and_Sell_Stock_II.maxProfit(prices));
 
         //45. Jump Game II - https://leetcode.com/problems/jump-game-ii/description/
 //        int[] nums = {2,3,1,1,4};
@@ -478,8 +465,12 @@ public class Main {
 //        System.out.println(Zigzag_Conversion.convert(s, numRows));
 
         //11. Container With Most Water - https://leetcode.com/problems/container-with-most-water/description/
-        int[] height = {1,8,6,2,5,4,8,3,7};
-        System.out.println(Container_With_Most_Water.maxArea(height));
+//        int[] height = {1,8,6,2,5,4,8,3,7};
+//        System.out.println(Container_With_Most_Water.maxArea(height));
+
+        //274. H-Index - https://leetcode.com/problems/h-index/description/
+//        int[] citations = {3,0,6,1,5};
+//        System.out.println(H_Index.hIndex(citations));
     }
 }
 

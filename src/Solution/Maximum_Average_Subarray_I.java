@@ -1,8 +1,8 @@
 package Solution;
 
-public class FindMaxAverage {
+public class Maximum_Average_Subarray_I {
     //643. Maximum Average Subarray I - https://leetcode.com/problems/maximum-average-subarray-i/description/
-    public double findMaxAverage(int[] nums, int k) {
+    public static double findMaxAverage(int[] nums, int k) {
 
         int n = nums.length;
         double curSum = 0;

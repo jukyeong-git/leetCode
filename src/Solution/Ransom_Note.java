@@ -2,8 +2,9 @@ package Solution;
 
 import java.util.*;
 
-public class CanConstruct {
-    public boolean canConstruct(String ransomNote, String magazine) {
+public class Ransom_Note {
+    //383. Ransom Note - https://leetcode.com/problems/ransom-note/description/
+    public static boolean canConstruct(String ransomNote, String magazine) {
 
         Map<Character, Integer> mMap = new HashMap<>();
         for(char c : magazine.toCharArray()) {

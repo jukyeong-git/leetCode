@@ -1,6 +1,6 @@
 package Solution;
 
-public class ConstructTheLongestNewString {
+public class Construct_the_Longest_New_String {
     //2745. Construct the Longest New String - https://leetcode.com/problems/construct-the-longest-new-string/description/
     public static int longestString(int x, int y, int z) {
         if(x == y) {

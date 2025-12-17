@@ -2,15 +2,15 @@ package Solution;
 
 import Util.TreeNode;
 
-public class IsBalanced {
+public class Balanced_Binary_Tree {
     //110. Balanced Binary Tree - https://leetcode.com/problems/balanced-binary-tree/description/
-    public boolean isBalanced(TreeNode root) {
+    public static boolean isBalanced(TreeNode root) {
         int count = 0;
         int result = searchTree(root, count);
         return result != Integer.MAX_VALUE;
     }
 
-    public int searchTree(TreeNode root, int count) {
+    public static int searchTree(TreeNode root, int count) {
         if(root == null) return count;
         count++;
         int left = searchTree(root.left, count);

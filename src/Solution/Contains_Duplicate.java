@@ -3,9 +3,9 @@ package Solution;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ContainsDuplicate {
+public class Contains_Duplicate {
     //217. Contains Duplicate - https://leetcode.com/problems/contains-duplicate/description/
-    public boolean containsDuplicate(int[] nums) {
+    public static boolean containsDuplicate(int[] nums) {
 
         Map<Integer, Integer> map = new HashMap<>();
 
@@ -13,8 +13,8 @@ public class ContainsDuplicate {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
-        for(int i = 0; i < nums.length; i++) {
-            if(map.get(nums[i]) >= 2)
+        for (int num : nums) {
+            if (map.get(num) >= 2)
                 return true;
         }
 
