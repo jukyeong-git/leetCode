@@ -2,9 +2,9 @@ package Solution;
 
 import java.util.HashSet;
 
-public class IsValidSudoku {
+public class Valid_Sudoku {
     //36. Valid Sudoku - https://leetcode.com/problems/valid-sudoku/description/
-    public boolean isValidSudoku(char[][] board) {
+    public static boolean isValidSudoku(char[][] board) {
 
         HashSet<String> seen = new HashSet<>();
 

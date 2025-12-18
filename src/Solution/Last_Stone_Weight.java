@@ -1,14 +1,13 @@
 package Solution;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class LastStoneWeight {
-    public int lastStoneWeight(int[] stones) {
+public class Last_Stone_Weight {
+    //1046. Last Stone Weight - https://leetcode.com/problems/last-stone-weight/description/
+    public static int lastStoneWeight(int[] stones) {
 
         //Solution #1
-        /*
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
         for(int s : stones) {
@@ -25,9 +24,9 @@ public class LastStoneWeight {
         }
 
         return pq.isEmpty() ? 0 : pq.peek();
-        */
 
         //Solution #2
+        /*
         Arrays.sort(stones);
 
         for(int i = stones.length-1; i > 0; i--) {
@@ -37,5 +36,6 @@ public class LastStoneWeight {
         }
 
         return stones[0];
+        */
     }
 }

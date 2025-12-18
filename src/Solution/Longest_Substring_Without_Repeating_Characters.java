@@ -2,7 +2,7 @@ package Solution;
 
 import java.util.HashSet;
 
-public class LongestSubstringWithoutRepeatingCharacters {
+public class Longest_Substring_Without_Repeating_Characters {
     //3. Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
     public static int lengthOfLongestSubstring(String s) {
         int len = s.length();

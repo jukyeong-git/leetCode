@@ -4,7 +4,7 @@ import Util.ListNode;
 
 import java.util.HashSet;
 
-public class LinkedListCycle {
+public class Linked_List_Cycle {
     //141. Linked List Cycle - https://leetcode.com/problems/linked-list-cycle/description/
     public static boolean hasCycle(ListNode head) {
 

@@ -1,6 +1,6 @@
 package Solution;
 
-public class JumpGameII {
+public class Jump_Game_II {
     //45. Jump Game II - https://leetcode.com/problems/jump-game-ii/description/
     public static int jump(int[] nums) {
         int count = 0, n = nums.length - 1;

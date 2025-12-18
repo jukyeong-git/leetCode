@@ -1,6 +1,6 @@
 package Solution;
 
-public class JumpGame {
+public class Jump_Game {
     //55. Jump Game - https://leetcode.com/problems/jump-game/description/
     public static boolean canJump(int[] nums) {
         int reach = 0;

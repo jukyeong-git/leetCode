@@ -67,8 +67,7 @@ public class Main {
 
         //169. Majority Element - https://leetcode.com/problems/majority-element/description/
 //        int[] nums = {2,2,1,1,1,2,2};
-//        MajorityElement solution = new MajorityElement();
-//        System.out.println(solution.majorityElement(nums));
+//        System.out.println(Majority_Element.majorityElement(nums));
 
         //977. Squares of a Sorted Array - https://leetcode.com/problems/squares-of-a-sorted-array/description/
 //        int[] nums = {-4,-1,0,3,10};
@@ -140,7 +139,7 @@ public class Main {
 //        head.next.next.next = new ListNode(-4);
 //        ListNode cycle = head.next;
 //        head.next.next.next.next = cycle;
-//        System.out.println(LinkedListCycle.hasCycle(cycle));
+//        System.out.println(Linked_List_Cycle.hasCycle(cycle));
 
         //876. Middle of the Linked List - https://leetcode.com/problems/middle-of-the-linked-list/description/
 //        ListNode head = new ListNode(1);
@@ -195,8 +194,7 @@ public class Main {
 //        root.left.right = null;
 //        root.right.left = new TreeNode(15);
 //        root.right.right = new TreeNode(7);
-//        MaxDepth solution = new MaxDepth();
-//        System.out.println(solution.maxDepth(root));
+//        System.out.println(Maximum_Depth_of_Binary_Tree.maxDepth(root));
 
         //110. Balanced Binary Tree - https://leetcode.com/problems/balanced-binary-tree/description/
 //        TreeNode root = new TreeNode(3);
@@ -210,8 +208,7 @@ public class Main {
 
         //1046. Last Stone Weight - https://leetcode.com/problems/last-stone-weight/description/
 //        int[] stones = {2,7,4,1,8,1};
-//        LastStoneWeight solution = new LastStoneWeight();
-//        System.out.println(solution.lastStoneWeight(stones));
+//        System.out.println(Last_Stone_Weight.lastStoneWeight(stones));
 
         //1971. Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/description/
 //        int n = 3, source = 0, destination = 2;
@@ -242,8 +239,7 @@ public class Main {
 //                {'.','6','.','.','.','.','2','8','.'},
 //                {'.','.','.','4','1','9','.','.','5'},
 //                {'.','.','.','.','8','.','.','7','9'}};
-//        IsValidSudoku solution = new IsValidSudoku();
-//        System.out.println(solution.isValidSudoku(board));
+//        System.out.println(Valid_Sudoku.isValidSudoku(board));
 
         //383. Ransom Note - https://leetcode.com/problems/ransom-note/description/
 //        String ransomNote = "a", magazine = "b";
@@ -274,7 +270,7 @@ public class Main {
 
         //3. Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 //        String s = "abcabcbb";
-//        System.out.println(LongestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring(s));
+//        System.out.println(Longest_Substring_Without_Repeating_Characters.lengthOfLongestSubstring(s));
 
         //54. Spiral Matrix - https://leetcode.com/problems/spiral-matrix/description/
 //        int[][] matrix = {
@@ -363,7 +359,7 @@ public class Main {
 
         //55. Jump Game - https://leetcode.com/problems/jump-game/description/
 //        int[] nums = {2,3,1,1,4};
-//        System.out.println(JumpGame.canJump(nums));
+//        System.out.println(Jump_Game.canJump(nums));
 
         //2745. Construct the Longest New String - https://leetcode.com/problems/construct-the-longest-new-string/description/
 //        int x = 2, y = 5, z = 1;
@@ -415,7 +411,7 @@ public class Main {
 //        int[] nums = {1,1,1,1};
 //        int[] nums = {10,9,8,7,6,5,4,3,2,1,1,0};
 //        int[] nums = {3,4,3,1,0,7,0,3,0,2,0,3};
-//        System.out.println(JumpGameII.jump(nums));
+//        System.out.println(Jump_Game_II.jump(nums));
 
         //2208. Minimum Operations to Halve Array Sum - https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
 //        int[] nums = {5,19,8,1};

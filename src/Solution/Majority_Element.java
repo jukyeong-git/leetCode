@@ -3,9 +3,9 @@ package Solution;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MajorityElement {
+public class Majority_Element {
     //169. Majority Element - https://leetcode.com/problems/majority-element/description/
-    public int majorityElement(int[] nums) {
+    public static int majorityElement(int[] nums) {
 
         Map<Integer, Integer> map = new HashMap<>();
 
