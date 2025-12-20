@@ -467,6 +467,12 @@ public class Main {
         //274. H-Index - https://leetcode.com/problems/h-index/description/
 //        int[] citations = {3,0,6,1,5};
 //        System.out.println(H_Index.hIndex(citations));
+
+        //347. Top K Frequent Elements - https://leetcode.com/problems/top-k-frequent-elements/description/
+        int[] nums = {1,1,1,2,2,3};
+        int k = 2;
+        System.out.println(Arrays.toString(Top_K_Frequent_Elements.topKFrequent(nums, k)));
+
     }
 }
 
