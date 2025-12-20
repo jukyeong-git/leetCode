@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class MinimumOperationsToHalveArraySum {
-    //2208. Minimum Operations to Halve Array Sum - https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
+    //2208. Minimum Operations to Halve Array Three_Sum - https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
     public static int halveArray(int[] nums) {
         int count = 0;
         double sum = 0, target = 0;

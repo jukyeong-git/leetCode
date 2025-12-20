@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Two_Sum_II_Input_Array_Is_Sorted {
-    //167. Two Sum II - Input Array Is Sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+    //167. Two Three_Sum II - Input Array Is Sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
     public static int[] twoSum(int[] numbers, int target) {
 
         int left = 0;

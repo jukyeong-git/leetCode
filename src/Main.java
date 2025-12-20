@@ -59,7 +59,7 @@ public class Main {
 //        MaxNumberOfBalloons solution = new MaxNumberOfBalloons();
 //        System.out.println(solution.maxNumberOfBalloons(text));
 
-        //1. Two Sum - https://leetcode.com/problems/two-sum/description/
+        //1. Two Three_Sum - https://leetcode.com/problems/two-sum/description/
 //        int[] nums = {2,5,5,11};
 //        int target = 10;
 //        TwoSum solution = new TwoSum();
@@ -263,7 +263,7 @@ public class Main {
 //        int[] nums = {1,1,1,2,2,3};
 //        System.out.println(RemoveDuplicatesfromSortedArrayII.removeDuplicates(nums));
 
-        //167. Two Sum II - Input Array Is Sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+        //167. Two Three_Sum II - Input Array Is Sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 //        int[] numbers = {2,7,11,15};
 //        int target = 9;
 //        System.out.println(Arrays.toString(Two_Sum_II_Input_Array_Is_Sorted.twoSum(numbers, target)));
@@ -289,7 +289,7 @@ public class Main {
 //                {5 ,6 ,7 ,8},
 //                {9 ,10,11,12}
 //        };
-//        System.out.println(SpiralMatrix.spiralOrder(matrix));
+//        System.out.println(Spiral_Matrix.spiralOrder(matrix));
 
         //205. Isomorphic Strings - https://leetcode.com/problems/isomorphic-strings/description/
 //        String s = "badc", t = "baba";
@@ -321,7 +321,7 @@ public class Main {
 //        String path = "/a/./b/../../c/";
 //        System.out.println(SimplifyPath.simplifyPath(path));
 
-        //209. Minimum Size Subarray Sum - https://leetcode.com/problems/minimum-size-subarray-sum/description/
+        //209. Minimum Size Subarray Three_Sum - https://leetcode.com/problems/minimum-size-subarray-sum/description/
 //        int target = 7;
 //        int[] nums = {2,3,1,2,4,3};
 //        System.out.println(MinimumSizeSubarraySum.minSubArrayLen(target, nums));
@@ -378,7 +378,7 @@ public class Main {
 
         //15. 3Sum - https://leetcode.com/problems/3sum/description/
 //        int[] nums = {-1,0,1,2,-1,-4};
-//        System.out.println(ThreeSum.threeSum(nums));
+//        System.out.println(Three_Sum.threeSum(nums));
 
         //138. Copy List with Random Pointer - https://leetcode.com/problems/copy-list-with-random-pointer/description/
 //        Node head = new Node(7);                // 0
@@ -413,7 +413,7 @@ public class Main {
 //        int[] nums = {3,4,3,1,0,7,0,3,0,2,0,3};
 //        System.out.println(Jump_Game_II.jump(nums));
 
-        //2208. Minimum Operations to Halve Array Sum - https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
+        //2208. Minimum Operations to Halve Array Three_Sum - https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
 //        int[] nums = {5,19,8,1};
 //        System.out.println(MinimumOperationsToHalveArraySum.halveArray(nums));
 
@@ -469,9 +469,10 @@ public class Main {
 //        System.out.println(H_Index.hIndex(citations));
 
         //347. Top K Frequent Elements - https://leetcode.com/problems/top-k-frequent-elements/description/
-        int[] nums = {1,1,1,2,2,3};
-        int k = 2;
-        System.out.println(Arrays.toString(Top_K_Frequent_Elements.topKFrequent(nums, k)));
+//        int[] nums = {1,1,1,2,2,3};
+//        int k = 2;
+//        System.out.println(Arrays.toString(Top_K_Frequent_Elements.topKFrequent(nums, k)));
+
 
     }
 }

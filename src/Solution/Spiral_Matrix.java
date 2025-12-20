@@ -3,7 +3,7 @@ package Solution;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SpiralMatrix {
+public class Spiral_Matrix {
     //54. Spiral Matrix - https://leetcode.com/problems/spiral-matrix/description/
     public static List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
