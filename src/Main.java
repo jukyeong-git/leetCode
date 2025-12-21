@@ -4,6 +4,7 @@ import Util.Node;
 import Util.TreeNode;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -478,8 +479,13 @@ public class Main {
 //        Rotate_Image.rotate(matrix);
 
         //73. Set Matrix Zeroes - https://leetcode.com/problems/set-matrix-zeroes/description/
-        int[][] matrix = {{1,1,1},{1,0,1},{1,1,1}};
-        Set_Matrix_Zeroes.setZeroes(matrix);
+//        int[][] matrix = {{1,1,1},{1,0,1},{1,1,1}};
+//        Set_Matrix_Zeroes.setZeroes(matrix);
+
+        //49. Group Anagrams - https://leetcode.com/problems/group-anagrams/description/
+        String[] strs = {"eat","tea","tan","ate","nat","bat"};
+        System.out.println(Group_Anagrams.groupAnagrams(strs));
+
     }
 }
 
