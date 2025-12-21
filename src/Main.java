@@ -473,7 +473,13 @@ public class Main {
 //        int k = 2;
 //        System.out.println(Arrays.toString(Top_K_Frequent_Elements.topKFrequent(nums, k)));
 
+        //48. Rotate Image - https://leetcode.com/problems/rotate-image/description/
+//        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+//        Rotate_Image.rotate(matrix);
 
+        //73. Set Matrix Zeroes - https://leetcode.com/problems/set-matrix-zeroes/description/
+        int[][] matrix = {{1,1,1},{1,0,1},{1,1,1}};
+        Set_Matrix_Zeroes.setZeroes(matrix);
     }
 }
 
