@@ -3,9 +3,9 @@ package Solution;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MaxNumberOfBalloons {
+public class Maximum_Number_of_Balloons {
     //1189. Maximum Number of Balloons - https://leetcode.com/problems/maximum-number-of-balloons/description/
-    public int maxNumberOfBalloons(String text) {
+    public static int maxNumberOfBalloons(String text) {
 
         Map<Character, Integer> counter = new HashMap<>();
         String balloon = "balloon";

@@ -1,8 +1,8 @@
 package Solution;
 
-public class MergeAlternately {
+public class Merge_Strings_Alternately {
     //1768. Merge Strings Alternately - https://leetcode.com/problems/merge-strings-alternately/description/
-    public String mergeAlternately(String word1, String word2) {
+    public static String mergeAlternately(String word1, String word2) {
 
         int index = 0;
         StringBuilder result = new StringBuilder();

@@ -1,8 +1,8 @@
 package Solution;
 
-public class MaxProfit {
+public class Best_Time_to_Buy_and_Sell_Stock {
     //121. Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
-    public int maxProfit(int[] prices) {
+    public static int maxProfit(int[] prices) {
 
         int min_profit = Integer.MAX_VALUE;
         int max_profit = 0;

@@ -2,9 +2,9 @@ package Solution;
 
 import Util.ListNode;
 
-public class MiddleNode {
+public class Middle_of_the_Linked_List {
     //876. Middle of the Linked List - https://leetcode.com/problems/middle-of-the-linked-list/description/
-    public ListNode middleNode(ListNode head) {
+    public static ListNode middleNode(ListNode head) {
 
         ListNode node = head;
         int count = 0;

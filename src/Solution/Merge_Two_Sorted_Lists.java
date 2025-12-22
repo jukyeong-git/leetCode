@@ -2,9 +2,9 @@ package Solution;
 
 import Util.ListNode;
 
-public class MergeTwoLists {
+public class Merge_Two_Sorted_Lists {
     //21. Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/description/
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+    public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
         ListNode node = new ListNode();
         ListNode result = node;

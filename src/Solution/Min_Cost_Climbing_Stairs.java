@@ -1,8 +1,8 @@
 package Solution;
 
-public class MinCostClimbingStairs {
+public class Min_Cost_Climbing_Stairs {
     //746. Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/description/
-    public int minCostClimbingStairs(int[] cost) {
+    public static int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
         int[] minCost = new int[n+1];
 

@@ -1,6 +1,6 @@
 package Solution;
 
-public class RemoveDuplicatesfromSortedArrayII {
+public class Remove_Duplicates_from_Sorted_Array_II {
     //80. Remove Duplicates from Sorted Array II - https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description
     public static int removeDuplicates(int[] nums) {
         if (nums == null) return 0;

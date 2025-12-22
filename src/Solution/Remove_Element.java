@@ -1,6 +1,6 @@
 package Solution;
 
-public class RemoveElement {
+public class Remove_Element {
     //27. Remove Element - https://leetcode.com/problems/remove-element/description
     public static int removeElement(int[] nums, int val) {
         int idx = 0;

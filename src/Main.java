@@ -14,8 +14,7 @@ public class Main {
 
         //1768. Merge Strings Alternately - https://leetcode.com/problems/merge-strings-alternately/description/
 //        String word1 = "abc", word2 = "pqr";
-//        MergeAlternately solution = new MergeAlternately();
-//        System.out.print(solution.mergeAlternately(word1, word2));
+//        System.out.print(Merge_Strings_Alternately.mergeAlternately(word1, word2));
 
         //13. Roman to Integer - https://leetcode.com/problems/roman-to-integer/
 //        String s = "MCMXCIV";
@@ -27,8 +26,7 @@ public class Main {
 
         //121. Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 //        int[] prices = {7,1,5,3,6,4};
-//        MaxProfit solution = new MaxProfit();
-//        System.out.println(solution.maxProfit(prices));
+//        System.out.println(Best_Time_to_Buy_and_Sell_Stock.maxProfit(prices));
 
         //14. Longest Common Prefix - https://leetcode.com/problems/longest-common-prefix/description/
 //        String[] strs = {"flower","flower","flower", "flower"};
@@ -44,8 +42,7 @@ public class Main {
         //771. Jewels and Stones - https://leetcode.com/problems/jewels-and-stones/description/
 //        String jewels = "aA", stones = "aAAbbbb";
 //        String jewels = "z", stones = "ZZ";
-//        NumJewelsInStones solution = new NumJewelsInStones();
-//        System.out.println(solution.numJewelsInStones(jewels, stones));
+//        System.out.println(Jewels_and_Stones.numJewelsInStones(jewels, stones));
 
         //217. Contains Duplicate - https://leetcode.com/problems/contains-duplicate/description/
 //        int[] nums = {1,2,3,1};
@@ -57,14 +54,12 @@ public class Main {
 
         //1189. Maximum Number of Balloons - https://leetcode.com/problems/maximum-number-of-balloons/description/
 //        String text = "nlaebolko";
-//        MaxNumberOfBalloons solution = new MaxNumberOfBalloons();
-//        System.out.println(solution.maxNumberOfBalloons(text));
+//        System.out.println(Maximum_Number_of_Balloons.maxNumberOfBalloons(text));
 
-        //1. Two Three_Sum - https://leetcode.com/problems/two-sum/description/
+        //1. Two Sum - https://leetcode.com/problems/two-sum/description/
 //        int[] nums = {2,5,5,11};
 //        int target = 10;
-//        TwoSum solution = new TwoSum();
-//        System.out.println(Arrays.toString(solution.twoSum(nums, target)));
+//        System.out.println(Arrays.toString(Two_Sum.twoSum(nums, target)));
 
         //169. Majority Element - https://leetcode.com/problems/majority-element/description/
 //        int[] nums = {2,2,1,1,1,2,2};
@@ -126,8 +121,7 @@ public class Main {
 //        list2.next = new ListNode(3);
 //        list2.next.next = new ListNode(4);
 //        ListNode result = null;
-//        MergeTwoLists solution = new MergeTwoLists();
-//        result = solution.mergeTwoLists(list1, list2);
+//        result = Merge_Two_Sorted_Lists.mergeTwoLists(list1, list2);
 //        while(result != null) {
 //            System.out.println(result.val);
 //            result = result.next;
@@ -149,8 +143,7 @@ public class Main {
 //        head.next.next.next = new ListNode(4);
 //        head.next.next.next.next = new ListNode(5);
 //        ListNode result = null;
-//        MiddleNode solution = new MiddleNode();
-//        result = solution.middleNode(head);
+//        result = Middle_of_the_Linked_List.middleNode(head);
 //        while(result != null) {
 //            System.out.println(result.val);
 //            result = result.next;
@@ -227,8 +220,7 @@ public class Main {
 
         //746. Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/description/
 //        int[] cost = {10,15,20};
-//        MinCostClimbingStairs solution = new MinCostClimbingStairs();
-//        System.out.println(solution.minCostClimbingStairs(cost));
+//        System.out.println(Min_Cost_Climbing_Stairs.minCostClimbingStairs(cost));
 
         //36. Valid Sudoku - https://leetcode.com/problems/valid-sudoku/description/
 //        char[][] board = {{'5','3','.','.','7','.','.','.','.'},
@@ -249,20 +241,20 @@ public class Main {
         //88. Merge Sorted Array - https://leetcode.com/problems/merge-sorted-array/description/
 //        int[] nums1 = {1,2,3,0,0,0}, nums2 = {2,5,6};
 //        int m = 3, n =3;
-//        MergeSortedArray.merge(nums1, m, nums2, n);
+//        Merge_Sorted_Array.merge(nums1, m, nums2, n);
 
         //27. Remove Element - https://leetcode.com/problems/remove-element/description
 //        int[] nums = {3,2,2,3};
 //        int val = 3;
-//        System.out.println(RemoveElement.removeElement(nums,val));
+//        System.out.println(Remove_Element.removeElement(nums,val));
 
         //26. Remove Duplicates from Sorted Array - https://leetcode.com/problems/remove-duplicates-from-sorted-array/description
 //        int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
-//        System.out.println(RemoveDuplicatesfromSortedArray.removeDuplicates(nums));
+//        System.out.println(Remove_Duplicates_from_Sorted_Array.removeDuplicates(nums));
 
         //80. Remove Duplicates from Sorted Array II - https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description
 //        int[] nums = {1,1,1,2,2,3};
-//        System.out.println(RemoveDuplicatesfromSortedArrayII.removeDuplicates(nums));
+//        System.out.println(Remove_Duplicates_from_Sorted_Array_II.removeDuplicates(nums));
 
         //167. Two Three_Sum II - Input Array Is Sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 //        int[] numbers = {2,7,11,15};
@@ -304,7 +296,7 @@ public class Main {
         //56. Merge Intervals - https://leetcode.com/problems/merge-intervals/description/
 //        int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
 //        int[][] intervals = {{4,7},{1,4}};
-//        System.out.println(Arrays.deepToString(MergeIntervals.merge(intervals)));
+//        System.out.println(Arrays.deepToString(Merge_Intervals.merge(intervals)));
 
         //57. Insert Interval - https://leetcode.com/problems/insert-interval/description/
 //        int[][] intervals = {{1,3}, {6,9}};
@@ -325,10 +317,10 @@ public class Main {
         //209. Minimum Size Subarray Three_Sum - https://leetcode.com/problems/minimum-size-subarray-sum/description/
 //        int target = 7;
 //        int[] nums = {2,3,1,2,4,3};
-//        System.out.println(MinimumSizeSubarraySum.minSubArrayLen(target, nums));
+//        System.out.println(Minimum_Size_Subarray_Sum.minSubArrayLen(target, nums));
 
         //155. Min Stack - https://leetcode.com/problems/min-stack/description/
-//        MinStack minStack = new MinStack();
+//        Min_Stack minStack = new Min_Stack();
 //        minStack.push(-1);
 //        System.out.println(minStack.top());
 //        System.out.println(minStack.getMin()); // return -3
@@ -416,7 +408,7 @@ public class Main {
 
         //2208. Minimum Operations to Halve Array Three_Sum - https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
 //        int[] nums = {5,19,8,1};
-//        System.out.println(MinimumOperationsToHalveArraySum.halveArray(nums));
+//        System.out.println(Minimum_Operations_to_Halve_Array_Sum.halveArray(nums));
 
         //274. H-Index - https://leetcode.com/problems/h-index/description/
 //        int[] citations = {3,0,6,1,5};
@@ -483,8 +475,16 @@ public class Main {
 //        Set_Matrix_Zeroes.setZeroes(matrix);
 
         //49. Group Anagrams - https://leetcode.com/problems/group-anagrams/description/
-        String[] strs = {"eat","tea","tan","ate","nat","bat"};
-        System.out.println(Group_Anagrams.groupAnagrams(strs));
+//        String[] strs = {"eat","tea","tan","ate","nat","bat"};
+//        System.out.println(Group_Anagrams.groupAnagrams(strs));
+
+        //202. Happy Number - https://leetcode.com/problems/happy-number/description/
+//        int n = 2;
+//        System.out.println(Happy_Number.isHappy(n));
+
+        //128. Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/description/
+//        int[] nums = {100,4,200,1,3,2};
+//        System.out.println(Longest_Consecutive_Sequence.longestConsecutive(nums));
 
     }
 }

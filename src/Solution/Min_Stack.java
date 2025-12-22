@@ -1,11 +1,11 @@
 package Solution;
 
-public class MinStack {
+public class Min_Stack {
     //155. Min Stack - https://leetcode.com/problems/min-stack/description/
     int[] arr;
     int idx = 0;
 
-    public MinStack() {
+    public Min_Stack() {
         arr = new int[30000];
         idx = -1;
     }
