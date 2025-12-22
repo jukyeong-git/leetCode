@@ -479,7 +479,26 @@ public class Main {
 //        int[] nums = {100,4,200,1,3,2};
 //        System.out.println(Longest_Consecutive_Sequence.longestConsecutive(nums));
 
+        //100. Same Tree - https://leetcode.com/problems/same-tree/description/
+//        TreeNode p = new TreeNode(1);
+//        p.left = new TreeNode(2);
+//        p.right = new TreeNode(3);
+//        TreeNode q = new TreeNode(1);
+//        q.left = new TreeNode(2);
+//        q.right = new TreeNode(3);
+//        System.out.println(Same_Tree.isSameTree(p, q));
+
+        //101. Symmetric Tree - https://leetcode.com/problems/symmetric-tree/description/
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        root.left.left = new TreeNode(3);
+//        root.left.right = new TreeNode(4);
+//        root.right = new TreeNode(2);
+//        root.right.left = new TreeNode(4);
+//        root.right.right = new TreeNode(3);
+//        System.out.println(Symmetric_Tree.isSymmetric(root));
     }
 }
+
 
 
