@@ -3,7 +3,7 @@ package Solution;
 import java.util.HashMap;
 import java.util.Map;
 
-public class WordPattern {
+public class Word_Pattern {
     //290. Word Pattern - https://leetcode.com/problems/word-pattern/description/
     public static boolean wordPattern(String pattern, String s) {
 

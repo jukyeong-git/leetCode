@@ -1,8 +1,8 @@
 package Solution;
 
-public class SortedSquares {
+public class Squares_of_a_Sorted_Array {
     //977. Squares of a Sorted Array - https://leetcode.com/problems/squares-of-a-sorted-array/description/
-    public int[] sortedSquares(int[] nums) {
+    public static int[] sortedSquares(int[] nums) {
 
         for(int i = 0; i < nums.length; i++) {
             nums[i] *= nums[i];
@@ -16,7 +16,7 @@ public class SortedSquares {
         return nums;
     }
 
-    public void quickSort(int left, int right, int[] nums){
+    public static void quickSort(int left, int right, int[] nums){
 
         int part = partition(left, right, nums);
 
@@ -26,7 +26,7 @@ public class SortedSquares {
             quickSort(part, right, nums);
     }
 
-    public int partition(int left, int right, int[] nums) {
+    public static int partition(int left, int right, int[] nums) {
 
         int mid = nums[(left + right)/2];
 
@@ -45,7 +45,7 @@ public class SortedSquares {
         return left;
     }
 
-    public void swap(int left, int right, int[] nums) {
+    public static void swap(int left, int right, int[] nums) {
         int temp = nums[left];
         nums[left] = nums[right];
         nums[right] = temp;

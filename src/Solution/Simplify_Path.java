@@ -1,9 +1,8 @@
 package Solution;
 
-import java.util.Arrays;
 import java.util.Stack;
 
-public class SimplifyPath {
+public class Simplify_Path {
     //71. Simplify Path - https://leetcode.com/problems/simplify-path/description/
     public static String simplifyPath(String path) {
 

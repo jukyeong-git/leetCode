@@ -1,6 +1,6 @@
 package Solution;
 
-public class RotateArray {
+public class Rotate_Array {
     //189. Rotate Array - https://leetcode.com/problems/rotate-array/description/
     public static void rotate(int[] nums, int k) {
         int n = nums.length;

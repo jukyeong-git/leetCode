@@ -1,8 +1,8 @@
 package Solution;
 
-public class ReverseString {
+public class Reverse_String {
     //344. Reverse String - https://leetcode.com/problems/reverse-string/description/
-    public void reverseString(char[] s) {
+    public static void reverseString(char[] s) {
 
         int start = 0;
         int end = s.length-1;
@@ -18,7 +18,7 @@ public class ReverseString {
         }
     }
 
-    public void swap(char[] s, int start, int end){
+    public static void swap(char[] s, int start, int end){
 
         char temp = s[start];
         s[start] = s[end];

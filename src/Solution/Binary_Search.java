@@ -1,10 +1,8 @@
 package Solution;
 
-import javax.swing.*;
-
-public class Search {
+public class Binary_Search {
     //704. Binary Search - https://leetcode.com/problems/binary-search/description/
-    public int search(int[] nums, int target) {
+    public static int search(int[] nums, int target) {
 
         int start = 0;
         int end = nums.length - 1;

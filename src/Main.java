@@ -36,8 +36,7 @@ public class Main {
         //228. Summary Ranges - https://leetcode.com/problems/summary-ranges/description/
 //        int[] nums = {0,1,2,4,5,7};
 //        int[] nums = {0,2,3,4,6,8,9};
-//        SummaryRanges solution = new SummaryRanges();
-//        System.out.println(solution.summaryRanges(nums));
+//        System.out.println(Summary_Ranges.summaryRanges(nums));
 
         //771. Jewels and Stones - https://leetcode.com/problems/jewels-and-stones/description/
 //        String jewels = "aA", stones = "aAAbbbb";
@@ -67,13 +66,11 @@ public class Main {
 
         //977. Squares of a Sorted Array - https://leetcode.com/problems/squares-of-a-sorted-array/description/
 //        int[] nums = {-4,-1,0,3,10};
-//        SortedSquares solution = new SortedSquares();
-//        System.out.println(Arrays.toString(solution.sortedSquares(nums)));
+//        System.out.println(Arrays.toString(Squares_of_a_Sorted_Array.sortedSquares(nums)));
 
         //344. Reverse String - https://leetcode.com/problems/reverse-string/description/
 //        char[] s = {'h','e','l','l','o'};
-//        ReverseString solution = new ReverseString();
-//        solution.reverseString(s);
+//        Reverse_String.reverseString(s);
 
         //125. Valid Palindrome - https://leetcode.com/problems/valid-palindrome/description/
 //        String s = "A man, a plan, a canal: Panama";
@@ -105,9 +102,8 @@ public class Main {
 //        head.next.next = new ListNode(3);
 //        head.next.next.next = new ListNode(4);
 //        head.next.next.next.next = new ListNode(5);
-//        ReverseList solution = new ReverseList();
 //        ListNode result = null;
-//        result = solution.reverseList(head);
+//        result = Reverse_Linked_List.reverseList(head);
 //        while(result != null) {
 //            System.out.println(result.val);
 //            result = result.next;
@@ -152,14 +148,12 @@ public class Main {
         //704. Binary Search - https://leetcode.com/problems/binary-search/description/
 //        int[] nums = {-1,0,3,5,9,12};
 //        int target = 9;
-//        Search solution = new Search();
-//        System.out.println(solution.search(nums, target));
+//        System.out.println(Binary_Search.search(nums, target));
 
         //35. Search Insert Position - https://leetcode.com/problems/search-insert-position/description/
 //        int[] nums = {1,3,5,6};
 //        int target = 7;
-//        SearchInsert solution = new SearchInsert();
-//        System.out.println(solution.searchInsert(nums, target));
+//        System.out.println(Search_Insert_Position.searchInsert(nums, target));
 
         //367. Valid Perfect Square - https://leetcode.com/problems/valid-perfect-square/description/
 //        int num = 16;
@@ -207,8 +201,7 @@ public class Main {
         //1971. Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/description/
 //        int n = 3, source = 0, destination = 2;
 //        int[][] edges = {{0,1},{1,2},{2,0}};
-//        ValidPath solution = new ValidPath();
-//        System.out.println(solution.validPath(n, edges, source, destination));
+//        System.out.println(Find_if_Path_Exists_in_Graph.validPath(n, edges, source, destination));
 
         //509. Fibonacci Number - https://leetcode.com/problems/fibonacci-number/description/
 //        int n = 2;
@@ -291,7 +284,7 @@ public class Main {
 
         //290. Word Pattern - https://leetcode.com/problems/word-pattern/description/
 //        String pattern = "abba", s = "dog cat cat dog";
-//        System.out.println(WordPattern.wordPattern(pattern, s));
+//        System.out.println(Word_Pattern.wordPattern(pattern, s));
 
         //56. Merge Intervals - https://leetcode.com/problems/merge-intervals/description/
 //        int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
@@ -312,7 +305,7 @@ public class Main {
 //        String path = "/../";
 //        String path = "/.../a/../b/c/../d/./";
 //        String path = "/a/./b/../../c/";
-//        System.out.println(SimplifyPath.simplifyPath(path));
+//        System.out.println(Simplify_Path.simplifyPath(path));
 
         //209. Minimum Size Subarray Three_Sum - https://leetcode.com/problems/minimum-size-subarray-sum/description/
 //        int target = 7;
@@ -393,7 +386,7 @@ public class Main {
         //189. Rotate Array - https://leetcode.com/problems/rotate-array/description/
 //        int[] nums = {1,2,3,4,5,6,7};
 //        int k = 3;
-//        RotateArray.rotate(nums, k);
+//        Rotate_Array.rotate(nums, k);
 
         //122. Best Time to Buy and Sell Stock II - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 //        int[] prices = {7,1,5,3,6,4};

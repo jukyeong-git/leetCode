@@ -1,8 +1,8 @@
 package Solution;
 
-public class SearchInsert {
+public class Search_Insert_Position {
     //35. Search Insert Position - https://leetcode.com/problems/search-insert-position/description/
-    public int searchInsert(int[] nums, int target) {
+    public static int searchInsert(int[] nums, int target) {
 
         int start = 0;
         int end = nums.length - 1;

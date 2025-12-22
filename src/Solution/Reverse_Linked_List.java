@@ -2,9 +2,9 @@ package Solution;
 
 import Util.ListNode;
 
-public class ReverseList {
+public class Reverse_Linked_List {
     //206. Reverse Linked List - https://leetcode.com/problems/reverse-linked-list/description/
-    public ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
         if(head == null) return null;
 
         ListNode node = head;

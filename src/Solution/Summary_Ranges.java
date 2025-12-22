@@ -3,9 +3,9 @@ package Solution;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SummaryRanges {
+public class Summary_Ranges {
     //228. Summary Ranges - https://leetcode.com/problems/summary-ranges/description/
-    public List<String> summaryRanges(int[] nums) {
+    public static List<String> summaryRanges(int[] nums) {
 
         List<String> result = new ArrayList<>();
         int index = 0;
