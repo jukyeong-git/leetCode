@@ -497,6 +497,40 @@ public class Main {
 //        root.right.left = new TreeNode(4);
 //        root.right.right = new TreeNode(3);
 //        System.out.println(Symmetric_Tree.isSymmetric(root));
+
+        //112. Path Sum - https://leetcode.com/problems/path-sum/description/
+//        TreeNode root = new TreeNode(5);
+//        root.left = new TreeNode(4);
+//        root.left.left = new TreeNode(11);
+//        root.left.left.left = new TreeNode(7);
+//        root.left.left.right = new TreeNode(2);
+//        root.right = new TreeNode(8);
+//        root.right.left = new TreeNode(13);
+//        root.right.right = new TreeNode(4);
+//        root.right.right.right = new TreeNode(1);
+//        int targetSum = 22;
+
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        int targetSum = 1;
+
+//        TreeNode root = new TreeNode(-2);
+//        root.right = new TreeNode(-3);
+//        int targetSum = -5;
+
+//        System.out.println(Path_Sum.hasPathSum(root, targetSum));
+
+        //222. Count Complete Tree Nodes - https://leetcode.com/problems/count-complete-tree-nodes/description/
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        root.left.left = new TreeNode(4);
+//        root.right = new TreeNode(3);
+//        System.out.println(Count_Complete_Tree_Nodes.countNodes(root));
+
+        //637. Average of Levels in Binary Tree - https://leetcode.com/problems/average-of-levels-in-binary-tree/description/
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(1);
+        System.out.println(Average_of_Levels_in_Binary_Tree.averageOfLevels(root));
     }
 }
 
