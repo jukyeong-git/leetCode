@@ -13,7 +13,7 @@ public class Same_Tree {
             return true;
 
         if(p.val == q.val) {
-            return getCheck(p.left, q.left) &&  getCheck(p.right, q.right);
+            return getCheck(p.left, q.left) && getCheck(p.right, q.right);
         }
 
         return false;

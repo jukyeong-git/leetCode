@@ -528,9 +528,9 @@ public class Main {
 //        System.out.println(Count_Complete_Tree_Nodes.countNodes(root));
 
         //637. Average of Levels in Binary Tree - https://leetcode.com/problems/average-of-levels-in-binary-tree/description/
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(1);
-        System.out.println(Average_of_Levels_in_Binary_Tree.averageOfLevels(root));
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(1);
+//        System.out.println(Average_of_Levels_in_Binary_Tree.averageOfLevels(root));
     }
 }
 
