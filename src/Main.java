@@ -2,6 +2,7 @@ import Solution.*;
 import Util.ListNode;
 import Util.Node;
 import Util.TreeNode;
+import com.sun.source.tree.Tree;
 
 import java.util.Arrays;
 import java.util.List;
@@ -339,7 +340,7 @@ public class Main {
 
 //        ListNode result = Add_Two_Numbers.addTwoNumbers(l1, l2);
 //        while(result != null) {
-//            System.out.print(result.val);
+//            System.out.println(result.val);
 //            result = result.next;
 //        }
 
@@ -531,6 +532,18 @@ public class Main {
 //        TreeNode root = new TreeNode(1);
 //        root.left = new TreeNode(1);
 //        System.out.println(Average_of_Levels_in_Binary_Tree.averageOfLevels(root));
+
+        //530. Minimum Absolute Difference in BST - https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/
+//        TreeNode root = new TreeNode(236);
+//        root.left = new TreeNode(104);
+//        root.left.right = new TreeNode(227);
+//        root.right = new TreeNode(701);
+//        root.right.right = new TreeNode(911);
+//        System.out.println(Minimum_Absolute_Difference_in_BST.getMinimumDifference(root));
+
+        //108. Convert Sorted Array to Binary Search Tree - https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/
+        int[] nums = {-10,-3,0,5,9};
+        TreeNode root = Convert_Sorted_Array_to_Binary_Search_Tree.sortedArrayToBST(nums);
     }
 }
 
