@@ -554,9 +554,16 @@ public class Main {
 //        System.out.println(Reverse_Bits.reverseBits(n));
 
         //191. Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits/description/
-        int n = 11;
-        System.out.println(Number_of_1_Bits.hammingWeight(n));
+//        int n = 11;
+//        System.out.println(Number_of_1_Bits.hammingWeight(n));
 
+        //136. Single Number - https://leetcode.com/problems/single-number/description/
+//        int[] nums = {2,2,1};
+//        System.out.println(Single_Number.singleNumber(nums));
+
+        //9. Palindrome Number - https://leetcode.com/problems/palindrome-number/description/
+//        int x = 121;
+//        System.out.println(Palindrome_Number.isPalindrome(x));
     }
 }
 
