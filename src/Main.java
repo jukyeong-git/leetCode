@@ -564,6 +564,17 @@ public class Main {
         //9. Palindrome Number - https://leetcode.com/problems/palindrome-number/description/
 //        int x = 121;
 //        System.out.println(Palindrome_Number.isPalindrome(x));
+
+        //66. Plus One - https://leetcode.com/problems/plus-one/description/
+//        int[] digits = {1,2,3};
+//        int[] res = Plus_One.plusOne(digits);
+//        for(int ans : res) {
+//            System.out.println(ans);
+//        }
+
+        //69. Sqrt(x) - https://leetcode.com/problems/sqrtx/description/
+        int x = 4;
+        System.out.println(Sqrt_x.mySqrt(x));
     }
 }
 
