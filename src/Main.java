@@ -542,8 +542,21 @@ public class Main {
 //        System.out.println(Minimum_Absolute_Difference_in_BST.getMinimumDifference(root));
 
         //108. Convert Sorted Array to Binary Search Tree - https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/
-        int[] nums = {-10,-3,0,5,9};
-        TreeNode root = Convert_Sorted_Array_to_Binary_Search_Tree.sortedArrayToBST(nums);
+//        int[] nums = {-10,-3,0,5,9};
+//        TreeNode root = Convert_Sorted_Array_to_Binary_Search_Tree.sortedArrayToBST(nums);
+
+        //67. Add Binary - https://leetcode.com/problems/add-binary/description/
+//        String a = "11", b = "1";
+//        System.out.println(Add_Binary.addBinary(a,b));
+
+        //190. Reverse Bits - https://leetcode.com/problems/reverse-bits/description/
+//        int n = 43261596;
+//        System.out.println(Reverse_Bits.reverseBits(n));
+
+        //191. Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits/description/
+        int n = 11;
+        System.out.println(Number_of_1_Bits.hammingWeight(n));
+
     }
 }
 
