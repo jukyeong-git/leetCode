@@ -1,5 +1,7 @@
 package Solution;
 
+import java.util.Arrays;
+
 public class Minimum_Number_of_Arrows_to_Burst_Balloons {
     //452. Minimum Number of Arrows to Burst Balloons - https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/
 
@@ -38,6 +40,28 @@ public class Minimum_Number_of_Arrows_to_Burst_Balloons {
      *  -231 <= xstart < xend <= 231 - 1
      */
     public static int findMinArrowShots(int[][] points) {
-        return 0;
+
+        Arrays.sort(points, (a,b) -> Integer.compare(a[0], b[0]));
+
+        int arrows = 1;
+        int point = points[0][1];
+        // {1, 6}, {2, 8}, {7, 12}, {10, 16)
+        // 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+        // |---------|
+        //   |-----------|
+        //             |-----------|
+        //                   |-----------------|
+        for(int i = 1; i < points.length; i++) {
+
+            int start = points[i][0];
+            int end = points[i][1];
+
+            if(start > point) {
+                arrows++;
+                point = end;
+            }
+        }
+
+        return arrows;
     }
 }
