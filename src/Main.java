@@ -577,7 +577,8 @@ public class Main {
 //        System.out.println(Sqrt_x.mySqrt(x));
 
         //452. Minimum Number of Arrows to Burst Balloons - https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/
-        int[][] points = {{10, 16}, {2, 8}, {1, 6}, {7, 12}};
+//        int[][] points = {{10, 16}, {2, 8}, {1, 6}, {7, 12}};
+        int[][] points = {{3,9},{7,12},{3,8},{6,8},{9,10},{2,9},{0,9},{3,9},{0,6},{2,8}};
         System.out.println(Minimum_Number_of_Arrows_to_Burst_Balloons.findMinArrowShots(points));
     }
 }
