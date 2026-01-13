@@ -573,8 +573,12 @@ public class Main {
 //        }
 
         //69. Sqrt(x) - https://leetcode.com/problems/sqrtx/description/
-        int x = 4;
-        System.out.println(Sqrt_x.mySqrt(x));
+//        int x = 4;
+//        System.out.println(Sqrt_x.mySqrt(x));
+
+        //452. Minimum Number of Arrows to Burst Balloons - https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/
+        int[][] points = {{10, 16}, {2, 8}, {1, 6}, {7, 12}};
+        System.out.println(Minimum_Number_of_Arrows_to_Burst_Balloons.findMinArrowShots(points));
     }
 }
 
