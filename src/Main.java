@@ -4,6 +4,7 @@ import Util.Node;
 import Util.TreeNode;
 import com.sun.source.tree.Tree;
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.List;
 
@@ -582,8 +583,23 @@ public class Main {
 //        System.out.println(Minimum_Number_of_Arrows_to_Burst_Balloons.findMinArrowShots(points));
 
         //150. Evaluate Reverse Polish Notation - https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
-        String[] tokens = {"4","13","5","/","+"};
-        System.out.println(Evaluate_Reverse_Polish_Notation.evalRPN(tokens));
+//        String[] tokens = {"4","13","5","/","+"};
+//        System.out.println(Evaluate_Reverse_Polish_Notation.evalRPN(tokens));
+
+        //92. Reverse Linked List II - https://leetcode.com/problems/reverse-linked-list-ii/description/
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(4);
+        head.next.next.next.next = new ListNode(5);
+        int left = 2, right = 4;
+
+        ListNode res = Reverse_Linked_List_II.reverseBetween(head, left, right);
+        while(res != null) {
+            System.out.println(res.val);
+            res = res.next;
+        }
+
     }
 }
 
