@@ -587,19 +587,61 @@ public class Main {
 //        System.out.println(Evaluate_Reverse_Polish_Notation.evalRPN(tokens));
 
         //92. Reverse Linked List II - https://leetcode.com/problems/reverse-linked-list-ii/description/
+//        ListNode head = new ListNode(1);
+//        head.next = new ListNode(2);
+//        head.next.next = new ListNode(3);
+//        head.next.next.next = new ListNode(4);
+//        head.next.next.next.next = new ListNode(5);
+//        int left = 2, right = 4;
+//
+//        ListNode res = Reverse_Linked_List_II.reverseBetween(head, left, right);
+//        while(res != null) {
+//            System.out.println(res.val);
+//            res = res.next;
+//        }
+
+        //19. Remove Nth Node From End of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+//        ListNode head = new ListNode(1);
+//        head.next = new ListNode(2);
+//        head.next.next = new ListNode(3);
+//        head.next.next.next = new ListNode(4);
+//        head.next.next.next.next = new ListNode(5);
+//        int n = 2;
+//
+//        ListNode res = Remove_Nth_Node_From_End_of_List.removeNthFromEnd(head, n);
+//        while(res != null) {
+//            System.out.println(res.val);
+//            res = res.next;
+//        }
+
+        //82. Remove Duplicates from Sorted List II - https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/
+//        ListNode head = new ListNode(1);
+//        head.next = new ListNode(2);
+//        head.next.next = new ListNode(3);
+//        head.next.next.next = new ListNode(3);
+//        head.next.next.next.next = new ListNode(4);
+//        head.next.next.next.next.next = new ListNode(4);
+//        head.next.next.next.next.next.next = new ListNode(5);
+//
+//        ListNode res = Remove_Duplicates_from_Sorted_List_II.deleteDuplicates(head);
+//        while(res != null) {
+//            System.out.println(res.val);
+//            res = res.next;
+//        }
+
+        //61. Rotate List - https://leetcode.com/problems/rotate-list/description/
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
-        int left = 2, right = 4;
+        int k = 2;
 
-        ListNode res = Reverse_Linked_List_II.reverseBetween(head, left, right);
+        ListNode res = Rotate_List.rotateRight(head, k);
         while(res != null) {
             System.out.println(res.val);
             res = res.next;
         }
-
     }
 }
 
