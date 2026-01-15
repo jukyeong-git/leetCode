@@ -22,25 +22,26 @@ public class Rotate_List {
      *  0 <= k <= 2 * 109
      */
     public static ListNode rotateRight(ListNode head, int k) {
-        ListNode temp = head;
-        int len = 1;
+        if(head == null || k == 0) return head;
 
-        while(temp.next != null) {
+        int len = 1;
+        ListNode loop = head;
+        while(loop.next != null) {
             len++;
-            temp = temp.next;
+            loop = loop.next;
         }
 
-        int pos = k % len;
+        int pos = k%len;
         if(pos == 0) return head;
 
         ListNode curr = head;
-        for(int i = 0; i < len - pos - 1; i++) {
+        for(int i = 1; i < len - pos; i++) {
             curr = curr.next;
         }
 
         ListNode res = curr.next;
         curr.next = null;
-        temp.next = head;
+        loop.next = head;
 
         return res;
     }

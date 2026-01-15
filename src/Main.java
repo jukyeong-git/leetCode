@@ -630,18 +630,49 @@ public class Main {
 //        }
 
         //61. Rotate List - https://leetcode.com/problems/rotate-list/description/
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
-        int k = 2;
+//        ListNode head = new ListNode(1);
+//        head.next = new ListNode(2);
+//        head.next.next = new ListNode(3);
+//        head.next.next.next = new ListNode(4);
+//        head.next.next.next.next = new ListNode(5);
+//        int k = 2;
+//
+//        ListNode res = Rotate_List.rotateRight(head, k);
+//        while(res != null) {
+//            System.out.println(res.val);
+//            res = res.next;
+//        }
 
-        ListNode res = Rotate_List.rotateRight(head, k);
-        while(res != null) {
-            System.out.println(res.val);
-            res = res.next;
-        }
+        //86. Partition List - https://leetcode.com/problems/partition-list/description/
+//        ListNode head = new ListNode(1);
+//        head.next = new ListNode(4);
+//        head.next.next = new ListNode(3);
+//        head.next.next.next = new ListNode(2);
+//        head.next.next.next.next = new ListNode(5);
+//        head.next.next.next.next.next = new ListNode(2);
+//        int x = 3;
+//
+//        ListNode res = Partition_List.partition(head, x);
+//        while(res != null) {
+//            System.out.println(res.val);
+//            res = res.next;
+//        }
+
+        //146. LRU Cache - https://leetcode.com/problems/lru-cache/description/
+//        LRU_Cache lRUCache = new LRU_Cache(2);
+//        lRUCache.put(1, 1);                     // cache is {1=1}
+//        lRUCache.put(2, 2);                     // cache is {1=1, 2=2}
+//        System.out.println(lRUCache.get(1));    // return 1
+//        lRUCache.put(3, 3);                     // LRU key was 2, evicts key 2, cache is {1=1, 3=3}
+//        System.out.println(lRUCache.get(2));    // returns -1 (not found)
+//        lRUCache.put(4, 4);                     // LRU key was 1, evicts key 1, cache is {4=4, 3=3}
+//        System.out.println(lRUCache.get(1));    // return -1 (not found)
+//        System.out.println(lRUCache.get(3));    // return 3
+//        System.out.println(lRUCache.get(4));    // return 4
+
+        //105. Construct Binary Tree from Preorder and Inorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
+        int[] preorder = {3, 9, 20, 15, 7}, inorder = {9, 3, 15, 20, 7};
+        TreeNode res = Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.buildTree(preorder, inorder);
     }
 }
 
