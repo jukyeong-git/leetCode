@@ -671,8 +671,12 @@ public class Main {
 //        System.out.println(lRUCache.get(4));    // return 4
 
         //105. Construct Binary Tree from Preorder and Inorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
-        int[] preorder = {3, 9, 20, 15, 7}, inorder = {9, 3, 15, 20, 7};
-        TreeNode res = Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.buildTree(preorder, inorder);
+//        int[] preorder = {3, 9, 20, 15, 7}, inorder = {9, 3, 15, 20, 7};
+//        TreeNode res = Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.buildTree(preorder, inorder);
+
+        //106. Construct Binary Tree from Inorder and Postorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/
+        int[] inorder = {9, 3, 15, 20, 7}, postorder = {9, 15, 7, 20, 3};
+        TreeNode res = Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.buildTree(inorder, postorder);
     }
 }
 
