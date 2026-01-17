@@ -689,14 +689,23 @@ public class Main {
 //        Node res = Populating_Next_Right_Pointers_in_Each_Node_II.connect(root);
 
         //114. Flatten Binary Tree to Linked List - https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.left.left = new TreeNode(3);
-        root.left.right = new TreeNode(4);
-        root.right = new TreeNode(5);
-        root.right.right = new TreeNode(6);
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        root.left.left = new TreeNode(3);
+//        root.left.right = new TreeNode(4);
+//        root.right = new TreeNode(5);
+//        root.right.right = new TreeNode(6);
+//
+//        Flatten_Binary_Tree_to_Linked_List.flatten(root);
 
-        Flatten_Binary_Tree_to_Linked_List.flatten(root);
+        //129. Sum Root to Leaf Numbers - https://leetcode.com/problems/sum-root-to-leaf-numbers/description/
+        TreeNode root = new TreeNode(4);
+        root.left = new TreeNode(9);
+        root.left.left = new TreeNode(5);
+        root.left.right = new TreeNode(1);
+        root.right = new TreeNode(0);
+
+        System.out.println(Sum_Root_to_Leaf_Numbers.sumNumbers(root));
     }
 }
 
