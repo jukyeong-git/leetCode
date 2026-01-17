@@ -675,8 +675,28 @@ public class Main {
 //        TreeNode res = Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.buildTree(preorder, inorder);
 
         //106. Construct Binary Tree from Inorder and Postorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/
-        int[] inorder = {9, 3, 15, 20, 7}, postorder = {9, 15, 7, 20, 3};
-        TreeNode res = Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.buildTree(inorder, postorder);
+//        int[] inorder = {9, 3, 15, 20, 7}, postorder = {9, 15, 7, 20, 3};
+//        TreeNode res = Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.buildTree(inorder, postorder);
+
+        //117. Populating Next Right Pointers in Each Node II - https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/
+//        Node root = new Node(1);
+//        root.left = new Node(2);
+//        root.left.left = new Node(4);
+//        root.left.right = new Node(5);
+//        root.right = new Node(3);
+//        root.right.right = new Node(7);
+//
+//        Node res = Populating_Next_Right_Pointers_in_Each_Node_II.connect(root);
+
+        //114. Flatten Binary Tree to Linked List - https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.left.left = new TreeNode(3);
+        root.left.right = new TreeNode(4);
+        root.right = new TreeNode(5);
+        root.right.right = new TreeNode(6);
+
+        Flatten_Binary_Tree_to_Linked_List.flatten(root);
     }
 }
 
