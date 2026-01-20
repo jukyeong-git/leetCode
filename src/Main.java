@@ -726,19 +726,28 @@ public class Main {
 //        System.out.println(bSTIterator.hasNext()); // return False
 
         //236. Lowest Common Ancestor of a Binary Tree - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
-        TreeNode root = new TreeNode(3);
-        root.left = new TreeNode(5);
-        root.left.left = new TreeNode(6);
-        root.left.right = new TreeNode(2);
-        root.left.right.left = new TreeNode(7);
-        root.left.right.left.right = new TreeNode(4);
-        root.right = new TreeNode(1);
-        root.right.left = new TreeNode(0);
-        root.right.right = new TreeNode(8);
-        TreeNode p = root.left, q = root.right;
+//        TreeNode root = new TreeNode(3);
+//        root.left = new TreeNode(5);
+//        root.left.left = new TreeNode(6);
+//        root.left.right = new TreeNode(2);
+//        root.left.right.left = new TreeNode(7);
+//        root.left.right.left.right = new TreeNode(4);
+//        root.right = new TreeNode(1);
+//        root.right.left = new TreeNode(0);
+//        root.right.right = new TreeNode(8);
+//        TreeNode p = root.left, q = root.right;
+//
+//        TreeNode res = Lowest_Common_Ancestor_of_a_Binary_Tree.lowestCommonAncestor(root, p, q);
+//        System.out.println(res.val);
 
-        TreeNode res = Lowest_Common_Ancestor_of_a_Binary_Tree.lowestCommonAncestor(root, p, q);
-        System.out.println(res.val);
+        //199. Binary Tree Right Side View - https://leetcode.com/problems/binary-tree-right-side-view/description/
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.left.right = new TreeNode(5);
+        root.right = new TreeNode(3);
+        root.right.right = new TreeNode(4);
+
+        System.out.println(Binary_Tree_Right_Side_View.rightSideView(root));
     }
 }
 
