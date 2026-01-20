@@ -741,13 +741,22 @@ public class Main {
 //        System.out.println(res.val);
 
         //199. Binary Tree Right Side View - https://leetcode.com/problems/binary-tree-right-side-view/description/
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.left.right = new TreeNode(5);
-        root.right = new TreeNode(3);
-        root.right.right = new TreeNode(4);
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        root.left.right = new TreeNode(5);
+//        root.right = new TreeNode(3);
+//        root.right.right = new TreeNode(4);
+//
+//        System.out.println(Binary_Tree_Right_Side_View.rightSideView(root));
 
-        System.out.println(Binary_Tree_Right_Side_View.rightSideView(root));
+        //102. Binary Tree Level Order Traversal - https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+        TreeNode root = new TreeNode(3);
+        root.left = new TreeNode(9);
+        root.right = new TreeNode(20);
+        root.right.left = new TreeNode(15);
+        root.right.right = new TreeNode(7);
+
+        System.out.println(Binary_Tree_Level_Order_Traversal.levelOrder(root));
     }
 }
 
