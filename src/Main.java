@@ -750,13 +750,40 @@ public class Main {
 //        System.out.println(Binary_Tree_Right_Side_View.rightSideView(root));
 
         //102. Binary Tree Level Order Traversal - https://leetcode.com/problems/binary-tree-level-order-traversal/description/
-        TreeNode root = new TreeNode(3);
-        root.left = new TreeNode(9);
-        root.right = new TreeNode(20);
-        root.right.left = new TreeNode(15);
+//        TreeNode root = new TreeNode(3);
+//        root.left = new TreeNode(9);
+//        root.right = new TreeNode(20);
+//        root.right.left = new TreeNode(15);
+//        root.right.right = new TreeNode(7);
+//
+//        System.out.println(Binary_Tree_Level_Order_Traversal.levelOrder(root));
+
+        //103. Binary Tree Zigzag Level Order Traversal - https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
+//        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        root.left.left = new TreeNode(4);
+//        root.right = new TreeNode(3);
+//        root.right.right = new TreeNode(5);
+//
+//        System.out.println(Binary_Tree_Zigzag_Level_Order_Traversal.zigzagLevelOrder(root));
+
+        //230. Kth Smallest Element in a BST - https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+//        TreeNode root = new TreeNode(3);
+//        root.left = new TreeNode(1);
+//        root.left.right = new TreeNode(2);
+//        root.right = new TreeNode(4);
+//        int k = 1;
+//
+//        System.out.println(Kth_Smallest_Element_in_a_BST.kthSmallest(root, k));
+
+        //98. Validate Binary Search Tree - https://leetcode.com/problems/validate-binary-search-tree/description/
+        TreeNode root = new TreeNode(5);
+        root.left = new TreeNode(4);
+        root.right = new TreeNode(6);
+        root.right.left = new TreeNode(3);
         root.right.right = new TreeNode(7);
 
-        System.out.println(Binary_Tree_Level_Order_Traversal.levelOrder(root));
+        System.out.println(Validate_Binary_Search_Tree.isValidBST(root));
     }
 }
 
