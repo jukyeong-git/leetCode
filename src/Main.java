@@ -777,13 +777,35 @@ public class Main {
 //        System.out.println(Kth_Smallest_Element_in_a_BST.kthSmallest(root, k));
 
         //98. Validate Binary Search Tree - https://leetcode.com/problems/validate-binary-search-tree/description/
-        TreeNode root = new TreeNode(5);
-        root.left = new TreeNode(4);
-        root.right = new TreeNode(6);
-        root.right.left = new TreeNode(3);
-        root.right.right = new TreeNode(7);
+//        TreeNode root = new TreeNode(5);
+//        root.left = new TreeNode(4);
+//        root.right = new TreeNode(6);
+//        root.right.left = new TreeNode(3);
+//        root.right.right = new TreeNode(7);
+//
+//        System.out.println(Validate_Binary_Search_Tree.isValidBST(root));
 
-        System.out.println(Validate_Binary_Search_Tree.isValidBST(root));
+        //200. Number of Islands - https://leetcode.com/problems/number-of-islands/description/
+//        char[][] grid = {
+//                {'1', '1', '1', '1', '0'},
+//                {'1', '1', '0', '1', '0'},
+//                {'1', '1', '0', '0', '0'},
+//                {'0', '0', '0', '0', '0'}
+//            };
+//
+//        System.out.println(Number_of_Islands.numIslands(grid));
+
+        //130. Surrounded Regions - https://leetcode.com/problems/surrounded-regions/description/
+        char[][] board = {
+                {'X','X','X','X'},
+                {'X','O','O','X'},
+                {'X','X','O','X'},
+                {'X','O','X','X'}
+            };
+
+        Surrounded_Regions.solve(board);
+
+
     }
 }
 
