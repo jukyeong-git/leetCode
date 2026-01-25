@@ -811,7 +811,11 @@ public class Main {
 //        Node root = Clone_Graph.buildGraph(adjList);
 //        Node res = Clone_Graph.cloneGraph(root);
 
+        //207. Course Schedule - https://leetcode.com/problems/course-schedule/description/
+        int numCourses = 2;
+        int[][] prerequisites = {{1, 0}, {0, 1}};
 
+        System.out.println(Course_Schedule.canFinish(numCourses, prerequisites));
     }
 }
 
