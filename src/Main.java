@@ -812,10 +812,16 @@ public class Main {
 //        Node res = Clone_Graph.cloneGraph(root);
 
         //207. Course Schedule - https://leetcode.com/problems/course-schedule/description/
-        int numCourses = 2;
-        int[][] prerequisites = {{1, 0}, {0, 1}};
+//        int numCourses = 2;
+//        int[][] prerequisites = {{1, 0}, {0, 1}};
+//
+//        System.out.println(Course_Schedule.canFinish(numCourses, prerequisites));
 
-        System.out.println(Course_Schedule.canFinish(numCourses, prerequisites));
+        //210. Course Schedule II - https://leetcode.com/problems/course-schedule-ii/description/
+        int numCourses = 4;
+        int[][] prerequisites = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
+
+        System.out.println(Arrays.toString(Course_Schedule_II.findOrder(numCourses, prerequisites)));
     }
 }
 
