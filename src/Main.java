@@ -425,7 +425,7 @@ public class Main {
 //        System.out.println(Arrays.toString(Product_of_Array_Except_Self.productExceptSelf(nums)));
 
         //134. Gas Station - https://leetcode.com/problems/gas-station/description/
-//        int[] gas = {1,2,3,4,5}, cost = {3,4,5,1,2};
+//        int[] gas = {5,8,2,8}, cost = {6,5,6,6};
 //        System.out.println(Gas_Station.canCompleteCircuit(gas, cost));
 
         //12. Integer to Roman - https://leetcode.com/problems/integer-to-roman/description/
@@ -818,10 +818,10 @@ public class Main {
 //        System.out.println(Course_Schedule.canFinish(numCourses, prerequisites));
 
         //210. Course Schedule II - https://leetcode.com/problems/course-schedule-ii/description/
-        int numCourses = 4;
-        int[][] prerequisites = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
-
-        System.out.println(Arrays.toString(Course_Schedule_II.findOrder(numCourses, prerequisites)));
+//        int numCourses = 4;
+//        int[][] prerequisites = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
+//
+//        System.out.println(Arrays.toString(Course_Schedule_II.findOrder(numCourses, prerequisites)));
     }
 }
 

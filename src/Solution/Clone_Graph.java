@@ -41,12 +41,15 @@ public class Clone_Graph {
      * Example 2:
      * - Input: adjList = [[]]
      * - Output: [[]]
-     * Explanation: Note that the input contains one empty list. The graph consists of only one node with val = 1 and it does not have any neighbors.
+     * Explanation:
+     * - Note that the input contains one empty list.
+     * - The graph consists of only one node with val = 1 and it does not have any neighbors.
      *
      * Example 3:
      * - Input: adjList = []
      * - Output: []
-     * Explanation: This an empty graph, it does not have any nodes.
+     * Explanation:
+     * - This an empty graph, it does not have any nodes.
      *
      * Constraints:
      * - The number of nodes in the graph is in the range [0, 100].
