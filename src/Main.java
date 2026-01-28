@@ -215,7 +215,7 @@ public class Main {
 //        System.out.println(Climbing_Stairs.climbStairs(n));
 
         //746. Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/description/
-//        int[] cost = {10,15,20};
+//        int[] cost = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
 //        System.out.println(Min_Cost_Climbing_Stairs.minCostClimbingStairs(cost));
 
         //36. Valid Sudoku - https://leetcode.com/problems/valid-sudoku/description/
