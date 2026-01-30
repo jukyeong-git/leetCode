@@ -31,9 +31,9 @@ public class Reverse_Bits {
         int ans = 0;
 
         for (int i = 0; i < 32; i++) {
-            ans <<= 1;          // 1) ans를 왼쪽으로 한 칸 이동(자리 만들기)
-            ans |= (n & 1);     // 2) n의 LSB(최하위비트)를 ans의 LSB에 붙이기
-            n >>>= 1;           // 3) n을 오른쪽으로 한 칸 이동(다음 비트 준비)
+            ans <<= 1;              // 1) ans를 왼쪽으로 한 칸 이동(자리 만들기)
+            ans = ans | (n & 1);    // 2) n의 LSB(최하위비트)를 ans의 LSB에 붙이기
+            n >>>= 1;               // 3) n을 오른쪽으로 한 칸 이동(다음 비트 준비)
         }
 
         return ans;
