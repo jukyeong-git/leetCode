@@ -15,20 +15,20 @@ public class Happy_Number {
      * Return true if n is a happy number, and false if not.
      *
      * Example 1:
-     * - Input: n = 19
-     * - Output: true
+     *      Input: n = 19
+     *      Output: true
      * Explanation:
-     * - 1^2 + 9^2 = 82
-     * - 8^2 + 2^2 = 68
-     * - 6^2 + 8^2 = 100
-     * - 1^2 + 0^2 + 0^2 = 1
+     *      1^2 + 9^2 = 82
+     *      8^2 + 2^2 = 68
+     *      6^2 + 8^2 = 100
+     *      1^2 + 0^2 + 0^2 = 1
      *
      * Example 2:
-     * - Input: n = 2
-     * - Output: false
+     *      Input: n = 2
+     *      Output: false
      *
      * Constraints:
-     * - 1 <= n <= 231 - 1
+     *      1 <= n <= 231 - 1
      */
     public static boolean isHappy(int n) {
 

@@ -12,21 +12,21 @@ public class Count_Complete_Tree_Nodes {
      * Design an algorithm that runs in less than O(n) time complexity.
      *
      * Example 1:
-     * - Input: root = [1,2,3,4,5,6]
-     * - Output: 6
+     *      Input: root = [1,2,3,4,5,6]
+     *      Output: 6
      *
      * Example 2:
-     * - Input: root = []
-     * - Output: 0
+     *      Input: root = []
+     *      Output: 0
      *
      * Example 3:
-     * - Input: root = [1]
-     * - Output: 1
+     *      Input: root = [1]
+     *      Output: 1
      *
      * Constraints:
-     * - The number of nodes in the tree is in the range [0, 5 * 104].
-     * - 0 <= Node.val <= 5 * 104
-     * - The tree is guaranteed to be complete.
+     *      The number of nodes in the tree is in the range [0, 5 * 104].
+     *      0 <= Node.val <= 5 * 104
+     *      The tree is guaranteed to be complete.
      */
     public static int countNodes(TreeNode root) {
 
