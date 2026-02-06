@@ -834,10 +834,19 @@ public class Main {
 //        System.out.println(Snakes_and_Ladders.snakesAndLadders(board));
 
         //433. Minimum Genetic Mutation - https://leetcode.com/problems/minimum-genetic-mutation/
-        String startGene = "AACCGGTT", endGene = "AACCGGTA";
-        String[] bank = {"AACCGGTA"};
+//        String startGene = "AACCGGTT", endGene = "AACCGGTA";
+//        String[] bank = {"AACCGGTA"};
+//
+//        System.out.println(Minimum_Genetic_Mutation.minMutation(startGene, endGene, bank));
 
-        System.out.println(Minimum_Genetic_Mutation.minMutation(startGene, endGene, bank));
+        //208. Implement Trie (Prefix Tree) - https://leetcode.com/problems/implement-trie-prefix-tree/description/
+        Implement_Trie_Prefix_Tree trie = new Implement_Trie_Prefix_Tree();
+        trie.insert("apple");
+        System.out.println(trie.search("apple"));   // return True
+        System.out.println(trie.search("app"));     // return False
+        System.out.println(trie.startsWith("app"));       // return True
+        trie.insert("app");
+        System.out.println(trie.search("app"));     // return True
     }
 }
 
