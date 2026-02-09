@@ -840,13 +840,23 @@ public class Main {
 //        System.out.println(Minimum_Genetic_Mutation.minMutation(startGene, endGene, bank));
 
         //208. Implement Trie (Prefix Tree) - https://leetcode.com/problems/implement-trie-prefix-tree/description/
-        Implement_Trie_Prefix_Tree trie = new Implement_Trie_Prefix_Tree();
-        trie.insert("apple");
-        System.out.println(trie.search("apple"));   // return True
-        System.out.println(trie.search("app"));     // return False
-        System.out.println(trie.startsWith("app"));       // return True
-        trie.insert("app");
-        System.out.println(trie.search("app"));     // return True
+//        Implement_Trie_Prefix_Tree trie = new Implement_Trie_Prefix_Tree();
+//        trie.insert("apple");
+//        System.out.println(trie.search("apple"));   // return True
+//        System.out.println(trie.search("app"));     // return False
+//        System.out.println(trie.startsWith("app"));       // return True
+//        trie.insert("app");
+//        System.out.println(trie.search("app"));     // return True
+
+        //211. Design Add and Search Words Data Structure - https://leetcode.com/problems/design-add-and-search-words-data-structure/
+        Design_Add_and_Search_Words_Data_Structure wordDictionary = new Design_Add_and_Search_Words_Data_Structure();
+        wordDictionary.addWord("bad");
+        wordDictionary.addWord("dad");
+        wordDictionary.addWord("mad");
+        System.out.println(wordDictionary.search("pad")); // return False
+        System.out.println(wordDictionary.search("bad")); // return True
+        System.out.println(wordDictionary.search(".ad")); // return True
+        System.out.println(wordDictionary.search("b..")); // return True
     }
 }
 
