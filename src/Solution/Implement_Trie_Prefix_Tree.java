@@ -17,7 +17,6 @@ public class Implement_Trie_Prefix_Tree {
      *      Input:  ["Trie", "insert", "search", "search", "startsWith", "insert", "search"]
      *              [[], ["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]
      *      Output: [null, null, true, false, true, null, true]
-     *
      * Explanation
      *      Trie trie = new Trie();
      *      trie.insert("apple");

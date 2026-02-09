@@ -857,6 +857,18 @@ public class Main {
 //        System.out.println(wordDictionary.search("bad")); // return True
 //        System.out.println(wordDictionary.search(".ad")); // return True
 //        System.out.println(wordDictionary.search("b..")); // return True
+
+        //17. Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
+//        String digits = "23";
+//
+//        System.out.println(Letter_Combinations_of_a_Phone_Number.letterCombinations(digits));
+
+        //77. Combinations - https://leetcode.com/problems/combinations/description/
+//        int n = 4, k = 2;
+//
+//        System.out.println(Combinations.combine(n, k));
+
+
     }
 }
 

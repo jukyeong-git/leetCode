@@ -16,7 +16,6 @@ public class Design_Add_and_Search_Words_Data_Structure {
      *      Input:  ["WordDictionary","addWord","addWord","addWord","search","search","search","search"]
      *              [[],["bad"],["dad"],["mad"],["pad"],["bad"],[".ad"],["b.."]]
      *      Output: [null,null,null,null,false,true,true,true]
-     *
      * Explanation
      *      WordDictionary wordDictionary = new WordDictionary();
      *      wordDictionary.addWord("bad");
