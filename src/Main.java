@@ -868,7 +868,10 @@ public class Main {
 //
 //        System.out.println(Combinations.combine(n, k));
 
+        //46. Permutations - https://leetcode.com/problems/permutations/description/
+        int[] nums = {1,2,3};
 
+        System.out.println(Permutations.permute(nums));
     }
 }
 
