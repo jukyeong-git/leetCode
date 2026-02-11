@@ -520,7 +520,6 @@ public class Main {
 //        TreeNode root = new TreeNode(-2);
 //        root.right = new TreeNode(-3);
 //        int targetSum = -5;
-
 //        System.out.println(Path_Sum.hasPathSum(root, targetSum));
 
         //222. Count Complete Tree Nodes - https://leetcode.com/problems/count-complete-tree-nodes/description/
@@ -594,7 +593,6 @@ public class Main {
 //        head.next.next.next = new ListNode(4);
 //        head.next.next.next.next = new ListNode(5);
 //        int left = 2, right = 4;
-//
 //        ListNode res = Reverse_Linked_List_II.reverseBetween(head, left, right);
 //        while(res != null) {
 //            System.out.println(res.val);
@@ -608,7 +606,6 @@ public class Main {
 //        head.next.next.next = new ListNode(4);
 //        head.next.next.next.next = new ListNode(5);
 //        int n = 2;
-//
 //        ListNode res = Remove_Nth_Node_From_End_of_List.removeNthFromEnd(head, n);
 //        while(res != null) {
 //            System.out.println(res.val);
@@ -623,7 +620,6 @@ public class Main {
 //        head.next.next.next.next = new ListNode(4);
 //        head.next.next.next.next.next = new ListNode(4);
 //        head.next.next.next.next.next.next = new ListNode(5);
-//
 //        ListNode res = Remove_Duplicates_from_Sorted_List_II.deleteDuplicates(head);
 //        while(res != null) {
 //            System.out.println(res.val);
@@ -637,7 +633,6 @@ public class Main {
 //        head.next.next.next = new ListNode(4);
 //        head.next.next.next.next = new ListNode(5);
 //        int k = 2;
-//
 //        ListNode res = Rotate_List.rotateRight(head, k);
 //        while(res != null) {
 //            System.out.println(res.val);
@@ -652,7 +647,6 @@ public class Main {
 //        head.next.next.next.next = new ListNode(5);
 //        head.next.next.next.next.next = new ListNode(2);
 //        int x = 3;
-//
 //        ListNode res = Partition_List.partition(head, x);
 //        while(res != null) {
 //            System.out.println(res.val);
@@ -686,7 +680,6 @@ public class Main {
 //        root.left.right = new Node(5);
 //        root.right = new Node(3);
 //        root.right.right = new Node(7);
-//
 //        Node res = Populating_Next_Right_Pointers_in_Each_Node_II.connect(root);
 
         //114. Flatten Binary Tree to Linked List - https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/
@@ -696,7 +689,6 @@ public class Main {
 //        root.left.right = new TreeNode(4);
 //        root.right = new TreeNode(5);
 //        root.right.right = new TreeNode(6);
-//
 //        Flatten_Binary_Tree_to_Linked_List.flatten(root);
 
         //129. Sum Root to Leaf Numbers - https://leetcode.com/problems/sum-root-to-leaf-numbers/description/
@@ -705,7 +697,6 @@ public class Main {
 //        root.left.left = new TreeNode(5);
 //        root.left.right = new TreeNode(1);
 //        root.right = new TreeNode(0);
-//
 //        System.out.println(Sum_Root_to_Leaf_Numbers.sumNumbers(root));
 
         //173. Binary Search Tree Iterator - https://leetcode.com/problems/binary-search-tree-iterator/description/
@@ -714,7 +705,6 @@ public class Main {
 //        root.right = new TreeNode(15);
 //        root.right.left = new TreeNode(9);
 //        root.right.right = new TreeNode(20);
-//
 //        Binary_Search_Tree_Iterator bSTIterator = new Binary_Search_Tree_Iterator(root);
 //        System.out.println(bSTIterator.next());    // return 3
 //        System.out.println(bSTIterator.next());    // return 7
@@ -737,7 +727,6 @@ public class Main {
 //        root.right.left = new TreeNode(0);
 //        root.right.right = new TreeNode(8);
 //        TreeNode p = root.left, q = root.right;
-//
 //        TreeNode res = Lowest_Common_Ancestor_of_a_Binary_Tree.lowestCommonAncestor(root, p, q);
 //        System.out.println(res.val);
 
@@ -747,7 +736,6 @@ public class Main {
 //        root.left.right = new TreeNode(5);
 //        root.right = new TreeNode(3);
 //        root.right.right = new TreeNode(4);
-//
 //        System.out.println(Binary_Tree_Right_Side_View.rightSideView(root));
 
         //102. Binary Tree Level Order Traversal - https://leetcode.com/problems/binary-tree-level-order-traversal/description/
@@ -756,7 +744,6 @@ public class Main {
 //        root.right = new TreeNode(20);
 //        root.right.left = new TreeNode(15);
 //        root.right.right = new TreeNode(7);
-//
 //        System.out.println(Binary_Tree_Level_Order_Traversal.levelOrder(root));
 
         //103. Binary Tree Zigzag Level Order Traversal - https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
@@ -765,7 +752,6 @@ public class Main {
 //        root.left.left = new TreeNode(4);
 //        root.right = new TreeNode(3);
 //        root.right.right = new TreeNode(5);
-//
 //        System.out.println(Binary_Tree_Zigzag_Level_Order_Traversal.zigzagLevelOrder(root));
 
         //230. Kth Smallest Element in a BST - https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
@@ -774,7 +760,6 @@ public class Main {
 //        root.left.right = new TreeNode(2);
 //        root.right = new TreeNode(4);
 //        int k = 1;
-//
 //        System.out.println(Kth_Smallest_Element_in_a_BST.kthSmallest(root, k));
 
         //98. Validate Binary Search Tree - https://leetcode.com/problems/validate-binary-search-tree/description/
@@ -783,7 +768,6 @@ public class Main {
 //        root.right = new TreeNode(6);
 //        root.right.left = new TreeNode(3);
 //        root.right.right = new TreeNode(7);
-//
 //        System.out.println(Validate_Binary_Search_Tree.isValidBST(root));
 
         //200. Number of Islands - https://leetcode.com/problems/number-of-islands/description/
@@ -793,7 +777,6 @@ public class Main {
 //                {'1', '1', '0', '0', '0'},
 //                {'0', '0', '0', '0', '0'}
 //            };
-//
 //        System.out.println(Number_of_Islands.numIslands(grid));
 
         //130. Surrounded Regions - https://leetcode.com/problems/surrounded-regions/description/
@@ -803,7 +786,6 @@ public class Main {
 //                {'X','X','O','X'},
 //                {'X','O','X','X'}
 //            };
-//
 //        Surrounded_Regions.solve(board);
 
         //133. Clone Graph - https://leetcode.com/problems/clone-graph/description/
@@ -814,13 +796,11 @@ public class Main {
         //207. Course Schedule - https://leetcode.com/problems/course-schedule/description/
 //        int numCourses = 2;
 //        int[][] prerequisites = {{1, 0}, {0, 1}};
-//
 //        System.out.println(Course_Schedule.canFinish(numCourses, prerequisites));
 
         //210. Course Schedule II - https://leetcode.com/problems/course-schedule-ii/description/
 //        int numCourses = 4;
 //        int[][] prerequisites = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
-//
 //        System.out.println(Arrays.toString(Course_Schedule_II.findOrder(numCourses, prerequisites)));
 
         //909. Snakes and Ladders - https://leetcode.com/problems/snakes-and-ladders/description/
@@ -830,13 +810,11 @@ public class Main {
 //                         {-1,35,-1,-1,13,-1},
 //                         {-1,-1,-1,-1,-1,-1},
 //                         {-1,15,-1,-1,-1,-1}};
-
 //        System.out.println(Snakes_and_Ladders.snakesAndLadders(board));
 
         //433. Minimum Genetic Mutation - https://leetcode.com/problems/minimum-genetic-mutation/
 //        String startGene = "AACCGGTT", endGene = "AACCGGTA";
 //        String[] bank = {"AACCGGTA"};
-//
 //        System.out.println(Minimum_Genetic_Mutation.minMutation(startGene, endGene, bank));
 
         //208. Implement Trie (Prefix Tree) - https://leetcode.com/problems/implement-trie-prefix-tree/description/
@@ -860,18 +838,33 @@ public class Main {
 
         //17. Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
 //        String digits = "23";
-//
 //        System.out.println(Letter_Combinations_of_a_Phone_Number.letterCombinations(digits));
 
         //77. Combinations - https://leetcode.com/problems/combinations/description/
 //        int n = 4, k = 2;
-//
 //        System.out.println(Combinations.combine(n, k));
 
         //46. Permutations - https://leetcode.com/problems/permutations/description/
-        int[] nums = {1,2,3};
+//        int[] nums = {1,2,3};
+//        System.out.println(Permutations.permute(nums));
 
-        System.out.println(Permutations.permute(nums));
+        //39. Combination Sum - https://leetcode.com/problems/combination-sum/description/
+//        int[] candidates = {2,3,5};
+//        int target = 8;
+//        System.out.println(Combination_Sum.combinationSum(candidates, target));
+
+        //22. Generate Parentheses - https://leetcode.com/problems/generate-parentheses/
+//        int n = 3;
+//        System.out.println(Generate_Parentheses.generateParenthesis(n));
+
+        //79. Word Search - https://leetcode.com/problems/word-search/description/
+        char[][] board = {
+                {'A','B','C','E'},
+                {'S','F','C','S'},
+                {'A','D','E','E'}
+             };
+        String word = "SEE";
+        System.out.println(Word_Search.exist(board, word));
     }
 }
 
