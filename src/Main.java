@@ -858,13 +858,24 @@ public class Main {
 //        System.out.println(Generate_Parentheses.generateParenthesis(n));
 
         //79. Word Search - https://leetcode.com/problems/word-search/description/
-        char[][] board = {
-                {'A','B','C','E'},
-                {'S','F','C','S'},
-                {'A','D','E','E'}
-             };
-        String word = "SEE";
-        System.out.println(Word_Search.exist(board, word));
+//        char[][] board = {
+//                {'A','B','C','E'},
+//                {'S','F','C','S'},
+//                {'A','D','E','E'}
+//             };
+//        String word = "SEE";
+//        System.out.println(Word_Search.exist(board, word));
+
+        //148. Sort List - https://leetcode.com/problems/sort-list/description/
+        ListNode head = new ListNode(4);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(1);
+        head.next.next.next = new ListNode(3);
+        ListNode res = Sort_List.sortList(head);
+        while(res != null) {
+            System.out.println(res.val);
+            res = res.next;
+        }
     }
 }
 
