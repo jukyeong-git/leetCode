@@ -1,6 +1,7 @@
 import Solution.*;
 import Util.ListNode;
 import Util.Node;
+import Util.QuadTreeNode;
 import Util.TreeNode;
 import com.sun.source.tree.Tree;
 
@@ -867,15 +868,19 @@ public class Main {
 //        System.out.println(Word_Search.exist(board, word));
 
         //148. Sort List - https://leetcode.com/problems/sort-list/description/
-        ListNode head = new ListNode(4);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(1);
-        head.next.next.next = new ListNode(3);
-        ListNode res = Sort_List.sortList(head);
-        while(res != null) {
-            System.out.println(res.val);
-            res = res.next;
-        }
+//        ListNode head = new ListNode(4);
+//        head.next = new ListNode(2);
+//        head.next.next = new ListNode(1);
+//        head.next.next.next = new ListNode(3);
+//        ListNode res = Sort_List.sortList(head);
+//        while(res != null) {
+//            System.out.println(res.val);
+//            res = res.next;
+//        }
+
+        //427. Construct Quad Tree - https://leetcode.com/problems/construct-quad-tree/description/
+        int[][] grid = {{0, 1}, {1, 0}};
+        Construct_Quad_Tree.construct(grid);
     }
 }
 
