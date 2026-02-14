@@ -33,11 +33,10 @@ public class Maximum_Subarray {
      */
     public static int maxSubArray(int[] nums) {
 
-        int local = nums[0];
-        int global = nums[0];
+        int local = nums[0], global = nums[0];
 
         for(int i = 1; i < nums.length; i++) {
-            local = Math.max(nums[i], nums[i] + local);
+            local = Math.max(nums[i], local + nums[i]);
             global = Math.max(global, local);
         }
 
