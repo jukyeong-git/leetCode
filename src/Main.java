@@ -883,12 +883,17 @@ public class Main {
 //        Construct_Quad_Tree.construct(grid);
 
         //53. Maximum Subarray - https://leetcode.com/problems/maximum-subarray/description/
-//        int[] nums = {1,2,-1,-2,2,1,-2,1,4,-5,4};
+//        int[] nums = {1, 2, -1, -2, 2, 1, -2, 1, 4, -5, 4};
 //        System.out.println(Maximum_Subarray.maxSubArray(nums));
 
         //918. Maximum Sum Circular Subarray - https://leetcode.com/problems/maximum-sum-circular-subarray/
-        int[] nums = {1,-2,3,-2};
-        System.out.println(Maximum_Sum_Circular_Subarray.maxSubarraySumCircular(nums));
+//        int[] nums = {1,-2,3,-2};
+//        System.out.println(Maximum_Sum_Circular_Subarray.maxSubarraySumCircular(nums));
+
+        //74. Search a 2D Matrix - https://leetcode.com/problems/search-a-2d-matrix/description/
+        int[][] matrix = {{1, 3, 5}};
+        int target = 1;
+        System.out.println(Search_a_2D_Matrix.searchMatrix(matrix, target));
     }
 }
 
