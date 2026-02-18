@@ -891,9 +891,13 @@ public class Main {
 //        System.out.println(Maximum_Sum_Circular_Subarray.maxSubarraySumCircular(nums));
 
         //74. Search a 2D Matrix - https://leetcode.com/problems/search-a-2d-matrix/description/
-        int[][] matrix = {{1, 3, 5}};
-        int target = 1;
-        System.out.println(Search_a_2D_Matrix.searchMatrix(matrix, target));
+//        int[][] matrix = {{1, 3, 5}};
+//        int target = 1;
+//        System.out.println(Search_a_2D_Matrix.searchMatrix(matrix, target));
+
+        //162. Find Peak Element - https://leetcode.com/problems/find-peak-element/description/
+        int[] nums = {1, 2, 1, 3, 5, 6, 4};
+        System.out.println(Find_Peak_Element.findPeakElement(nums));
     }
 }
 
