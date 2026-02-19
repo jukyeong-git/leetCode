@@ -908,6 +908,10 @@ public class Main {
 //        int[] nums = {5, 7, 7, 8, 8, 10};
 //        int target = 8;
 //        System.out.println(Arrays.toString(Find_First_and_Last_Position_of_Element_in_Sorted_Array.searchRange(nums, target)));
+
+        //153. Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
+//        int[] nums = {3, 4, 5, 1, 2};
+//        System.out.println(Find_Minimum_in_Rotated_Sorted_Array.findMin(nums));
     }
 }
 
