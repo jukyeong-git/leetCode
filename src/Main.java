@@ -900,9 +900,14 @@ public class Main {
 //        System.out.println(Find_Peak_Element.findPeakElement(nums));
 
         //33. Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-        int[] nums = {4, 5, 6, 7, 0, 1, 2};
-        int target = 0;
-        System.out.println(Search_in_Rotated_Sorted_Array.search(nums, target));
+//        int[] nums = {4, 5, 6, 7, 0, 1, 2};
+//        int target = 0;
+//        System.out.println(Search_in_Rotated_Sorted_Array.search(nums, target));
+
+        //34. Find First and Last Position of Element in Sorted Array - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+//        int[] nums = {5, 7, 7, 8, 8, 10};
+//        int target = 8;
+//        System.out.println(Arrays.toString(Find_First_and_Last_Position_of_Element_in_Sorted_Array.searchRange(nums, target)));
     }
 }
 
