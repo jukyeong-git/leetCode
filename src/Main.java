@@ -896,8 +896,13 @@ public class Main {
 //        System.out.println(Search_a_2D_Matrix.searchMatrix(matrix, target));
 
         //162. Find Peak Element - https://leetcode.com/problems/find-peak-element/description/
-        int[] nums = {1, 2, 1, 3, 5, 6, 4};
-        System.out.println(Find_Peak_Element.findPeakElement(nums));
+//        int[] nums = {1, 2, 1, 3, 5, 6, 4};
+//        System.out.println(Find_Peak_Element.findPeakElement(nums));
+
+        //33. Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+        int[] nums = {4, 5, 6, 7, 0, 1, 2};
+        int target = 0;
+        System.out.println(Search_in_Rotated_Sorted_Array.search(nums, target));
     }
 }
 
