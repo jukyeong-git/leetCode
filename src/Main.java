@@ -910,6 +910,11 @@ public class Main {
         //153. Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 //        int[] nums = {3, 4, 5, 1, 2};
 //        System.out.println(Find_Minimum_in_Rotated_Sorted_Array.findMin(nums));
+
+        //373. Find K Pairs with Smallest Sums - https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/
+        int[] nums1 = {1, 7, 11}, nums2 = {2, 4, 6};
+        int k = 3;
+        System.out.println(Find_K_Pairs_with_Smallest_Sums.kSmallestPairs(nums1, nums2, k));
     }
 }
 
