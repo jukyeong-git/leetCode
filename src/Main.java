@@ -912,9 +912,14 @@ public class Main {
 //        System.out.println(Find_Minimum_in_Rotated_Sorted_Array.findMin(nums));
 
         //373. Find K Pairs with Smallest Sums - https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/
-        int[] nums1 = {1, 7, 11}, nums2 = {2, 4, 6};
-        int k = 3;
-        System.out.println(Find_K_Pairs_with_Smallest_Sums.kSmallestPairs(nums1, nums2, k));
+//        int[] nums1 = {1, 7, 11}, nums2 = {2, 4, 6};
+//        int k = 3;
+//        System.out.println(Find_K_Pairs_with_Smallest_Sums.kSmallestPairs(nums1, nums2, k));
+
+        //137. Single Number II - https://leetcode.com/problems/single-number-ii/description/
+        int[] nums = {2, 2, 3, 2};
+        System.out.println(Single_Number_II.singleNumber(nums));
+
     }
 }
 
