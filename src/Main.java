@@ -917,9 +917,12 @@ public class Main {
 //        System.out.println(Find_K_Pairs_with_Smallest_Sums.kSmallestPairs(nums1, nums2, k));
 
         //137. Single Number II - https://leetcode.com/problems/single-number-ii/description/
-        int[] nums = {2, 2, 3, 2};
-        System.out.println(Single_Number_II.singleNumber(nums));
+//        int[] nums = {2, 2, 3, 2};
+//        System.out.println(Single_Number_II.singleNumber(nums));
 
+        //201. Bitwise AND of Numbers Range - https://leetcode.com/problems/bitwise-and-of-numbers-range/description/
+        int left = 5, right = 7;
+        System.out.println(Bitwise_AND_of_Numbers_Range.rangeBitwiseAnd(left, right));
     }
 }
 
