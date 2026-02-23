@@ -928,7 +928,10 @@ public class Main {
 //        int n = 5;
 //        System.out.println(Factorial_Trailing_Zeroes.trailingZeroes(n));
 
-
+        //50. Pow(x, n) - https://leetcode.com/problems/powx-n/description/
+        double x = 2.00000;
+        int n = 10;
+        System.out.println(Pow_x_n.myPow(x, n));
     }
 }
 
