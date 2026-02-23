@@ -934,8 +934,13 @@ public class Main {
 //        System.out.println(Pow_x_n.myPow(x, n));
 
         //198. House Robber - https://leetcode.com/problems/house-robber/description/
-        int[] nums = {2, 7, 9, 3, 1};
-        System.out.println(House_Robber.rob(nums));
+//        int[] nums = {2, 7, 9, 3, 1};
+//        System.out.println(House_Robber.rob(nums));
+
+        //139. Word Break - https://leetcode.com/problems/word-break/description/
+        String s = "aaaaaaa";
+        List<String> wordDict = Arrays.asList("aaaa","aaa");
+        System.out.println(Word_Break.wordBreak(s, wordDict));
     }
 }
 
