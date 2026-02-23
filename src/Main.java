@@ -929,9 +929,13 @@ public class Main {
 //        System.out.println(Factorial_Trailing_Zeroes.trailingZeroes(n));
 
         //50. Pow(x, n) - https://leetcode.com/problems/powx-n/description/
-        double x = 2.00000;
-        int n = 10;
-        System.out.println(Pow_x_n.myPow(x, n));
+//        double x = 2.00000;
+//        int n = 10;
+//        System.out.println(Pow_x_n.myPow(x, n));
+
+        //198. House Robber - https://leetcode.com/problems/house-robber/description/
+        int[] nums = {2, 7, 9, 3, 1};
+        System.out.println(House_Robber.rob(nums));
     }
 }
 
