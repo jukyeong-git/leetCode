@@ -921,8 +921,14 @@ public class Main {
 //        System.out.println(Single_Number_II.singleNumber(nums));
 
         //201. Bitwise AND of Numbers Range - https://leetcode.com/problems/bitwise-and-of-numbers-range/description/
-        int left = 5, right = 7;
-        System.out.println(Bitwise_AND_of_Numbers_Range.rangeBitwiseAnd(left, right));
+//        int left = 5, right = 7;
+//        System.out.println(Bitwise_AND_of_Numbers_Range.rangeBitwiseAnd(left, right));
+
+        //172. Factorial Trailing Zeroes - https://leetcode.com/problems/factorial-trailing-zeroes/description/
+//        int n = 5;
+//        System.out.println(Factorial_Trailing_Zeroes.trailingZeroes(n));
+
+
     }
 }
 
