@@ -938,9 +938,14 @@ public class Main {
 //        System.out.println(House_Robber.rob(nums));
 
         //139. Word Break - https://leetcode.com/problems/word-break/description/
-        String s = "aaaaaaa";
-        List<String> wordDict = Arrays.asList("aaaa","aaa");
-        System.out.println(Word_Break.wordBreak(s, wordDict));
+//        String s = "aaaaaaa";
+//        List<String> wordDict = Arrays.asList("aaaa","aaa");
+//        System.out.println(Word_Break.wordBreak(s, wordDict));
+
+        //322. Coin Change - https://leetcode.com/problems/coin-change/description/
+        int[] coins = {1, 2, 5};
+        int amount = 11;
+        System.out.println(Coin_Change.coinChange(coins, amount));
     }
 }
 
