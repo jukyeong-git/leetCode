@@ -947,8 +947,12 @@ public class Main {
 //        System.out.println(Max_Consecutive_Ones_III.longestOnes(nums, k));
 
         //647. Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/description/
-        String s = "abc";
-        System.out.println(Palindromic_Substrings.countSubstrings(s));
+//        String s = "abc";
+//        System.out.println(Palindromic_Substrings.countSubstrings(s));
+
+        //300. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/description/
+        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
+        System.out.println(Longest_Increasing_Subsequence.lengthOfLIS(nums));
 
     }
 }
