@@ -1,8 +1,5 @@
 package Solution;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Plus_One {
     //66. Plus One - https://leetcode.com/problems/plus-one/description/
 

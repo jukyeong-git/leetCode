@@ -1,8 +1,5 @@
 package Solution;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Number_of_1_Bits {
     //191. Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits/description/
 

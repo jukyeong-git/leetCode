@@ -1,8 +1,5 @@
 package Solution;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Majority_Element {
     //169. Majority Element - https://leetcode.com/problems/majority-element/description/
 

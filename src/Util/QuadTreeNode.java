@@ -1,7 +1,5 @@
 package Util;
 
-import Solution.Construct_Quad_Tree;
-
 public class QuadTreeNode {
 
     public boolean val;

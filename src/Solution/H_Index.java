@@ -1,8 +1,6 @@
 package Solution;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class H_Index {
     //274. H-Index - https://leetcode.com/problems/h-index/description/

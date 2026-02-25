@@ -2,8 +2,6 @@ package Solution;
 
 import Util.ListNode;
 
-import java.util.List;
-
 public class Sort_List {
     //148. Sort List - https://leetcode.com/problems/sort-list/description/
 

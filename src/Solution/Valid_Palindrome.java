@@ -1,7 +1,5 @@
 package Solution;
 
-import java.util.Arrays;
-
 public class Valid_Palindrome {
     //125. Valid Palindrome - https://leetcode.com/problems/valid-palindrome/description/
 

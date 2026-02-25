@@ -1,14 +1,4 @@
 import Solution.*;
-import Util.ListNode;
-import Util.Node;
-import Util.QuadTreeNode;
-import Util.TreeNode;
-import com.sun.source.tree.Tree;
-
-import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -943,9 +933,23 @@ public class Main {
 //        System.out.println(Word_Break.wordBreak(s, wordDict));
 
         //322. Coin Change - https://leetcode.com/problems/coin-change/description/
-        int[] coins = {1, 2, 5};
-        int amount = 11;
-        System.out.println(Coin_Change.coinChange(coins, amount));
+//        int[] coins = {1, 2, 5};
+//        int amount = 11;
+//        System.out.println(Coin_Change.coinChange(coins, amount));
+
+        //485. Max Consecutive Ones - https://leetcode.com/problems/max-consecutive-ones/description/
+//        int[] nums = {1, 1, 0, 1, 1, 1};
+//        System.out.println(Max_Consecutive_Ones.findMaxConsecutiveOnes(nums));
+
+        //1004. Max Consecutive Ones III - https://leetcode.com/problems/max-consecutive-ones-iii/description/
+//        int[] nums = {0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1};
+//        int k = 3;
+//        System.out.println(Max_Consecutive_Ones_III.longestOnes(nums, k));
+
+        //647. Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/description/
+        String s = "abc";
+        System.out.println(Palindromic_Substrings.countSubstrings(s));
+
     }
 }
 

@@ -1,7 +1,5 @@
 package Solution;
 
-import java.util.Stack;
-
 public class Baseball_Game {
     //682. Baseball Game - https://leetcode.com/problems/baseball-game/description/
 

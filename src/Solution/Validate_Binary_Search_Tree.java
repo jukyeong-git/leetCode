@@ -2,8 +2,6 @@ package Solution;
 
 import Util.TreeNode;
 
-import java.util.HashMap;
-
 public class Validate_Binary_Search_Tree {
     //98. Validate Binary Search Tree - https://leetcode.com/problems/validate-binary-search-tree/description/
 

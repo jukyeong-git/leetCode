@@ -1,8 +1,5 @@
 package Solution;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Is_Subsequence {
     //392. Is Subsequence - https://leetcode.com/problems/is-subsequence/description/
 

@@ -3,7 +3,6 @@ package Solution;
 import Util.TreeNode;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Binary_Tree_Right_Side_View {

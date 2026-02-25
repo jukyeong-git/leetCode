@@ -2,9 +2,6 @@ package Solution;
 
 import Util.ListNode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Reverse_Linked_List_II {
     //92. Reverse Linked List II - https://leetcode.com/problems/reverse-linked-list-ii/description/
 

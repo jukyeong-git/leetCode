@@ -1,8 +1,5 @@
 package Solution;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Add_Binary {
     //67. Add Binary - https://leetcode.com/problems/add-binary/description/
 

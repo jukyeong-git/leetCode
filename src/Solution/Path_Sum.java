@@ -2,8 +2,6 @@ package Solution;
 
 import Util.TreeNode;
 
-import javax.xml.stream.events.StartDocument;
-
 public class Path_Sum {
     //112. Path Sum - https://leetcode.com/problems/path-sum/description/
 

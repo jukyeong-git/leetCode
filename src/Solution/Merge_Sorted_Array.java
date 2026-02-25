@@ -1,8 +1,6 @@
 package Solution;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Merge_Sorted_Array {
     //88. Merge Sorted Array - https://leetcode.com/problems/merge-sorted-array/description/
