@@ -964,8 +964,12 @@ public class Main {
 //        System.out.println(Triangle.minimumTotal(triangle));
 
         //64. Minimum Path Sum - https://leetcode.com/problems/minimum-path-sum/description/
-        int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
-        System.out.println(Minimum_Path_Sum.minPathSum(grid));
+//        int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
+//        System.out.println(Minimum_Path_Sum.minPathSum(grid));
+
+        //63. Unique Paths II - https://leetcode.com/problems/unique-paths-ii/description/
+        int[][] obstacleGrid = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
+        System.out.println(Unique_Paths_II.uniquePathsWithObstacles(obstacleGrid));
     }
 }
 
