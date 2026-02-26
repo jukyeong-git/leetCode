@@ -1,5 +1,8 @@
 package Solution;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Longest_Increasing_Subsequence {
     //300. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/description/
 
@@ -28,6 +31,36 @@ public class Longest_Increasing_Subsequence {
      *      Can you come up with an algorithm that runs in O(n log(n)) time complexity?
      */
     public static int lengthOfLIS(int[] nums) {
-        return -1;
+
+        List<Integer> list = new ArrayList<>();
+
+        for(int num : nums) {
+            if(list.isEmpty() || list.get(list.size() - 1) < num) {
+                list.add(num);
+            } else {
+                int idx = searchBinary(num, list);
+                list.set(idx, num);
+            }
+        }
+
+        return list.size();
+    }
+
+    private static int searchBinary(int target, List<Integer> list) {
+
+        int left = 0, right = list.size() - 1;
+
+        while(left <= right) {
+            int mid = left + (right - left)/2;
+
+            if(list.get(mid) == target)
+                return mid;
+            else if(list.get(mid) < target)
+                left = mid + 1;
+            else
+                right = mid - 1;
+        }
+
+        return left;
     }
 }

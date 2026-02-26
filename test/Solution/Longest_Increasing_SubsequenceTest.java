@@ -9,15 +9,15 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Palindromic_SubstringsTest {
+class Longest_Increasing_SubsequenceTest {
 
     // 1. 테스트 케이스 데이터를 제공하는 메서드
     static Stream<Arguments> input() {
         Object[][] testCases = {
-                {"abc",  3},
-                {"aaa",  6},
-                {"a",    1},
-                {"abba", 6}
+                {new int[]{10, 9, 2, 5, 3, 7, 101, 18},        4},
+                {new int[]{0, 1, 0, 3, 2, 3},                  4},
+                {new int[]{7, 7, 7, 7, 7, 7, 7},               1},
+                {new int[]{3, 5, 6, 2, 5, 4, 19, 5, 6, 7, 12}, 6}
         };
 
         return Arrays.stream(testCases).map(Arguments::of);
@@ -26,11 +26,11 @@ class Palindromic_SubstringsTest {
     // 2. 실제 테스트를 수행하는 메서드
     @ParameterizedTest(name = "Case {index}")
     @MethodSource("input")
-    void TestCases(String s, int expected) {
+    void TestCases(int[] nums, int expected) {
         // 실행 (When)
-        int actual = Palindromic_Substrings.countSubstrings(s);
+        int actual = Longest_Increasing_Subsequence.lengthOfLIS(nums);
 
         // 검증 (Then)
-        assertEquals(expected, actual, "Failed for input: " + s);
+        assertEquals(expected, actual, "Failed for input: " + nums);
     }
 }

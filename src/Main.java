@@ -1,5 +1,9 @@
 import Solution.*;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         //2239. Find Closest Number to Zero - https://leetcode.com/problems/find-closest-number-to-zero/
@@ -951,9 +955,17 @@ public class Main {
 //        System.out.println(Palindromic_Substrings.countSubstrings(s));
 
         //300. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/description/
-        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
-        System.out.println(Longest_Increasing_Subsequence.lengthOfLIS(nums));
+//        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
+//        System.out.println(Longest_Increasing_Subsequence.lengthOfLIS(nums));
 
+        //120. Triangle - https://leetcode.com/problems/triangle/description/
+//        List<List<Integer>> triangle = new ArrayList<>();
+//        triangle.add(Arrays.asList(-10));
+//        System.out.println(Triangle.minimumTotal(triangle));
+
+        //64. Minimum Path Sum - https://leetcode.com/problems/minimum-path-sum/description/
+        int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
+        System.out.println(Minimum_Path_Sum.minPathSum(grid));
     }
 }
 

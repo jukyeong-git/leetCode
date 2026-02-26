@@ -9,15 +9,13 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Palindromic_SubstringsTest {
+class Minimum_Path_SumTest {
 
     // 1. 테스트 케이스 데이터를 제공하는 메서드
     static Stream<Arguments> input() {
         Object[][] testCases = {
-                {"abc",  3},
-                {"aaa",  6},
-                {"a",    1},
-                {"abba", 6}
+                {new int[][]{{1, 3, 1}, {1, 5, 1},{4, 2, 1}},  7},
+                {new int[][]{{1, 2, 3}, {4, 5, 6}},           12},
         };
 
         return Arrays.stream(testCases).map(Arguments::of);
@@ -26,11 +24,11 @@ class Palindromic_SubstringsTest {
     // 2. 실제 테스트를 수행하는 메서드
     @ParameterizedTest(name = "Case {index}")
     @MethodSource("input")
-    void TestCases(String s, int expected) {
+    void TestCases(int[][] grid, int expected) {
         // 실행 (When)
-        int actual = Palindromic_Substrings.countSubstrings(s);
+        int actual = Minimum_Path_Sum.minPathSum(grid);
 
         // 검증 (Then)
-        assertEquals(expected, actual, "Failed for input: " + s);
+        assertEquals(expected, actual, "Failed for input: " + grid);
     }
 }
