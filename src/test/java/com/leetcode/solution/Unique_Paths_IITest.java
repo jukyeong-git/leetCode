@@ -22,7 +22,7 @@ class Unique_Paths_IITest {
     }
 
     // 2. 실제 테스트를 수행하는 메서드
-    @ParameterizedTest(name = "Case {index}")
+    @ParameterizedTest(name = "Case {index}: obstacleGrid=''{0}''")
     @MethodSource("input")
     void TestCases(int[][] obstacleGrid, int expected) {
         // 실행 (When)

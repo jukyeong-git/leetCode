@@ -36,7 +36,7 @@ class TriangleTest {
     }
 
     // 2. 실제 테스트를 수행하는 메서드
-    @ParameterizedTest(name = "Case {index}")
+    @ParameterizedTest(name = "Case {index}: triangle=''{0}''")
     @MethodSource("input")
     void TestCases(List<List<Integer>> triangle, int expected) {
         // 실행 (When)

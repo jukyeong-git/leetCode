@@ -22,7 +22,7 @@ class Longest_Palindromic_SubstringTest {
     }
 
     // 2. 실제 테스트를 수행하는 메서드
-    @ParameterizedTest(name = "Case {index}")
+    @ParameterizedTest(name = "Case {index}: s=''{0}''")
     @MethodSource("input")
     void TestCases(String s, String expected) {
         // 실행 (When)

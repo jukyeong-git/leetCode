@@ -22,7 +22,7 @@ class Minimum_Path_SumTest {
     }
 
     // 2. 실제 테스트를 수행하는 메서드
-    @ParameterizedTest(name = "Case {index}")
+    @ParameterizedTest(name = "Case {index}: grid=''{0}''")
     @MethodSource("input")
     void TestCases(int[][] grid, int expected) {
         // 실행 (When)

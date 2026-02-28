@@ -24,7 +24,7 @@ class Longest_Increasing_SubsequenceTest {
     }
 
     // 2. 실제 테스트를 수행하는 메서드
-    @ParameterizedTest(name = "Case {index}")
+    @ParameterizedTest(name = "Case {index}: nums=''{0}''")
     @MethodSource("input")
     void TestCases(int[] nums, int expected) {
         // 실행 (When)
