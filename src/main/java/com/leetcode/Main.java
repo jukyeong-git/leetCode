@@ -543,7 +543,8 @@ public class Main {
 
         //67. Add Binary - https://leetcode.com/problems/add-binary/description/
 //        String a = "11", b = "1";
-//        System.out.println(Add_Binary.addBinary(a,b));
+//        Add_Binary solution = new Add_Binary();
+//        System.out.println(solution.addBinary(a,b));
 
         //190. Reverse Bits - https://leetcode.com/problems/reverse-bits/description/
 //        int n = 43261596;
@@ -985,14 +986,14 @@ public class Main {
 //        System.out.println(solution.minDistance(word1, word2));
 
         //221. Maximal Square - https://leetcode.com/problems/maximal-square/description/
-        char[][] matrix = {
-                {'1', '0', '1', '0', '0'},
-                {'1', '0', '1', '1', '1'},
-                {'1', '1', '1', '1', '1'},
-                {'1', '0', '0', '1', '0'}
-        };
-        Maximal_Square solution = new Maximal_Square();
-        System.out.println(solution.maximalSquare(matrix));
+//        char[][] matrix = {
+//                {'1', '0', '1', '0', '0'},
+//                {'1', '0', '1', '1', '1'},
+//                {'1', '1', '1', '1', '1'},
+//                {'1', '0', '0', '1', '0'}
+//        };
+//        Maximal_Square solution = new Maximal_Square();
+//        System.out.println(solution.maximalSquare(matrix));
     }
 }
 
