@@ -975,9 +975,24 @@ public class Main {
 //        System.out.println(solution.longestPalindrome(s));
 
         //97. Interleaving String - https://leetcode.com/problems/interleaving-string/description/
-        String s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac";
-        Interleaving_String solution = new Interleaving_String();
-        System.out.println(solution.isInterleave(s1, s2, s3));
+//        String s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac";
+//        Interleaving_String solution = new Interleaving_String();
+//        System.out.println(solution.isInterleave(s1, s2, s3));
+
+        //72. Edit Distance - https://leetcode.com/problems/edit-distance/description/
+//        String  word1 = "horse", word2 = "ros";
+//        Edit_Distance solution = new Edit_Distance();
+//        System.out.println(solution.minDistance(word1, word2));
+
+        //221. Maximal Square - https://leetcode.com/problems/maximal-square/description/
+        char[][] matrix = {
+                {'1', '0', '1', '0', '0'},
+                {'1', '0', '1', '1', '1'},
+                {'1', '1', '1', '1', '1'},
+                {'1', '0', '0', '1', '0'}
+        };
+        Maximal_Square solution = new Maximal_Square();
+        System.out.println(solution.maximalSquare(matrix));
     }
 }
 
