@@ -24,20 +24,22 @@ public class Balanced_Binary_Tree {
      *      The number of nodes in the tree is in the range [0, 5000].
      *      -104 <= Node.val <= 104
      */
-    public static boolean isBalanced(TreeNode root) {
-        int count = 0;
-        int result = searchTree(root, count);
+    public boolean isBalanced(TreeNode root) {
+
+        int result = searchTree(root, 0);
         return result != Integer.MAX_VALUE;
     }
 
-    public static int searchTree(TreeNode root, int count) {
+    private int searchTree(TreeNode root, int count) {
+
         if(root == null) return count;
 
         count++;
+
         int left = searchTree(root.left, count);
         int right = searchTree(root.right, count);
 
-        if(Math.abs(left-right)>1)
+        if(Math.abs(left - right) > 1)
             return Integer.MAX_VALUE;
         else
             return Math.max(left, right);

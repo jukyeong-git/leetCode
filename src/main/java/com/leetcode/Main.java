@@ -1,5 +1,7 @@
 package com.leetcode;
 
+import com.leetcode.common.util.ListNode;
+import com.leetcode.common.util.TreeNode;
 import com.leetcode.solution.*;
 
 public class Main {
@@ -181,14 +183,9 @@ public class Main {
 //        System.out.println(Maximum_Depth_of_Binary_Tree.maxDepth(root));
 
         //110. Balanced Binary Tree - https://leetcode.com/problems/balanced-binary-tree/description/
-//        TreeNode root = new TreeNode(3);
-//        root.left = new TreeNode(9);
-//        root.right = new TreeNode(20);
-//        root.left.left = null;
-//        root.left.right = null;
-//        root.right.left = new TreeNode(15);
-//        root.right.right = new TreeNode(7);
-//        System.out.println(Balanced_Binary_Tree.isBalanced(root));
+        TreeNode root = new TreeNode(new Integer[]{3, 9, 20, null, null, 15, 7});
+        Balanced_Binary_Tree solution = new Balanced_Binary_Tree();
+        System.out.println(solution.isBalanced(root));
 
         //1046. Last Stone Weight - https://leetcode.com/problems/last-stone-weight/description/
 //        int[] stones = {2, 7, 4, 1, 8, 1};
@@ -320,26 +317,10 @@ public class Main {
 //        System.out.println(minStack.getMin()); // return -2
 
         //2. Add Two Numbers - https://leetcode.com/problems/add-two-numbers/description/
-//        ListNode l1 = new ListNode(2,new ListNode((4)));
-//        l1.next.next = new ListNode(3);
-//        ListNode l2 = new ListNode(5,new ListNode((6)));
-//        l2.next.next = new ListNode(4);
-
-//        ListNode l1 = new ListNode(9,new ListNode((9)));
-//        l1.next.next = new ListNode(9);
-//        l1.next.next.next = new ListNode(9);
-//        l1.next.next.next.next = new ListNode(9);
-//        l1.next.next.next.next.next = new ListNode(9);
-//        l1.next.next.next.next.next.next = new ListNode(9);
-//        ListNode l2 = new ListNode(9,new ListNode((9)));
-//        l2.next.next = new ListNode(9);
-//        l2.next.next.next = new ListNode(9);
-
-//        ListNode result = Add_Two_Numbers.addTwoNumbers(l1, l2);
-//        while(result != null) {
-//            System.out.println(result.val);
-//            result = result.next;
-//        }
+//        ListNode l1 = new ListNode(new int[]{2, 4, 3});
+//        ListNode l2 = new ListNode(new int[]{5, 6, 4});
+//        Add_Two_Numbers solution = new Add_Two_Numbers();
+//        System.out.println(solution.addTwoNumbers(l1, l2));
 
         //55. Jump Game - https://leetcode.com/problems/jump-game/description/
 //        int[] nums = {2, 3, 1, 1, 4};
@@ -525,9 +506,9 @@ public class Main {
 //        System.out.println(Count_Complete_Tree_Nodes.countNodes(root));
 
         //637. Average of Levels in Binary Tree - https://leetcode.com/problems/average-of-levels-in-binary-tree/description/
-//        TreeNode root = new TreeNode(1);
-//        root.left = new TreeNode(1);
-//        System.out.println(Average_of_Levels_in_Binary_Tree.averageOfLevels(root));
+//        TreeNode root = new TreeNode(new Integer[]{3, 9, 20, null, null, 15, 7});
+//        Average_of_Levels_in_Binary_Tree solution = new Average_of_Levels_in_Binary_Tree();
+//        System.out.println(solution.averageOfLevels(root));
 
         //530. Minimum Absolute Difference in BST - https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/
 //        TreeNode root = new TreeNode(236);

@@ -30,7 +30,8 @@ public class Add_Two_Numbers {
      *      0 <= Node.val <= 9
      *      It is guaranteed that the list represents a number that does not have leading zeros.
      */
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
         int sum = 0, up = 0;
         ListNode node = new ListNode();
         ListNode result = node;

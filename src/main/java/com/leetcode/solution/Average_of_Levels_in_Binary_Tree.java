@@ -26,7 +26,7 @@ public class Average_of_Levels_in_Binary_Tree {
      *      The number of nodes in the tree is in the range [1, 104].
      *      -231 <= Node.val <= 231 - 1
      */
-    public static List<Double> averageOfLevels(TreeNode root) {
+    public List<Double> averageOfLevels(TreeNode root) {
 
         List<Double> res = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
