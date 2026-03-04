@@ -62,7 +62,7 @@ public class Baseball_Game {
      *      For operation "+", there will always be at least two previous scores on the record.
      *      For operations "C" and "D", there will always be at least one previous score on the record.
      */
-    public static int calPoints(String[] operations) {
+    public int calPoints(String[] operations) {
 
         int[] stk = new int[operations.length];
         int index = 0;
@@ -89,7 +89,7 @@ public class Baseball_Game {
             }
         }
 
-        for(int i = 0; i <= index; i++) {
+        for(int i = 0; i < index; i++) {
             result += stk[i];
         }
 

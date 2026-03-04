@@ -27,6 +27,7 @@ class Longest_Increasing_SubsequenceTest {
     @ParameterizedTest(name = "Case {index}: nums=''{0}''")
     @MethodSource("input")
     void TestCases(int[] nums, int expected) {
+
         // 실행 (When)
         int actual = Longest_Increasing_Subsequence.lengthOfLIS(nums);
 

@@ -25,7 +25,7 @@ public class Best_Time_to_Buy_and_Sell_Stock {
      *      1 <= prices.length <= 105
      *      0 <= prices[i] <= 104
     */
-    public static int maxProfit(int[] prices) {
+    public int maxProfit(int[] prices) {
 
         int min_profit = Integer.MAX_VALUE;
         int max_profit = 0;

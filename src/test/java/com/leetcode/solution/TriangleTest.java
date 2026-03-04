@@ -39,6 +39,7 @@ class TriangleTest {
     @ParameterizedTest(name = "Case {index}: triangle=''{0}''")
     @MethodSource("input")
     void TestCases(List<List<Integer>> triangle, int expected) {
+
         // 실행 (When)
         int actual = Triangle.minimumTotal(triangle);
 

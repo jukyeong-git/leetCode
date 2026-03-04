@@ -25,6 +25,7 @@ class Minimum_Path_SumTest {
     @ParameterizedTest(name = "Case {index}: grid=''{0}''")
     @MethodSource("input")
     void TestCases(int[][] grid, int expected) {
+
         // 실행 (When)
         int actual = Minimum_Path_Sum.minPathSum(grid);
 

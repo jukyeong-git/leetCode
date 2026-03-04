@@ -31,6 +31,7 @@ class Maximal_SquareTest {
     @ParameterizedTest(name = "Case {index}: nums=''{0}''")
     @MethodSource("input")
     void TestCases(char[][] matrix, int expected) {
+
         // 실행 (When)
         Maximal_Square solution = new Maximal_Square();
         int actual = solution.maximalSquare(matrix);

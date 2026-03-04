@@ -38,6 +38,7 @@ public class Best_Time_to_Buy_and_Sell_Stock_II {
      *      0 <= prices[i] <= 104
      */
     public static int maxProfit(int[] prices) {
+
         int profit = 0, n = prices.length;
 
         for(int i = 1; i < n; i++) {

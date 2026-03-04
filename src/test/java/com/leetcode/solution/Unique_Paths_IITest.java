@@ -25,6 +25,7 @@ class Unique_Paths_IITest {
     @ParameterizedTest(name = "Case {index}: obstacleGrid=''{0}''")
     @MethodSource("input")
     void TestCases(int[][] obstacleGrid, int expected) {
+
         // 실행 (When)
         int actual = Unique_Paths_II.uniquePathsWithObstacles(obstacleGrid);
 

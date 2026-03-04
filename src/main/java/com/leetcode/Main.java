@@ -24,7 +24,8 @@ public class Main {
 
         //121. Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 //        int[] prices = {7, 1, 5, 3, 6, 4};
-//        System.out.println(Best_Time_to_Buy_and_Sell_Stock.maxProfit(prices));
+//        Best_Time_to_Buy_and_Sell_Stock solution = new Best_Time_to_Buy_and_Sell_Stock();
+//        System.out.println(solution.maxProfit(prices));
 
         //14. Longest Common Prefix - https://leetcode.com/problems/longest-common-prefix/description/
 //        String[] strs = {"flower", "flower", "flower", "flower"};
@@ -77,8 +78,8 @@ public class Main {
 
         //682. Baseball Game - https://leetcode.com/problems/baseball-game/description/
 //        String[] ops = {"5", "2", "C", "D", "+"};
-//        String[] ops = {"5", "-2", "4", "C", "D", "9", "+", "+"};
-//        System.out.println(Baseball_Game.calPoints(ops));
+//        Baseball_Game solution = new Baseball_Game();
+//        System.out.println(solution.calPoints(ops));
 
         //20. Valid Parentheses - https://leetcode.com/problems/valid-parentheses/description/
 //        String s = "]";
@@ -146,7 +147,8 @@ public class Main {
         //704. Binary Search - https://leetcode.com/problems/binary-search/description/
 //        int[] nums = {-1, 0, 3, 5, 9, 12};
 //        int target = 9;
-//        System.out.println(Binary_Search.search(nums, target));
+//        Binary_Search solution = new Binary_Search();
+//        System.out.println(solution.search(nums, target));
 
         //35. Search Insert Position - https://leetcode.com/problems/search-insert-position/description/
 //        int[] nums = {1, 3, 5, 6};
@@ -183,9 +185,9 @@ public class Main {
 //        System.out.println(Maximum_Depth_of_Binary_Tree.maxDepth(root));
 
         //110. Balanced Binary Tree - https://leetcode.com/problems/balanced-binary-tree/description/
-        TreeNode root = new TreeNode(new Integer[]{3, 9, 20, null, null, 15, 7});
-        Balanced_Binary_Tree solution = new Balanced_Binary_Tree();
-        System.out.println(solution.isBalanced(root));
+//        TreeNode root = new TreeNode(new Integer[]{3, 9, 20, null, null, 15, 7});
+//        Balanced_Binary_Tree solution = new Balanced_Binary_Tree();
+//        System.out.println(solution.isBalanced(root));
 
         //1046. Last Stone Weight - https://leetcode.com/problems/last-stone-weight/description/
 //        int[] stones = {2, 7, 4, 1, 8, 1};
@@ -369,7 +371,8 @@ public class Main {
 
         //122. Best Time to Buy and Sell Stock II - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 //        int[] prices = {7, 1, 5, 3, 6, 4};
-//        System.out.println(Best_Time_to_Buy_and_Sell_Stock_II.maxProfit(prices));
+//        Best_Time_to_Buy_and_Sell_Stock_II solution = new Best_Time_to_Buy_and_Sell_Stock_II();
+//        System.out.println(solution.maxProfit(prices));
 
         //45. Jump Game II - https://leetcode.com/problems/jump-game-ii/description/
 //        int[] nums = {2, 3, 1, 1, 4};

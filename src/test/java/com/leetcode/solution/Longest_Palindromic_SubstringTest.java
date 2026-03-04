@@ -25,6 +25,7 @@ class Longest_Palindromic_SubstringTest {
     @ParameterizedTest(name = "Case {index}: s=''{0}''")
     @MethodSource("input")
     void TestCases(String s, String expected) {
+
         // 실행 (When)
         Longest_Palindromic_Substring solution = new Longest_Palindromic_Substring();
         String actual = solution.longestPalindrome(s);

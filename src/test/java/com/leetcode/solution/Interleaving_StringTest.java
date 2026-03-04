@@ -24,6 +24,7 @@ class Interleaving_StringTest {
     @ParameterizedTest(name = "Case {index}: s1=''{0}'', s2=''{1}'', s3=''{2}''")
     @MethodSource("input")
     void TestCases(String s1, String s2, String s3, boolean expected) {
+
         // 실행 (When)
         Interleaving_String solution = new Interleaving_String();
         boolean actual = solution.isInterleave(s1, s2, s3);

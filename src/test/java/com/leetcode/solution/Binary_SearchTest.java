@@ -4,34 +4,30 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import java.util.Arrays;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Palindromic_SubstringsTest {
+class Binary_SearchTest {
 
     // 1. 테스트 케이스 데이터를 제공하는 메서드
     static Stream<Arguments> input() {
-        Object[][] testCases = {
-                {"abc",  3},
-                {"aaa",  6},
-                {"a",    1},
-                {"abba", 6}
-        };
-
-        return Arrays.stream(testCases).map(Arguments::of);
+        return Stream.of(
+            Arguments.of(new int[]{-1, 0, 3, 5, 9, 12}, 9,  4),
+            Arguments.of(new int[]{-1, 0, 3, 5, 9, 12}, 2, -1)
+        );
     }
 
     // 2. 실제 테스트를 수행하는 메서드
-    @ParameterizedTest(name = "Case {index}: s=''{0}''")
+    @ParameterizedTest(name = "Case {index}: nums=''{0}'', target=''{1}'' -> expected=''{2}''")
     @MethodSource("input")
-    void TestCases(String s, int expected) {
+    void TestCases(int[] nums, int target, int expected) {
 
         // 실행 (When)
-        int actual = Palindromic_Substrings.countSubstrings(s);
+        Binary_Search solution = new Binary_Search();
+        int actual = solution.search(nums, target);
 
         // 검증 (Then)
-        assertEquals(expected, actual, "Failed for input: " + s);
+        assertEquals(expected, actual, "Wrong Answer");
     }
 }

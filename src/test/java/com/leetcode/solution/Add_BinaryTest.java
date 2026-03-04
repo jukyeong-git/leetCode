@@ -22,6 +22,7 @@ class Add_BinaryTest {
     @ParameterizedTest(name = "Case {index}: a=''{0}'', b=''{1}'' -> expected=''{2}''")
     @MethodSource("input")
     void TestCases(String a, String b, String expected) {
+
         // 실행 (When)
         Add_Binary solution = new Add_Binary();
         String actual = solution.addBinary(a, b);
