@@ -680,21 +680,13 @@ public class Main {
 //        System.out.println(Sum_Root_to_Leaf_Numbers.sumNumbers(root));
 
         //173. Binary Search Tree Iterator - https://leetcode.com/problems/binary-search-tree-iterator/description/
-//        TreeNode root = new TreeNode(7);
-//        root.left = new TreeNode(3);
-//        root.right = new TreeNode(15);
-//        root.right.left = new TreeNode(9);
-//        root.right.right = new TreeNode(20);
-//        Binary_Search_Tree_Iterator bSTIterator = new Binary_Search_Tree_Iterator(root);
-//        System.out.println(bSTIterator.next());    // return 3
-//        System.out.println(bSTIterator.next());    // return 7
-//        System.out.println(bSTIterator.hasNext()); // return True
-//        System.out.println(bSTIterator.next());    // return 9
-//        System.out.println(bSTIterator.hasNext()); // return True
-//        System.out.println(bSTIterator.next());    // return 15
-//        System.out.println(bSTIterator.hasNext()); // return True
-//        System.out.println(bSTIterator.next());    // return 20
-//        System.out.println(bSTIterator.hasNext()); // return False
+        TreeNode root = new TreeNode(new Integer[]{7, 3, 15, null, null, 9, 20});
+        Binary_Search_Tree_Iterator bSTIterator = new Binary_Search_Tree_Iterator(root);
+        while(bSTIterator.hasNext()) {
+            System.out.print(bSTIterator.next());
+            if(bSTIterator.hasNext())
+                System.out.print(", ");
+        }
 
         //236. Lowest Common Ancestor of a Binary Tree - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
 //        TreeNode root = new TreeNode(3);
