@@ -30,7 +30,7 @@ public class Binary_Tree_Level_Order_Traversal {
      *      The number of nodes in the tree is in the range [0, 2000].
      *      -1000 <= Node.val <= 1000
      */
-    public static List<List<Integer>> levelOrder(TreeNode root) {
+    public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
 
         if(root == null) return res;

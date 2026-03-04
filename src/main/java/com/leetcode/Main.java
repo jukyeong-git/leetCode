@@ -680,13 +680,13 @@ public class Main {
 //        System.out.println(Sum_Root_to_Leaf_Numbers.sumNumbers(root));
 
         //173. Binary Search Tree Iterator - https://leetcode.com/problems/binary-search-tree-iterator/description/
-        TreeNode root = new TreeNode(new Integer[]{7, 3, 15, null, null, 9, 20});
-        Binary_Search_Tree_Iterator bSTIterator = new Binary_Search_Tree_Iterator(root);
-        while(bSTIterator.hasNext()) {
-            System.out.print(bSTIterator.next());
-            if(bSTIterator.hasNext())
-                System.out.print(", ");
-        }
+//        TreeNode root = new TreeNode(new Integer[]{7, 3, 15, null, null, 9, 20});
+//        Binary_Search_Tree_Iterator bSTIterator = new Binary_Search_Tree_Iterator(root);
+//        while(bSTIterator.hasNext()) {
+//            System.out.print(bSTIterator.next());
+//            if(bSTIterator.hasNext())
+//                System.out.print(", ");
+//        }
 
         //236. Lowest Common Ancestor of a Binary Tree - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
 //        TreeNode root = new TreeNode(3);
@@ -711,12 +711,9 @@ public class Main {
 //        System.out.println(Binary_Tree_Right_Side_View.rightSideView(root));
 
         //102. Binary Tree Level Order Traversal - https://leetcode.com/problems/binary-tree-level-order-traversal/description/
-//        TreeNode root = new TreeNode(3);
-//        root.left = new TreeNode(9);
-//        root.right = new TreeNode(20);
-//        root.right.left = new TreeNode(15);
-//        root.right.right = new TreeNode(7);
-//        System.out.println(Binary_Tree_Level_Order_Traversal.levelOrder(root));
+//        TreeNode root = new TreeNode(new Integer[]{3, 9, 20, null, null, 15, 7});
+//        Binary_Tree_Level_Order_Traversal solution = new Binary_Tree_Level_Order_Traversal();
+//        System.out.println(solution.levelOrder(root));
 
         //103. Binary Tree Zigzag Level Order Traversal - https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
 //        TreeNode root = new TreeNode(1);
