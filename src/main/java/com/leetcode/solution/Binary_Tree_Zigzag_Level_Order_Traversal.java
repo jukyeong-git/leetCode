@@ -27,7 +27,7 @@ public class Binary_Tree_Zigzag_Level_Order_Traversal {
      *      The number of nodes in the tree is in the range [0, 2000].
      *      -100 <= Node.val <= 100
      */
-    public static List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
 
         if(root == null) return res;
