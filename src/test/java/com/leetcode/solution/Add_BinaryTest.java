@@ -13,7 +13,7 @@ class Add_BinaryTest {
     // 1. 테스트 케이스 데이터를 제공하는 메서드
     static Stream<Arguments> input() {
         return Stream.of(
-            Arguments.of("11",   "1",    "100"),
+            Arguments.of("11",   "1",     "100"),
             Arguments.of("1010", "1011", "10101")
         );
     }

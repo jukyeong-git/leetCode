@@ -21,7 +21,7 @@ public class Bitwise_AND_of_Numbers_Range {
      * Constraints:
      *      0 <= left <= right <= 231 - 1
      */
-    public static int rangeBitwiseAnd(int left, int right) {
+    public int rangeBitwiseAnd(int left, int right) {
 
         int count = 0;
 
