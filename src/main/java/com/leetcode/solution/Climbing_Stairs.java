@@ -27,7 +27,7 @@ public class Climbing_Stairs {
      * Constraints:
      *      1 <= n <= 45
      */
-    public static int climbStairs(int n) {
+    public int climbStairs(int n) {
         if(n <= 3) return n;
 
         int[] clib = new int[n + 1];
