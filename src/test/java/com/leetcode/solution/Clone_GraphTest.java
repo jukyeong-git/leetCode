@@ -41,7 +41,7 @@ class Clone_GraphTest {
     // ==========================================
     @ParameterizedTest(name = "Case {index}: Graph Clone Test")
     @MethodSource("input")
-    void testCloneGraph(Node root) {
+    public void testCloneGraph(Node root) {
 
         // Given
         Clone_Graph solution = new Clone_Graph(); // Initialize your solution class

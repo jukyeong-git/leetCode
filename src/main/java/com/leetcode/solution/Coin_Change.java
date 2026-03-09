@@ -29,7 +29,7 @@ public class Coin_Change {
      *      1 <= coins[i] <= 231 - 1
      *      0 <= amount <= 104
     */
-    public static int coinChange(int[] coins, int amount) {
+    public int coinChange(int[] coins, int amount) {
 
         // 1. DP 배열 생성 (인덱스 0부터 amount까지 필요하므로 크기는 amount + 1)
         int[] minCoins = new int[amount + 1];

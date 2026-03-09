@@ -914,7 +914,8 @@ public class Main {
         //322. Coin Change - https://leetcode.com/problems/coin-change/description/
 //        int[] coins = {1, 2, 5};
 //        int amount = 11;
-//        System.out.println(Coin_Change.coinChange(coins, amount));
+//        Coin_Change solution = new Coin_Change();
+//        System.out.println(solution.coinChange(coins, amount));
 
         //485. Max Consecutive Ones - https://leetcode.com/problems/max-consecutive-ones/description/
 //        int[] nums = {1, 1, 0, 1, 1, 1};
