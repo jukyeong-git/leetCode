@@ -78,14 +78,14 @@ public class Clone_Graph {
             }
         }
     */
-    public static Node cloneGraph(Node node) {
+    public Node cloneGraph(Node node) {
         if(node == null) return null;
 
         HashMap<Node, Node> map = new HashMap<>();
         return cloneGraph(node, map);
     }
 
-    private static Node cloneGraph(Node node, HashMap<Node, Node> map) {
+    private Node cloneGraph(Node node, HashMap<Node, Node> map) {
         Node copy = new Node(node.val);
         map.put(node, copy);
 
@@ -99,25 +99,5 @@ public class Clone_Graph {
         }
 
         return copy;
-    }
-
-    public static Node buildGraph(int[][] adj) {
-        int n = adj.length;
-        if (n == 0) return null;
-
-        Map<Integer, Node> map = new HashMap<>(n * 2);
-        // 1..n 노드 생성
-        for (int i = 1; i <= n; i++) {
-            map.put(i, new Node(i));
-        }
-        // 간선 연결 (adj[i-1]에 있는 번호로 neighbor 지정)
-        for (int i = 1; i <= n; i++) {
-            Node u = map.get(i);
-            for (int v : adj[i - 1]) {
-                u.neighbors.add(map.get(v));
-            }
-        }
-        // 통상 시작 노드는 1번 노드
-        return map.get(1);
     }
 }

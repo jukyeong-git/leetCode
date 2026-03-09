@@ -1,6 +1,7 @@
 package com.leetcode;
 
 import com.leetcode.common.util.ListNode;
+import com.leetcode.common.util.Node;
 import com.leetcode.common.util.TreeNode;
 import com.leetcode.solution.*;
 
@@ -204,7 +205,8 @@ public class Main {
 
         //70. Climbing Stairs - https://leetcode.com/problems/climbing-stairs/description/
 //        int n = 4;
-//        System.out.println(Climbing_Stairs.climbStairs(n));
+//        Climbing_Stairs solution = new Climbing_Stairs();
+//        System.out.println(solution.climbStairs(n));
 
         //746. Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/description/
 //        int[] cost = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
@@ -754,9 +756,9 @@ public class Main {
 //        Surrounded_Regions.solve(board);
 
         //133. Clone Graph - https://leetcode.com/problems/clone-graph/description/
-//        int[][] adjList = {{2, 4}, {1, 3}, {2, 4}, {1, 3}};
-//        Node root = Clone_Graph.buildGraph(adjList);
-//        Node res = Clone_Graph.cloneGraph(root);
+        Node root = new Node(new int[][]{{2, 4}, {1, 3}, {2, 4}, {1, 3}});
+        Clone_Graph solution = new Clone_Graph();
+        System.out.println(solution.cloneGraph(root));
 
         //207. Course Schedule - https://leetcode.com/problems/course-schedule/description/
 //        int numCourses = 2;
@@ -888,7 +890,8 @@ public class Main {
 
         //201. Bitwise AND of Numbers Range - https://leetcode.com/problems/bitwise-and-of-numbers-range/description/
 //        int left = 5, right = 7;
-//        System.out.println(Bitwise_AND_of_Numbers_Range.rangeBitwiseAnd(left, right));
+//        Bitwise_AND_of_Numbers_Range solution = new Bitwise_AND_of_Numbers_Range();
+//        System.out.println(solution.rangeBitwiseAnd(left, right));
 
         //172. Factorial Trailing Zeroes - https://leetcode.com/problems/factorial-trailing-zeroes/description/
 //        int n = 5;
