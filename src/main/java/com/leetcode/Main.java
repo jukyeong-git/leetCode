@@ -816,9 +816,10 @@ public class Main {
 //        System.out.println(Permutations.permute(nums));
 
         //39. Combination Sum - https://leetcode.com/problems/combination-sum/description/
-//        int[] candidates = {2, 3, 5};
-//        int target = 8;
-//        System.out.println(Combination_Sum.combinationSum(candidates, target));
+        int[] candidates = {2, 3, 5};
+        int target = 8;
+        Combination_Sum solution = new Combination_Sum();
+        System.out.println(solution.combinationSum(candidates, target));
 
         //22. Generate Parentheses - https://leetcode.com/problems/generate-parentheses/
 //        int n = 3;

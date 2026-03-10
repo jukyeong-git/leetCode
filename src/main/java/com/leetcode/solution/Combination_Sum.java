@@ -36,9 +36,9 @@ public class Combination_Sum {
      *      All elements of candidates are distinct.
      *      1 <= target <= 40
      */
-    private static List<List<Integer>> res;
+    private List<List<Integer>> res;
 
-    public static List<List<Integer>> combinationSum(int[] candidates, int target) {
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
 
         res = new ArrayList<>();
 
@@ -51,7 +51,7 @@ public class Combination_Sum {
         return res;
     }
 
-    private static void getCombinationSum(int idx, int total, int[] candidates, int target, List<Integer> list) {
+    private void getCombinationSum(int idx, int total, int[] candidates, int target, List<Integer> list) {
 
         if(total >= target || idx >= candidates.length) {
             if(total == target) {
