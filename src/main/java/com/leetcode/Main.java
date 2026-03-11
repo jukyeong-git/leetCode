@@ -652,8 +652,9 @@ public class Main {
 //        TreeNode res = Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.buildTree(preorder, inorder);
 
         //106. Construct Binary Tree from Inorder and Postorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/
-//        int[] inorder = {9, 3, 15, 20, 7}, postorder = {9, 15, 7, 20, 3};
-//        TreeNode res = Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.buildTree(inorder, postorder);
+        int[] inorder = {9, 3, 15, 20, 7}, postorder = {9, 15, 7, 20, 3};
+        Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal solution = new Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal();
+        System.out.println(solution.buildTree(inorder, postorder));
 
         //117. Populating Next Right Pointers in Each Node II - https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/
 //        Node root = new Node(1);
@@ -808,19 +809,18 @@ public class Main {
 //        System.out.println(Letter_Combinations_of_a_Phone_Number.letterCombinations(digits));
 
         //77. Combinations - https://leetcode.com/problems/combinations/description/
-        int n = 4, k = 2;
-        Combinations solution = new Combinations();
-        System.out.println(solution.combine(n, k));
+//        int n = 4, k = 2;
+//        System.out.println(Combinations.combine(n, k));
 
         //46. Permutations - https://leetcode.com/problems/permutations/description/
 //        int[] nums = {1, 2, 3};
 //        System.out.println(Permutations.permute(nums));
 
         //39. Combination Sum - https://leetcode.com/problems/combination-sum/description/
-//        int[] candidates = {2, 3, 5};
-//        int target = 8;
-//        Combination_Sum solution = new Combination_Sum();
-//        System.out.println(solution.combinationSum(candidates, target));
+        int[] candidates = {2, 3, 5};
+        int target = 8;
+        Combination_Sum solution = new Combination_Sum();
+        System.out.println(solution.combinationSum(candidates, target));
 
         //22. Generate Parentheses - https://leetcode.com/problems/generate-parentheses/
 //        int n = 3;

@@ -27,5 +27,4 @@ class CombinationsTest {
 
         assertEquals(expected, actual, "Wrong Answer");
     }
-
 }

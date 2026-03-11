@@ -29,10 +29,10 @@ public class Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal {
      * inorder is guaranteed to be the inorder traversal of the tree.
      * postorder is guaranteed to be the postorder traversal of the tree.
      */
-    private static int postorderIdx;
-    private static Map<Integer, Integer> mapping;
+    private int postorderIdx;
+    private Map<Integer, Integer> mapping;
 
-    public static TreeNode buildTree(int[] inorder, int[] postorder) {
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
         postorderIdx = postorder.length - 1;
         mapping = new HashMap<>();
         for(int i = 0; i < inorder.length; i++) {
@@ -42,7 +42,7 @@ public class Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal {
         return build(postorder, 0, postorder.length - 1);
     }
 
-    private static TreeNode build(int[] postorder, int start, int end) {
+    private TreeNode build(int[] postorder, int start, int end) {
         if(start > end) return null;
 
         int rootVal = postorder[postorderIdx--];

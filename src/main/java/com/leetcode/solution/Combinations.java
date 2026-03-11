@@ -28,9 +28,9 @@ public class Combinations {
      *      1 <= n <= 20
      *      1 <= k <= n
      */
-    private static List<List<Integer>> res;
+    private List<List<Integer>> res;
 
-    public static List<List<Integer>> combine(int n, int k) {
+    public List<List<Integer>> combine(int n, int k) {
 
         res = new ArrayList<>();
         setComb(1, n, k, new ArrayList<>());
@@ -38,7 +38,7 @@ public class Combinations {
         return res;
     }
 
-    private static void setComb(int idx, int n, int k, List<Integer> subRes) {
+    private void setComb(int idx, int n, int k, List<Integer> subRes) {
 
         if(subRes.size() == k) {
             res.add(new ArrayList<>(subRes));
