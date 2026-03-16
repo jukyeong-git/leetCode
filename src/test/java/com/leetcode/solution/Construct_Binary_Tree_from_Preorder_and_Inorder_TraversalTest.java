@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Construct_Binary_Tree_from_Inorder_and_Postorder_TraversalTest {
+class Construct_Binary_Tree_from_Preorder_and_Inorder_TraversalTest {
 
     // ==========================================
     // 💡 1. Test Case Data Provider
@@ -20,8 +20,8 @@ class Construct_Binary_Tree_from_Inorder_and_Postorder_TraversalTest {
                 // Input: inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]
                 // Expected Output: [3,9,20,null,null,15,7]
                 Arguments.of(
+                        new int[]{3, 9, 20, 15, 7},
                         new int[]{9, 3, 15, 20, 7},
-                        new int[]{9, 15, 7, 20, 3},
                         new TreeNode(new Integer[]{3, 9, 20, null, null, 15, 7})
                 ),
 
@@ -44,8 +44,8 @@ class Construct_Binary_Tree_from_Inorder_and_Postorder_TraversalTest {
     public void testCases(int[] inorder, int[] postorder, TreeNode expected) {
 
         // Given: Initialize the solution class
-        Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal solution =
-                new Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal();
+        Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal solution =
+                new Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal();
 
         // When: Execute the algorithm to build the tree
         TreeNode actual = solution.buildTree(inorder, postorder);

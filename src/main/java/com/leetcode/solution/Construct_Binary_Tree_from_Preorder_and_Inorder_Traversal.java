@@ -28,10 +28,10 @@ public class Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal {
      *      preorder is guaranteed to be the preorder traversal of the tree.
      *      inorder is guaranteed to be the inorder traversal of the tree.
      */
-    private static int preorderIdx;
-    private static Map<Integer, Integer> mapping;
+    private int preorderIdx;
+    private Map<Integer, Integer> mapping;
 
-    public static TreeNode buildTree(int[] preorder, int[] inorder) {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
         mapping = new HashMap<>();
         for(int i = 0; i < inorder.length; i++) {
             mapping.put(inorder[i], i);
@@ -41,7 +41,7 @@ public class Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal {
         return build(preorder, 0, inorder.length -1);
     }
 
-    private static TreeNode build(int[] preorder, int start, int end) {
+    private TreeNode build(int[] preorder, int start, int end) {
         if(start > end) return null;
 
         int rootVal = preorder[preorderIdx++];

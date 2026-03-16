@@ -331,8 +331,9 @@ public class Main {
 //        System.out.println(Jump_Game.canJump(nums));
 
         //2745. Construct the Longest New String - https://leetcode.com/problems/construct-the-longest-new-string/description/
-//        int x = 2, y = 5, z = 1;
-//        System.out.println(Construct_the_Longest_New_String.longestString(x, y, z));
+        int x = 2, y = 5, z = 1;
+        Construct_the_Longest_New_String solution = new Construct_the_Longest_New_String();
+        System.out.println(solution.longestString(x, y, z));
 
         //219. Contains Duplicate II - https://leetcode.com/problems/contains-duplicate-ii/description/
 //        int[] nums = {1, 2, 3, 1};
@@ -649,12 +650,13 @@ public class Main {
 
         //105. Construct Binary Tree from Preorder and Inorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
 //        int[] preorder = {3, 9, 20, 15, 7}, inorder = {9, 3, 15, 20, 7};
-//        TreeNode res = Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.buildTree(preorder, inorder);
+//        Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal solution = new Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal();
+//        System.out.println(solution.buildTree(preorder, inorder));
 
         //106. Construct Binary Tree from Inorder and Postorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/
-        int[] inorder = {9, 3, 15, 20, 7}, postorder = {9, 15, 7, 20, 3};
-        Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal solution = new Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal();
-        System.out.println(solution.buildTree(inorder, postorder));
+//        int[] inorder = {9, 3, 15, 20, 7}, postorder = {9, 15, 7, 20, 3};
+//        Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal solution = new Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal();
+//        System.out.println(solution.buildTree(inorder, postorder));
 
         //117. Populating Next Right Pointers in Each Node II - https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/
 //        Node root = new Node(1);
@@ -817,10 +819,10 @@ public class Main {
 //        System.out.println(Permutations.permute(nums));
 
         //39. Combination Sum - https://leetcode.com/problems/combination-sum/description/
-        int[] candidates = {2, 3, 5};
-        int target = 8;
-        Combination_Sum solution = new Combination_Sum();
-        System.out.println(solution.combinationSum(candidates, target));
+//        int[] candidates = {2, 3, 5};
+//        int target = 8;
+//        Combination_Sum solution = new Combination_Sum();
+//        System.out.println(solution.combinationSum(candidates, target));
 
         //22. Generate Parentheses - https://leetcode.com/problems/generate-parentheses/
 //        int n = 3;
@@ -848,7 +850,8 @@ public class Main {
 
         //427. Construct Quad Tree - https://leetcode.com/problems/construct-quad-tree/description/
 //        int[][] grid = {{0, 1}, {1, 0}};
-//        Construct_Quad_Tree.construct(grid);
+//        Construct_Quad_Tree solution = new Construct_Quad_Tree();
+//        System.out.println(solution.construct(grid));
 
         //53. Maximum Subarray - https://leetcode.com/problems/maximum-subarray/description/
 //        int[] nums = {1, 2, -1, -2, 2, 1, -2, 1, 4, -5, 4};

@@ -102,11 +102,12 @@ public class Construct_Quad_Tree {
      *      n == grid.length == grid[i].length
      *      n == 2x where 0 <= x <= 6
      */
-    public static QuadTreeNode construct(int[][] grid) {
+    public QuadTreeNode construct(int[][] grid) {
+
         return getQuadTree(grid, 0, 0, grid.length);
     }
 
-    private static QuadTreeNode getQuadTree(int[][] grid, int r, int c, int length) {
+    private QuadTreeNode getQuadTree(int[][] grid, int r, int c, int length) {
 
         if(checkFieldValue(grid, r, c, length))
             return new QuadTreeNode(grid[r][c] == 1 ? true : false, true);
@@ -121,7 +122,7 @@ public class Construct_Quad_Tree {
         return node;
     }
 
-    private static boolean checkFieldValue(int[][] grid, int r, int c, int length) {
+    private boolean checkFieldValue(int[][] grid, int r, int c, int length) {
 
         for(int i = r; i < r + length; i++) {
             for(int j = c; j < c + length; j++) {

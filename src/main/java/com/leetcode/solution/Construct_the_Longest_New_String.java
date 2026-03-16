@@ -30,7 +30,7 @@ public class Construct_the_Longest_New_String {
      *      Then, our new string is "ABABAABBAABBAA".
      *      That string has length 14, and we can show that it is impossible to construct a string of longer length.
      */
-    public static int longestString(int x, int y, int z) {
+    public int longestString(int x, int y, int z) {
         if(x == y) {
             return (x + y) * 2 + z * 2;
         }
