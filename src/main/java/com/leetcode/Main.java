@@ -331,9 +331,9 @@ public class Main {
 //        System.out.println(Jump_Game.canJump(nums));
 
         //2745. Construct the Longest New String - https://leetcode.com/problems/construct-the-longest-new-string/description/
-        int x = 2, y = 5, z = 1;
-        Construct_the_Longest_New_String solution = new Construct_the_Longest_New_String();
-        System.out.println(solution.longestString(x, y, z));
+//        int x = 2, y = 5, z = 1;
+//        Construct_the_Longest_New_String solution = new Construct_the_Longest_New_String();
+//        System.out.println(solution.longestString(x, y, z));
 
         //219. Contains Duplicate II - https://leetcode.com/problems/contains-duplicate-ii/description/
 //        int[] nums = {1, 2, 3, 1};
