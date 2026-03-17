@@ -26,9 +26,9 @@ public class Container_With_Most_Water {
      *      2 <= n <= 105
      *      0 <= height[i] <= 104
      */
-    public static int maxArea(int[] height) {
-        int left = 0;
-        int right = height.length - 1;
+    public int maxArea(int[] height) {
+
+        int left = 0, right = height.length - 1;
         int maxTotal = 0;
 
         while(left < right) {

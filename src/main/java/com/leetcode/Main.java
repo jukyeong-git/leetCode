@@ -432,8 +432,9 @@ public class Main {
 //        System.out.println(Zigzag_Conversion.convert(s, numRows));
 
         //11. Container With Most Water - https://leetcode.com/problems/container-with-most-water/description/
-//        int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-//        System.out.println(Container_With_Most_Water.maxArea(height));
+        int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+        Container_With_Most_Water solution = new Container_With_Most_Water();
+        System.out.println(solution.maxArea(height));
 
         //274. H-Index - https://leetcode.com/problems/h-index/description/
 //        int[] citations = {3, 0, 6, 1, 5};
