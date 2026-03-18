@@ -45,7 +45,8 @@ public class Main {
 
         //217. Contains Duplicate - https://leetcode.com/problems/contains-duplicate/description/
 //        int[] nums = {1, 2, 3, 1};
-//        System.out.println(Contains_Duplicate.containsDuplicate(nums));
+//        Contains_Duplicate solution = new Contains_Duplicate();
+//        System.out.println(solution.containsDuplicate(nums));
 
         //242. Valid Anagram - https://leetcode.com/problems/valid-anagram/description/
 //        String s = "anagram", t = "nagaram";
@@ -338,9 +339,8 @@ public class Main {
         //219. Contains Duplicate II - https://leetcode.com/problems/contains-duplicate-ii/description/
 //        int[] nums = {1, 2, 3, 1};
 //        int k = 3;
-//        int[] nums = {1, 2, 3, 1, 2, 3};
-//        int k = 2;
-//        System.out.println(Contains_Duplicate_II.containsNearbyDuplicate(nums,k));
+//        Contains_Duplicate_II solution = new Contains_Duplicate_II();
+//        System.out.println(solution.containsNearbyDuplicate(nums,k));
 
         //442. Find All Duplicates in an Array - https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
 //        int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
@@ -351,21 +351,21 @@ public class Main {
 //        System.out.println(Three_Sum.threeSum(nums));
 
         //138. Copy List with Random Pointer - https://leetcode.com/problems/copy-list-with-random-pointer/description/
-//        Node head = new Node(7);                // 0
-//        head.next = new Node(13);               // 1
-//        head.next.next = new Node(11);          // 2
-//        head.next.next.next = new Node(10);     // 3
-//        head.next.next.next.next = new Node(1); // 4
-//        head.next.random = head;
-//        head.next.next.random = head.next.next.next.next;
-//        head.next.next.next.random = head;
-//        head.next.next.next.next.random = head;
-//        Node result = Copy_List_with_Random_Pointer.copyRandomList(head);
-//        while(result != null) {
-//            System.out.print(result.val +", ");
-//            System.out.println(result.random != null ? result.random.val : "null");
-//            result = result.next;
-//        }
+        Node head = new Node(7);                // 0
+        head.next = new Node(13);               // 1
+        head.next.next = new Node(11);          // 2
+        head.next.next.next = new Node(10);     // 3
+        head.next.next.next.next = new Node(1); // 4
+        head.next.random = head;
+        head.next.next.random = head.next.next.next.next;
+        head.next.next.next.random = head;
+        head.next.next.next.next.random = head;
+        Node result = Copy_List_with_Random_Pointer.copyRandomList(head);
+        while(result != null) {
+            System.out.print(result.val +", ");
+            System.out.println(result.random != null ? result.random.val : "null");
+            result = result.next;
+        }
 
         //189. Rotate Array - https://leetcode.com/problems/rotate-array/description/
 //        int[] nums = {1, 2, 3, 4, 5, 6, 7};
@@ -432,9 +432,9 @@ public class Main {
 //        System.out.println(Zigzag_Conversion.convert(s, numRows));
 
         //11. Container With Most Water - https://leetcode.com/problems/container-with-most-water/description/
-        int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-        Container_With_Most_Water solution = new Container_With_Most_Water();
-        System.out.println(solution.maxArea(height));
+//        int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+//        Container_With_Most_Water solution = new Container_With_Most_Water();
+//        System.out.println(solution.maxArea(height));
 
         //274. H-Index - https://leetcode.com/problems/h-index/description/
 //        int[] citations = {3, 0, 6, 1, 5};
@@ -527,7 +527,8 @@ public class Main {
 
         //108. Convert Sorted Array to Binary Search Tree - https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/
 //        int[] nums = {-10, -3, 0, 5, 9};
-//        TreeNode root = Convert_Sorted_Array_to_Binary_Search_Tree.sortedArrayToBST(nums);
+//        Convert_Sorted_Array_to_Binary_Search_Tree solution = new Convert_Sorted_Array_to_Binary_Search_Tree();
+//        System.out.println(solution.sortedArrayToBST(nums));
 
         //67. Add Binary - https://leetcode.com/problems/add-binary/description/
 //        String a = "11", b = "1";

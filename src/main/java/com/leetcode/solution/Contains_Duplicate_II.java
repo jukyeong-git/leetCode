@@ -26,7 +26,7 @@ public class Contains_Duplicate_II {
      *      -109 <= nums[i] <= 109
      *      0 <= k <= 105
      */
-    public static boolean containsNearbyDuplicate(int[] nums, int k) {
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
         Set<Integer> set = new HashSet<>();
 
         for(int i = 0; i < nums.length; i++) {

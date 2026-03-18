@@ -29,7 +29,7 @@ public class Contains_Duplicate {
      *      1 <= nums.length <= 105
      *      -109 <= nums[i] <= 109
      */
-    public static boolean containsDuplicate(int[] nums) {
+    public boolean containsDuplicate(int[] nums) {
 
         Map<Integer, Integer> map = new HashMap<>();
 
