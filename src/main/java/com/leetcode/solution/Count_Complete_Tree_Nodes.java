@@ -28,7 +28,7 @@ public class Count_Complete_Tree_Nodes {
      *      0 <= Node.val <= 5 * 104
      *      The tree is guaranteed to be complete.
      */
-    public static int countNodes(TreeNode root) {
+    public int countNodes(TreeNode root) {
 
         if(root == null)
             return 0;

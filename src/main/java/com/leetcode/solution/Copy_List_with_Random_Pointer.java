@@ -42,7 +42,8 @@ public class Copy_List_with_Random_Pointer {
      *      -104 <= Node.val <= 104
      *      Node.random is null or is pointing to some node in the linked list.
      */
-    public static Node copyRandomList(Node head) {
+    public Node copyRandomList(Node head) {
+
         if(head == null) return null;
 
         Map<Node, Node> map = new HashMap<>();

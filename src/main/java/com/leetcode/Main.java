@@ -351,21 +351,9 @@ public class Main {
 //        System.out.println(Three_Sum.threeSum(nums));
 
         //138. Copy List with Random Pointer - https://leetcode.com/problems/copy-list-with-random-pointer/description/
-        Node head = new Node(7);                // 0
-        head.next = new Node(13);               // 1
-        head.next.next = new Node(11);          // 2
-        head.next.next.next = new Node(10);     // 3
-        head.next.next.next.next = new Node(1); // 4
-        head.next.random = head;
-        head.next.next.random = head.next.next.next.next;
-        head.next.next.next.random = head;
-        head.next.next.next.next.random = head;
-        Node result = Copy_List_with_Random_Pointer.copyRandomList(head);
-        while(result != null) {
-            System.out.print(result.val +", ");
-            System.out.println(result.random != null ? result.random.val : "null");
-            result = result.next;
-        }
+//        Node head = new Node(new Integer[][]{{7, null}, {13, 0}, {11, 4}, {10, 2}, {1, 0}});                // 0
+//        Copy_List_with_Random_Pointer solution = new Copy_List_with_Random_Pointer();
+//        System.out.println(solution.copyRandomList(head));
 
         //189. Rotate Array - https://leetcode.com/problems/rotate-array/description/
 //        int[] nums = {1, 2, 3, 4, 5, 6, 7};
@@ -506,11 +494,9 @@ public class Main {
 //        System.out.println(Path_Sum.hasPathSum(root, targetSum));
 
         //222. Count Complete Tree Nodes - https://leetcode.com/problems/count-complete-tree-nodes/description/
-//        TreeNode root = new TreeNode(1);
-//        root.left = new TreeNode(2);
-//        root.left.left = new TreeNode(4);
-//        root.right = new TreeNode(3);
-//        System.out.println(Count_Complete_Tree_Nodes.countNodes(root));
+//        TreeNode root = new TreeNode(new Integer[]{1, 2, 3, 4, 5, 6});
+//        Count_Complete_Tree_Nodes solution = new Count_Complete_Tree_Nodes();
+//        System.out.println(solution.countNodes(root));
 
         //637. Average of Levels in Binary Tree - https://leetcode.com/problems/average-of-levels-in-binary-tree/description/
 //        TreeNode root = new TreeNode(new Integer[]{3, 9, 20, null, null, 15, 7});
