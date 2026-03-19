@@ -752,9 +752,10 @@ public class Main {
 //        System.out.println(solution.cloneGraph(root));
 
         //207. Course Schedule - https://leetcode.com/problems/course-schedule/description/
-//        int numCourses = 2;
-//        int[][] prerequisites = {{1, 0}, {0, 1}};
-//        System.out.println(Course_Schedule.canFinish(numCourses, prerequisites));
+        int numCourses = 2;
+        int[][] prerequisites = {{1, 0}, {0, 1}};
+        Course_Schedule solution = new Course_Schedule();
+        System.out.println(solution.canFinish(numCourses, prerequisites));
 
         //210. Course Schedule II - https://leetcode.com/problems/course-schedule-ii/description/
 //        int numCourses = 4;

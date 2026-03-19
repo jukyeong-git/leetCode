@@ -31,7 +31,8 @@ public class Course_Schedule {
      *      0 <= ai, bi < numCourses
      *      All the pairs prerequisites[i] are unique.
      */
-    public static boolean canFinish(int numCourses, int[][] prerequisites) {
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+
         ArrayList<Integer>[] adj = new ArrayList[numCourses];
 
         for(int i = 0; i < numCourses; i++) {
@@ -52,7 +53,8 @@ public class Course_Schedule {
         return true;
     }
 
-    private static boolean dfs(int node, int[] visited, ArrayList<Integer>[] adj) {
+    private boolean dfs(int node, int[] visited, ArrayList<Integer>[] adj) {
+
         if(visited[node] == 1) return false;
         if(visited[node] == 2) return true;
 
