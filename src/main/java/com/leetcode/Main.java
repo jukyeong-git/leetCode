@@ -5,6 +5,8 @@ import com.leetcode.common.util.Node;
 import com.leetcode.common.util.TreeNode;
 import com.leetcode.solution.*;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //2239. Find Closest Number to Zero - https://leetcode.com/problems/find-closest-number-to-zero/
@@ -752,15 +754,16 @@ public class Main {
 //        System.out.println(solution.cloneGraph(root));
 
         //207. Course Schedule - https://leetcode.com/problems/course-schedule/description/
-        int numCourses = 2;
-        int[][] prerequisites = {{1, 0}, {0, 1}};
-        Course_Schedule solution = new Course_Schedule();
-        System.out.println(solution.canFinish(numCourses, prerequisites));
+//        int numCourses = 2;
+//        int[][] prerequisites = {{1, 0}, {0, 1}};
+//        Course_Schedule solution = new Course_Schedule();
+//        System.out.println(solution.canFinish(numCourses, prerequisites));
 
         //210. Course Schedule II - https://leetcode.com/problems/course-schedule-ii/description/
-//        int numCourses = 4;
-//        int[][] prerequisites = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
-//        System.out.println(Arrays.toString(Course_Schedule_II.findOrder(numCourses, prerequisites)));
+        int numCourses = 4;
+        int[][] prerequisites = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
+        Course_Schedule_II solution = new Course_Schedule_II();
+        System.out.println(Arrays.toString(solution.findOrder(numCourses, prerequisites)));
 
         //909. Snakes and Ladders - https://leetcode.com/problems/snakes-and-ladders/description/
 //        int[][] board = {{-1, -1, -1, -1, -1, -1},

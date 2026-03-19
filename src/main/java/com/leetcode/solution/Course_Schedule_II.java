@@ -41,7 +41,16 @@ public class Course_Schedule_II {
      *      ai != bi
      *      All the pairs [ai, bi] are distinct.
      */
-    public static int[] findOrder(int numCourses, int[][] prerequisites) {
+    private int[] visited;
+    private int[] res;
+    private int index;
+
+    public int[] findOrder(int numCourses, int[][] prerequisites) {
+
+        visited = new int[numCourses];
+        res = new int[numCourses];
+        index = 0;
+
         ArrayList<Integer>[] adj = new ArrayList[numCourses];
 
         for(int i = 0; i < numCourses; i++) {
@@ -52,37 +61,30 @@ public class Course_Schedule_II {
             adj[pre[0]].add(pre[1]);
         }
 
-        int[] visited = new int[numCourses];
-        Queue<Integer> queue = new LinkedList<>();
-
         for(int i = 0; i < numCourses; i++) {
-            if(!dfs(i, visited, adj, queue)) {
+            if(!dfs(i, adj)) {
                 return new int[0];
             }
         }
 
-        int[] res = new int[numCourses];
-        int idx = 0;
-        while(!queue.isEmpty())
-            res[idx++] = queue.poll();
-
         return res;
     }
 
-    private static boolean dfs(int node, int[] visited, ArrayList<Integer>[] adj, Queue<Integer> queue) {
+    private boolean dfs(int node, ArrayList<Integer>[] adj) {
+
         if(visited[node] == 1) return false;
         if(visited[node] == 2) return true;
 
         visited[node] = 1 ;
 
         for(int n : adj[node]) {
-            if(!dfs(n, visited, adj, queue)) {
+            if(!dfs(n, adj)) {
                 return false;
             }
         }
 
         visited[node] = 2;
-        queue.offer(node);
+        res[index++] = node;
 
         return true;
     }
