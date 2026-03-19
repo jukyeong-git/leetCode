@@ -46,8 +46,9 @@ public class Course_Schedule {
         int[] visited = new int[numCourses];
 
         for(int i = 0; i < numCourses; i++) {
-            if(!dfs(i, visited, adj))
+            if(!dfs(i, visited, adj)) {
                 return false;
+            }
         }
 
         return true;
