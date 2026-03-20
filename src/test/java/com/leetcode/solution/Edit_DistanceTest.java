@@ -21,7 +21,7 @@ class Edit_DistanceTest {
     }
 
     // 2. 실제 테스트를 수행하는 메서드
-    @ParameterizedTest(name = "Case {index}: word1=''{0}'', word2=''{1}''")
+    @ParameterizedTest(name = "Case {index}: word1=''{0}'', word2=''{1}'' -> expected=''{2}''")
     @MethodSource("input")
     void TestCases(String word1, String word2, int expected) {
 

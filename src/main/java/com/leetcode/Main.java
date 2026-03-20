@@ -784,14 +784,14 @@ public class Main {
 //        System.out.println(trie.search("app"));     // return True
 
         //211. Design Add and Search Words Data Structure - https://leetcode.com/problems/design-add-and-search-words-data-structure/
-        WordDictionary wordDictionary = new WordDictionary();
-        wordDictionary.addWord("bad");
-        wordDictionary.addWord("dad");
-        wordDictionary.addWord("mad");
-        System.out.println(wordDictionary.search("pad")); // return False
-        System.out.println(wordDictionary.search("bad")); // return True
-        System.out.println(wordDictionary.search(".ad")); // return True
-        System.out.println(wordDictionary.search("b..")); // return True
+//        WordDictionary wordDictionary = new WordDictionary();
+//        wordDictionary.addWord("bad");
+//        wordDictionary.addWord("dad");
+//        wordDictionary.addWord("mad");
+//        System.out.println(wordDictionary.search("pad")); // return False
+//        System.out.println(wordDictionary.search("bad")); // return True
+//        System.out.println(wordDictionary.search(".ad")); // return True
+//        System.out.println(wordDictionary.search("b..")); // return True
 
         //17. Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
 //        String digits = "23";
@@ -950,9 +950,9 @@ public class Main {
 //        System.out.println(solution.isInterleave(s1, s2, s3));
 
         //72. Edit Distance - https://leetcode.com/problems/edit-distance/description/
-//        String  word1 = "horse", word2 = "ros";
-//        Edit_Distance solution = new Edit_Distance();
-//        System.out.println(solution.minDistance(word1, word2));
+        String  word1 = "horse", word2 = "ros";
+        Edit_Distance solution = new Edit_Distance();
+        System.out.println(solution.minDistance(word1, word2));
 
         //221. Maximal Square - https://leetcode.com/problems/maximal-square/description/
 //        char[][] matrix = {
