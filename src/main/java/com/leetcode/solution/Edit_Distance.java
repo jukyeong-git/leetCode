@@ -77,8 +77,7 @@ public class Edit_Distance {
                 // 1. Replace / Match (Diagonal): dp[i - 1][j - 1] + cost
                 // 2. Delete (Top): dp[i - 1][j] + 1
                 // 3. Insert (Left): dp[i][j - 1] + 1
-                dp[i][j] = Math.min(dp[i - 1][j - 1] + cost,
-                        Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1));
+                dp[i][j] = Math.min(dp[i - 1][j - 1] + cost, Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1));
             }
         }
 
