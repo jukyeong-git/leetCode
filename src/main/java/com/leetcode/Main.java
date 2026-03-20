@@ -1,11 +1,6 @@
 package com.leetcode;
 
-import com.leetcode.common.util.ListNode;
-import com.leetcode.common.util.Node;
-import com.leetcode.common.util.TreeNode;
 import com.leetcode.solution.*;
-
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -760,10 +755,10 @@ public class Main {
 //        System.out.println(solution.canFinish(numCourses, prerequisites));
 
         //210. Course Schedule II - https://leetcode.com/problems/course-schedule-ii/description/
-        int numCourses = 4;
-        int[][] prerequisites = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
-        Course_Schedule_II solution = new Course_Schedule_II();
-        System.out.println(Arrays.toString(solution.findOrder(numCourses, prerequisites)));
+//        int numCourses = 4;
+//        int[][] prerequisites = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
+//        Course_Schedule_II solution = new Course_Schedule_II();
+//        System.out.println(Arrays.toString(solution.findOrder(numCourses, prerequisites)));
 
         //909. Snakes and Ladders - https://leetcode.com/problems/snakes-and-ladders/description/
 //        int[][] board = {{-1, -1, -1, -1, -1, -1},
@@ -789,14 +784,14 @@ public class Main {
 //        System.out.println(trie.search("app"));     // return True
 
         //211. Design Add and Search Words Data Structure - https://leetcode.com/problems/design-add-and-search-words-data-structure/
-//        Design_Add_and_Search_Words_Data_Structure wordDictionary = new Design_Add_and_Search_Words_Data_Structure();
-//        wordDictionary.addWord("bad");
-//        wordDictionary.addWord("dad");
-//        wordDictionary.addWord("mad");
-//        System.out.println(wordDictionary.search("pad")); // return False
-//        System.out.println(wordDictionary.search("bad")); // return True
-//        System.out.println(wordDictionary.search(".ad")); // return True
-//        System.out.println(wordDictionary.search("b..")); // return True
+        WordDictionary wordDictionary = new WordDictionary();
+        wordDictionary.addWord("bad");
+        wordDictionary.addWord("dad");
+        wordDictionary.addWord("mad");
+        System.out.println(wordDictionary.search("pad")); // return False
+        System.out.println(wordDictionary.search("bad")); // return True
+        System.out.println(wordDictionary.search(".ad")); // return True
+        System.out.println(wordDictionary.search("b..")); // return True
 
         //17. Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
 //        String digits = "23";

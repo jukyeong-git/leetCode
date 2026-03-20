@@ -1,6 +1,6 @@
 package com.leetcode.solution;
 
-public class Design_Add_and_Search_Words_Data_Structure {
+public class WordDictionary {
     //211. Design Add and Search Words Data Structure - https://leetcode.com/problems/design-add-and-search-words-data-structure/
 
     /*
@@ -33,20 +33,24 @@ public class Design_Add_and_Search_Words_Data_Structure {
      *      There will be at most 2 dots in word for search queries.
      *      At most 104 calls will be made to addWord and search.
      */
-    Node root;
+    private WordDictionary[] child;
+    private boolean isEnd;
 
-    public Design_Add_and_Search_Words_Data_Structure() {
-        root = new Node('\0');
+    public WordDictionary() {
+
+        child = new WordDictionary[26];
+        isEnd = false;
     }
 
     public void addWord(String word) {
 
-        Node curr = root;
-        char[] ch = word.toCharArray();
+        WordDictionary curr = this;
 
-        for(char c : ch) {
+        for(char c : word.toCharArray()) {
+
             if(curr.child[c - 'a'] == null)
-                curr.child[c - 'a'] = new Node(c);
+                curr.child[c - 'a'] = new WordDictionary();
+
             curr = curr.child[c - 'a'];
         }
 
@@ -54,42 +58,35 @@ public class Design_Add_and_Search_Words_Data_Structure {
     }
 
     public boolean search(String word) {
-        return search(root, word);
+        return search(word, this, 0);
     }
 
-    private boolean search(Node curr, String word) {
+    private boolean search(String word, WordDictionary curr, int index) {
 
-        char[] ch = word.toCharArray();
-
-        for(int i = 0; i < ch.length; i++) {
-
-            char c = ch[i];
-
-            if(c == '.') {
-                for(Node subCurr : curr.child) {
-                    if (subCurr != null && search(subCurr, word.substring(i + 1)))
-                        return true;
-                }
-                return false;
-            } else {
-                if(curr.child[c - 'a'] == null)
-                    return false;
-                curr = curr.child[c - 'a'];
-            }
+        if(index == word.length()) {
+            return curr.isEnd;
         }
 
-        return curr.isEnd && curr != null;
-    }
+        char c = word.charAt(index);
 
-    class Node {
-        private char val;
-        private boolean isEnd;
-        private Node[] child;
+        if(c == '.') {
 
-        public Node(char val) {
-            this.val = val;
-            this.isEnd = false;
-            this.child = new Node[26];
+            for(WordDictionary child : curr.child) {
+
+                if(child != null && search(word, child,index + 1)) {
+                    return true;
+                }
+            }
+
+            return false;
+
+        } else {
+
+            if(curr.child[c - 'a'] == null) {
+                return false;
+            }
+
+            return search(word, curr.child[c - 'a'], index + 1);
         }
     }
 }
