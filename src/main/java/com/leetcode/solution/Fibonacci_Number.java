@@ -32,7 +32,8 @@ public class Fibonacci_Number {
      * Constraints:
      *      0 <= n <= 30
      */
-    public static int fib(int n) {
+    public int fib(int n) {
+
         if(n < 2)
             return n;
 

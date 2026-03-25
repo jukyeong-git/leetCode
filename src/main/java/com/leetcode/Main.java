@@ -198,8 +198,9 @@ public class Main {
 //        System.out.println(Find_if_Path_Exists_in_Graph.validPath(n, edges, source, destination));
 
         //509. Fibonacci Number - https://leetcode.com/problems/fibonacci-number/description/
-//        int n = 2;
-//        System.out.println(Fibonacci_Number.fib(n));
+        int n = 2;
+        Fibonacci_Number solution = new Fibonacci_Number();
+        System.out.println(solution.fib(n));
 
         //70. Climbing Stairs - https://leetcode.com/problems/climbing-stairs/description/
 //        int n = 4;
@@ -552,7 +553,8 @@ public class Main {
 
         //150. Evaluate Reverse Polish Notation - https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 //        String[] tokens = {"4", "13", "5", "/", "+"};
-//        System.out.println(Evaluate_Reverse_Polish_Notation.evalRPN(tokens));
+//        Evaluate_Reverse_Polish_Notation solution = new Evaluate_Reverse_Polish_Notation();
+//        System.out.println(solution.evalRPN(tokens));
 
         //92. Reverse Linked List II - https://leetcode.com/problems/reverse-linked-list-ii/description/
 //        ListNode head = new ListNode(1);
@@ -887,7 +889,8 @@ public class Main {
 
         //172. Factorial Trailing Zeroes - https://leetcode.com/problems/factorial-trailing-zeroes/description/
 //        int n = 5;
-//        System.out.println(Factorial_Trailing_Zeroes.trailingZeroes(n));
+//        Factorial_Trailing_Zeroes solution = new Factorial_Trailing_Zeroes();
+//        System.out.println(solution.trailingZeroes(n));
 
         //50. Pow(x, n) - https://leetcode.com/problems/powx-n/description/
 //        double x = 2.00000;
@@ -950,9 +953,9 @@ public class Main {
 //        System.out.println(solution.isInterleave(s1, s2, s3));
 
         //72. Edit Distance - https://leetcode.com/problems/edit-distance/description/
-        String  word1 = "horse", word2 = "ros";
-        Edit_Distance solution = new Edit_Distance();
-        System.out.println(solution.minDistance(word1, word2));
+//        String  word1 = "horse", word2 = "ros";
+//        Edit_Distance solution = new Edit_Distance();
+//        System.out.println(solution.minDistance(word1, word2));
 
         //221. Maximal Square - https://leetcode.com/problems/maximal-square/description/
 //        char[][] matrix = {

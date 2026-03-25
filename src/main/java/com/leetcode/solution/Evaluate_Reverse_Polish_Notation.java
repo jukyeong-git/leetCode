@@ -42,10 +42,12 @@ public class Evaluate_Reverse_Polish_Notation {
      *      1 <= tokens.length <= 104
      *      tokens[i] is either an operator: "+", "-", "*", or "/", or an integer in the range [-200, 200].
      */
-    public static int evalRPN(String[] tokens) {
+    public int evalRPN(String[] tokens) {
+
         Stack<Integer> stk = new Stack<>();
 
         for(String str : tokens) {
+
             int second = 0;
             int first = 0;
 

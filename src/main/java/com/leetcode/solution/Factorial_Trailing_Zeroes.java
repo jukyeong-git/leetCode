@@ -27,7 +27,7 @@ public class Factorial_Trailing_Zeroes {
      *      0 <= n <= 104
      *      Follow up: Could you write a com.leetcode.solution that works in logarithmic time complexity?
      */
-    public static int trailingZeroes(int n) {
+    public int trailingZeroes(int n) {
 
         if(n <= 4) return 0;
 
