@@ -5,8 +5,9 @@ import com.leetcode.solution.*;
 public class Main {
     public static void main(String[] args) {
         //2239. Find Closest Number to Zero - https://leetcode.com/problems/find-closest-number-to-zero/
-//        int[] nums = {-4, -2, 1, 4, 8};
-//        System.out.println(Find_Closest_Number_to_Zero.findClosestNumber(nums));
+        int[] nums = {-4, -2, 1, 4, 8};
+        Find_Closest_Number_to_Zero solution = new Find_Closest_Number_to_Zero();
+        System.out.println(solution.findClosestNumber(nums));
 
         //1768. Merge Strings Alternately - https://leetcode.com/problems/merge-strings-alternately/description/
 //        String word1 = "abc", word2 = "pqr";
@@ -198,9 +199,9 @@ public class Main {
 //        System.out.println(Find_if_Path_Exists_in_Graph.validPath(n, edges, source, destination));
 
         //509. Fibonacci Number - https://leetcode.com/problems/fibonacci-number/description/
-        int n = 2;
-        Fibonacci_Number solution = new Fibonacci_Number();
-        System.out.println(solution.fib(n));
+//        int n = 2;
+//        Fibonacci_Number solution = new Fibonacci_Number();
+//        System.out.println(solution.fib(n));
 
         //70. Climbing Stairs - https://leetcode.com/problems/climbing-stairs/description/
 //        int n = 4;
@@ -342,7 +343,8 @@ public class Main {
 
         //442. Find All Duplicates in an Array - https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
 //        int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
-//        System.out.println(Find_All_Duplicates_in_an_Arra.findDuplicates(nums));
+//        Find_All_Duplicates_in_an_Arra solution = new Find_All_Duplicates_in_an_Arra();
+//        System.out.println(solution.findDuplicates(nums));
 
         //15. 3Sum - https://leetcode.com/problems/3sum/description/
 //        int[] nums = {-1, 0, 1, 2, -1, -4};

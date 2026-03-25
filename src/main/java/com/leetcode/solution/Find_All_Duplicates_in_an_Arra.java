@@ -27,7 +27,8 @@ public class Find_All_Duplicates_in_an_Arra {
      *      1 <= nums[i] <= n
      *      Each element in nums appears once or twice.
      */
-    public static List<Integer> findDuplicates(int[] nums) {
+    public List<Integer> findDuplicates(int[] nums) {
+
         Set<Integer> set = new HashSet<>();
         List<Integer> result = new ArrayList<>();
 

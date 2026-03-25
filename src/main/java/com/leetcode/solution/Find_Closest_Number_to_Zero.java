@@ -28,7 +28,7 @@ public class Find_Closest_Number_to_Zero {
      *      1 <= n <= 1000
      *      -105 <= nums[i] <= 105
      */
-    public static int findClosestNumber(int[] nums) {
+    public int findClosestNumber(int[] nums) {
 
         int result = Integer.MAX_VALUE;
 
