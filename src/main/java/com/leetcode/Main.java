@@ -2,12 +2,14 @@ package com.leetcode;
 
 import com.leetcode.solution.*;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //2239. Find Closest Number to Zero - https://leetcode.com/problems/find-closest-number-to-zero/
-        int[] nums = {-4, -2, 1, 4, 8};
-        Find_Closest_Number_to_Zero solution = new Find_Closest_Number_to_Zero();
-        System.out.println(solution.findClosestNumber(nums));
+//        int[] nums = {-4, -2, 1, 4, 8};
+//        Find_Closest_Number_to_Zero solution = new Find_Closest_Number_to_Zero();
+//        System.out.println(solution.findClosestNumber(nums));
 
         //1768. Merge Strings Alternately - https://leetcode.com/problems/merge-strings-alternately/description/
 //        String word1 = "abc", word2 = "pqr";
@@ -194,9 +196,9 @@ public class Main {
 //        System.out.println(Last_Stone_Weight.lastStoneWeight(stones));
 
         //1971. Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/description/
-//        int n = 3, source = 0, destination = 2;
-//        int[][] edges = {{0, 1}, {1, 2}, {2, 0}};
-//        System.out.println(Find_if_Path_Exists_in_Graph.validPath(n, edges, source, destination));
+        int n = 3, source = 0, destination = 2;
+        int[][] edges = {{0, 1}, {1, 2}, {2, 0}};
+        System.out.println(Find_if_Path_Exists_in_Graph.validPath(n, edges, source, destination));
 
         //509. Fibonacci Number - https://leetcode.com/problems/fibonacci-number/description/
 //        int n = 2;
@@ -869,7 +871,8 @@ public class Main {
         //34. Find First and Last Position of Element in Sorted Array - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
 //        int[] nums = {5, 7, 7, 8, 8, 10};
 //        int target = 8;
-//        System.out.println(Arrays.toString(Find_First_and_Last_Position_of_Element_in_Sorted_Array.searchRange(nums, target)));
+//        Find_First_and_Last_Position_of_Element_in_Sorted_Array solution = new Find_First_and_Last_Position_of_Element_in_Sorted_Array();
+//        System.out.println(Arrays.toString(solution.searchRange(nums, target)));
 
         //153. Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 //        int[] nums = {3, 4, 5, 1, 2};

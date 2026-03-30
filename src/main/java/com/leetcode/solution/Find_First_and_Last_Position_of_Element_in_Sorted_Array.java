@@ -28,7 +28,7 @@ public class Find_First_and_Last_Position_of_Element_in_Sorted_Array {
      *      nums is a non-decreasing array.
      *      -109 <= target <= 109
      */
-    public static int[] searchRange(int[] nums, int target) {
+    public int[] searchRange(int[] nums, int target) {
 
         int left = 0, right = nums.length - 1;
 
