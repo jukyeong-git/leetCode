@@ -198,7 +198,8 @@ public class Main {
         //1971. Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/description/
         int n = 3, source = 0, destination = 2;
         int[][] edges = {{0, 1}, {1, 2}, {2, 0}};
-        System.out.println(Find_if_Path_Exists_in_Graph.validPath(n, edges, source, destination));
+        Find_if_Path_Exists_in_Graph solution = new Find_if_Path_Exists_in_Graph();
+        System.out.println(solution.validPath(n, edges, source, destination));
 
         //509. Fibonacci Number - https://leetcode.com/problems/fibonacci-number/description/
 //        int n = 2;
