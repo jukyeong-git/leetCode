@@ -31,7 +31,7 @@ public class Merge_Intervals {
      *      intervals[i].length == 2
      *      0 <= starti <= endi <= 104
      */
-    public static int[][] merge(int[][] intervals) {
+    public int[][] merge(int[][] intervals) {
 
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
 

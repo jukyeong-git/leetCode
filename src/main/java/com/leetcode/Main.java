@@ -289,9 +289,9 @@ public class Main {
 //        System.out.println(Word_Pattern.wordPattern(pattern, s));
 
         //56. Merge Intervals - https://leetcode.com/problems/merge-intervals/description/
-//        int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-//        int[][] intervals = {{4, 7}, {1, 4}};
-//        System.out.println(Arrays.deepToString(Merge_Intervals.merge(intervals)));
+        int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
+        Merge_Intervals solution = new Merge_Intervals();
+        System.out.println(Arrays.deepToString(solution.merge(intervals)));
 
         //57. Insert Interval - https://leetcode.com/problems/insert-interval/description/
 //        int[][] intervals = {{1, 3}, {6, 9}};
@@ -880,10 +880,10 @@ public class Main {
 //        System.out.println(Find_Minimum_in_Rotated_Sorted_Array.findMin(nums));
 
         //373. Find K Pairs with Smallest Sums - https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/
-        int[] nums1 = {1, 7, 11}, nums2 = {2, 4, 6};
-        int k = 3;
-        Find_K_Pairs_with_Smallest_Sums solution = new Find_K_Pairs_with_Smallest_Sums();
-        System.out.println(solution.kSmallestPairs(nums1, nums2, k));
+//        int[] nums1 = {1, 7, 11}, nums2 = {2, 4, 6};
+//        int k = 3;
+//        Find_K_Pairs_with_Smallest_Sums solution = new Find_K_Pairs_with_Smallest_Sums();
+//        System.out.println(solution.kSmallestPairs(nums1, nums2, k));
 
         //137. Single Number II - https://leetcode.com/problems/single-number-ii/description/
 //        int[] nums = {2, 2, 3, 2};
