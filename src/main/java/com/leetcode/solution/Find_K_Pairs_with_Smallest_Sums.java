@@ -40,8 +40,8 @@ public class Find_K_Pairs_with_Smallest_Sums {
         // Priority queue to store pairs with smallest sums, sorted by the sum
 
         // Push the initial pairs into the priority queue
-        for (int x : nums1) {
-            pq.offer(new int[]{x + nums2[0], 0}); // The sum and the index of the second element in nums2
+        for (int i = 0; i < Math.min(nums1.length, k); i++) {
+            pq.offer(new int[]{nums1[i] + nums2[0], 0}); // The sum and the index of the second element in nums2
         }
 
         // Pop the k smallest pairs from the priority queue
