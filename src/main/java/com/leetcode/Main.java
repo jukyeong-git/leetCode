@@ -196,10 +196,10 @@ public class Main {
 //        System.out.println(Last_Stone_Weight.lastStoneWeight(stones));
 
         //1971. Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/description/
-        int n = 3, source = 0, destination = 2;
-        int[][] edges = {{0, 1}, {1, 2}, {2, 0}};
-        Find_if_Path_Exists_in_Graph solution = new Find_if_Path_Exists_in_Graph();
-        System.out.println(solution.validPath(n, edges, source, destination));
+//        int n = 3, source = 0, destination = 2;
+//        int[][] edges = {{0, 1}, {1, 2}, {2, 0}};
+//        Find_if_Path_Exists_in_Graph solution = new Find_if_Path_Exists_in_Graph();
+//        System.out.println(solution.validPath(n, edges, source, destination));
 
         //509. Fibonacci Number - https://leetcode.com/problems/fibonacci-number/description/
 //        int n = 2;
@@ -880,9 +880,10 @@ public class Main {
 //        System.out.println(Find_Minimum_in_Rotated_Sorted_Array.findMin(nums));
 
         //373. Find K Pairs with Smallest Sums - https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/
-//        int[] nums1 = {1, 7, 11}, nums2 = {2, 4, 6};
-//        int k = 3;
-//        System.out.println(Find_K_Pairs_with_Smallest_Sums.kSmallestPairs(nums1, nums2, k));
+        int[] nums1 = {1, 7, 11}, nums2 = {2, 4, 6};
+        int k = 3;
+        Find_K_Pairs_with_Smallest_Sums solution = new Find_K_Pairs_with_Smallest_Sums();
+        System.out.println(solution.kSmallestPairs(nums1, nums2, k));
 
         //137. Single Number II - https://leetcode.com/problems/single-number-ii/description/
 //        int[] nums = {2, 2, 3, 2};

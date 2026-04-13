@@ -31,7 +31,7 @@ public class Find_K_Pairs_with_Smallest_Sums {
      *      1 <= k <= 104
      *      k <= nums1.length * nums2.length
      */
-    public static List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
+    public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 
         List<List<Integer>> res = new ArrayList<>(); // Result list to store the pairs
         if (nums1.length == 0 || nums2.length == 0 || k == 0) return res;
