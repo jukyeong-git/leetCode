@@ -1,5 +1,6 @@
 package com.leetcode;
 
+import com.leetcode.common.util.ListNode;
 import com.leetcode.solution.*;
 
 import java.util.Arrays;
@@ -289,9 +290,9 @@ public class Main {
 //        System.out.println(Word_Pattern.wordPattern(pattern, s));
 
         //56. Merge Intervals - https://leetcode.com/problems/merge-intervals/description/
-        int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-        Merge_Intervals solution = new Merge_Intervals();
-        System.out.println(Arrays.deepToString(solution.merge(intervals)));
+//        int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
+//        Merge_Intervals solution = new Merge_Intervals();
+//        System.out.println(Arrays.deepToString(solution.merge(intervals)));
 
         //57. Insert Interval - https://leetcode.com/problems/insert-interval/description/
 //        int[][] intervals = {{1, 3}, {6, 9}};
@@ -973,6 +974,11 @@ public class Main {
 //        };
 //        Maximal_Square solution = new Maximal_Square();
 //        System.out.println(solution.maximalSquare(matrix));
+
+        //1290. Convert Binary Number in a Linked List to Integer - https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/
+        ListNode head = new ListNode(new int[]{1, 0, 1});
+        Convert_Binary_Number_in_a_Linked_List_to_Integer solution = new Convert_Binary_Number_in_a_Linked_List_to_Integer();
+        System.out.println(solution.getDecimalValue(head));
     }
 }
 
