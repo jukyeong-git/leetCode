@@ -1,6 +1,7 @@
 package com.leetcode;
 
 import com.leetcode.common.util.ListNode;
+import com.leetcode.common.util.TreeNode;
 import com.leetcode.solution.*;
 
 import java.util.Arrays;
@@ -987,9 +988,14 @@ public class Main {
 //        System.out.println(solution.findKthPositive(arr, k));
 
         //268. Missing Number - https://leetcode.com/problems/missing-number/description/
-        int[] nums = {3, 0, 1};
-        Missing_Number solution = new Missing_Number();
-        System.out.println(solution.missingNumber(nums));
+//        int[] nums = {3, 0, 1};
+//        Missing_Number solution = new Missing_Number();
+//        System.out.println(solution.missingNumber(nums));
+
+        //94. Binary Tree Inorder Traversal - https://leetcode.com/problems/binary-tree-inorder-traversal/description/
+        TreeNode root = new TreeNode(new Integer[]{1, null, 2, 3});
+        Binary_Tree_Inorder_Traversal solution = new Binary_Tree_Inorder_Traversal();
+        System.out.println(solution.inorderTraversal(root));
     }
 }
 
