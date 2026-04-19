@@ -981,10 +981,15 @@ public class Main {
 //        System.out.println(solution.getDecimalValue(head));
 
         //1539. Kth Missing Positive Number - https://leetcode.com/problems/kth-missing-positive-number/description/
-        int[] arr = {2, 3, 4, 7, 11};
-        int k = 5;
-        Kth_Missing_Positive_Number solution = new Kth_Missing_Positive_Number();
-        System.out.println(solution.findKthPositive(arr, k));
+//        int[] arr = {2, 3, 4, 7, 11};
+//        int k = 5;
+//        Kth_Missing_Positive_Number solution = new Kth_Missing_Positive_Number();
+//        System.out.println(solution.findKthPositive(arr, k));
+
+        //268. Missing Number - https://leetcode.com/problems/missing-number/description/
+        int[] nums = {3, 0, 1};
+        Missing_Number solution = new Missing_Number();
+        System.out.println(solution.missingNumber(nums));
     }
 }
 
