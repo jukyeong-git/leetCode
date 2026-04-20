@@ -30,7 +30,7 @@ public class Group_Anagrams {
      *      0 <= strs[i].length <= 100
      *      strs[i] consists of lowercase English letters.
      */
-    public static List<List<String>> groupAnagrams(String[] strs) {
+    public List<List<String>> groupAnagrams(String[] strs) {
 
         Map<String, List<String>> map = new HashMap<>();
 

@@ -447,8 +447,9 @@ public class Main {
 //        Set_Matrix_Zeroes.setZeroes(matrix);
 
         //49. Group Anagrams - https://leetcode.com/problems/group-anagrams/description/
-//        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-//        System.out.println(Group_Anagrams.groupAnagrams(strs));
+        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        Group_Anagrams solution = new Group_Anagrams();
+        System.out.println(solution.groupAnagrams(strs));
 
         //202. Happy Number - https://leetcode.com/problems/happy-number/description/
 //        int n = 2;
@@ -993,9 +994,9 @@ public class Main {
 //        System.out.println(solution.missingNumber(nums));
 
         //94. Binary Tree Inorder Traversal - https://leetcode.com/problems/binary-tree-inorder-traversal/description/
-        TreeNode root = new TreeNode(new Integer[]{1, null, 2, 3});
-        Binary_Tree_Inorder_Traversal solution = new Binary_Tree_Inorder_Traversal();
-        System.out.println(solution.inorderTraversal(root));
+//        TreeNode root = new TreeNode(new Integer[]{1, null, 2, 3});
+//        Binary_Tree_Inorder_Traversal solution = new Binary_Tree_Inorder_Traversal();
+//        System.out.println(solution.inorderTraversal(root));
     }
 }
 
