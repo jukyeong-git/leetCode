@@ -19,7 +19,7 @@ class Group_AnagramsTest {
         );
     }
 
-    @ParameterizedTest(name="case {index}: strs=''{0}'' -> expected=''{1}''")
+    @ParameterizedTest(name="Case {index}: strs=''{0}'' -> expected=''{1}''")
     @MethodSource("input")
     public void testCases(String[] strs, List<List<String>> expected) {
 
