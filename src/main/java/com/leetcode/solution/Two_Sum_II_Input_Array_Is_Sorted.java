@@ -34,7 +34,7 @@ public class Two_Sum_II_Input_Array_Is_Sorted {
      *      -1000 <= target <= 1000
      *      The tests are generated such that there is exactly one com.leetcode.solution.
      */
-    public static int[] twoSum(int[] numbers, int target) {
+    public int[] twoSum(int[] numbers, int target) {
 
         int left = 0;
         int right = numbers.length - 1;

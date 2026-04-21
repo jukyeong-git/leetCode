@@ -254,9 +254,10 @@ public class Main {
 //        System.out.println(Remove_Duplicates_from_Sorted_Array_II.removeDuplicates(nums));
 
         //167. Two Three_Sum II - Input Array Is Sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
-//        int[] numbers = {2, 7, 11, 15};
-//        int target = 9;
-//        System.out.println(Arrays.toString(Two_Sum_II_Input_Array_Is_Sorted.twoSum(numbers, target)));
+        int[] numbers = {2, 7, 11, 15};
+        int target = 9;
+        Two_Sum_II_Input_Array_Is_Sorted solution = new Two_Sum_II_Input_Array_Is_Sorted();
+        System.out.println(Arrays.toString(solution.twoSum(numbers, target)));
 
         //3. Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 //        String s = "abcabcbb";
@@ -447,9 +448,9 @@ public class Main {
 //        Set_Matrix_Zeroes.setZeroes(matrix);
 
         //49. Group Anagrams - https://leetcode.com/problems/group-anagrams/description/
-        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        Group_Anagrams solution = new Group_Anagrams();
-        System.out.println(solution.groupAnagrams(strs));
+//        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
+//        Group_Anagrams solution = new Group_Anagrams();
+//        System.out.println(solution.groupAnagrams(strs));
 
         //202. Happy Number - https://leetcode.com/problems/happy-number/description/
 //        int n = 2;
