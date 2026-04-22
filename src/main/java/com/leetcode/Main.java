@@ -254,10 +254,10 @@ public class Main {
 //        System.out.println(Remove_Duplicates_from_Sorted_Array_II.removeDuplicates(nums));
 
         //167. Two Three_Sum II - Input Array Is Sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
-        int[] numbers = {2, 7, 11, 15};
-        int target = 9;
-        Two_Sum_II_Input_Array_Is_Sorted solution = new Two_Sum_II_Input_Array_Is_Sorted();
-        System.out.println(Arrays.toString(solution.twoSum(numbers, target)));
+//        int[] numbers = {2, 7, 11, 15};
+//        int target = 9;
+//        Two_Sum_II_Input_Array_Is_Sorted solution = new Two_Sum_II_Input_Array_Is_Sorted();
+//        System.out.println(Arrays.toString(solution.twoSum(numbers, target)));
 
         //3. Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 //        String s = "abcabcbb";
@@ -353,8 +353,9 @@ public class Main {
 //        System.out.println(solution.findDuplicates(nums));
 
         //15. 3Sum - https://leetcode.com/problems/3sum/description/
-//        int[] nums = {-1, 0, 1, 2, -1, -4};
-//        System.out.println(Three_Sum.threeSum(nums));
+        int[] nums = {-1, 0, 1, 2, -1, -4};
+        Three_Sum solution = new Three_Sum();
+        System.out.println(solution.threeSum(nums));
 
         //138. Copy List with Random Pointer - https://leetcode.com/problems/copy-list-with-random-pointer/description/
 //        Node head = new Node(new Integer[][]{{7, null}, {13, 0}, {11, 4}, {10, 2}, {1, 0}});                // 0

@@ -33,36 +33,36 @@ public class Three_Sum {
      *      3 <= nums.length <= 3000
      *      -105 <= nums[i] <= 105
      */
-    public static List<List<Integer>> threeSum(int[] nums) {
+    public List<List<Integer>> threeSum(int[] nums) {
 
         int n = nums.length;
         List<List<Integer>> res = new ArrayList<>();
+        if(n == 0) return res;
 
         Arrays.sort(nums);
 
-        for(int i = 0; i < n; i ++) {
+        for(int i = 0; i < n; i++) {
 
-            if(nums[0] > 0)
-                break;
-            if(i > 0 && nums[i] == nums[i - 1])
-                continue;
+            if(nums[0] > 0) break;
+            if(i > 0 && nums[i] == nums[i-1]) continue;
 
-            int j = i + 1;
-            int k = n - 1;
+            int lo = i + 1;
+            int hi = n - 1;
 
-            while(j < k) {
+            while(lo < hi) {
 
-                int sum = nums[i] + nums[j] + nums[k];
+                int sum = nums[i] + nums[lo] + nums[hi];
 
-                if(sum < 0) {
-                    j++;
-                } else if(sum > 0) {
-                    k--;
+                if(sum == 0) {
+                    res.add(List.of(nums[i], nums[lo], nums[hi]));
+                    lo++;
+                    hi--;
+                    while(lo < hi && nums[lo] == nums[lo-1]) lo++;
+                    while(lo < hi && nums[hi] == nums[hi+1]) hi--;
+                } else if(sum < 0) {
+                    lo++;
                 } else {
-                    res.add(Arrays.asList(nums[i], nums[j], nums[k]));
-                    k--;
-                    while(j < k && nums[k] == nums[k + 1])
-                        k--;
+                    hi--;
                 }
             }
         }
