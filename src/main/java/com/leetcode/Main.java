@@ -353,9 +353,9 @@ public class Main {
 //        System.out.println(solution.findDuplicates(nums));
 
         //15. 3Sum - https://leetcode.com/problems/3sum/description/
-        int[] nums = {-1, 0, 1, 2, -1, -4};
-        Three_Sum solution = new Three_Sum();
-        System.out.println(solution.threeSum(nums));
+//        int[] nums = {-1, 0, 1, 2, -1, -4};
+//        Three_Sum solution = new Three_Sum();
+//        System.out.println(solution.threeSum(nums));
 
         //138. Copy List with Random Pointer - https://leetcode.com/problems/copy-list-with-random-pointer/description/
 //        Node head = new Node(new Integer[][]{{7, null}, {13, 0}, {11, 4}, {10, 2}, {1, 0}});                // 0
@@ -999,6 +999,11 @@ public class Main {
 //        TreeNode root = new TreeNode(new Integer[]{1, null, 2, 3});
 //        Binary_Tree_Inorder_Traversal solution = new Binary_Tree_Inorder_Traversal();
 //        System.out.println(solution.inorderTraversal(root));
+
+        //2224. Minimum Number of Operations to Convert Time - https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/description/
+        String current = "02:30", correct = "04:35";
+        Minimum_Number_of_Operations_to_Convert_Time solution = new Minimum_Number_of_Operations_to_Convert_Time();
+        System.out.println(solution.convertTime(current, correct));
     }
 }
 
