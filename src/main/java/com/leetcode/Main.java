@@ -1001,9 +1001,15 @@ public class Main {
 //        System.out.println(solution.inorderTraversal(root));
 
         //2224. Minimum Number of Operations to Convert Time - https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/description/
-        String current = "02:30", correct = "04:35";
-        Minimum_Number_of_Operations_to_Convert_Time solution = new Minimum_Number_of_Operations_to_Convert_Time();
-        System.out.println(solution.convertTime(current, correct));
+//        String current = "02:30", correct = "04:35";
+//        Minimum_Number_of_Operations_to_Convert_Time solution = new Minimum_Number_of_Operations_to_Convert_Time();
+//        System.out.println(solution.convertTime(current, correct));
+
+        //1945. Sum of Digits of String After Convert - https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/
+        String s = "iiii";
+        int k = 1;
+        Sum_of_Digits_of_String_After_Convert solution = new Sum_of_Digits_of_String_After_Convert();
+        System.out.println(solution.getLucky(s, k));
     }
 }
 
